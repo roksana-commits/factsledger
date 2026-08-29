@@ -57,7 +57,7 @@ sources:
     usedFor: >-
       The 2018 attendance figure, the reported claim of antiquity, the expansion of the structure, and
       management by the All Hindu Panchayat.
-author: Roksana
+author: Muhammad
 published: 2026-08-29
 lastUpdated: 2026-08-29
 ---

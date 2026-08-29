@@ -21,10 +21,11 @@ const sorted = [...sources].sort((a, b) => ORDER.indexOf(a.tier) - ORDER.indexOf
 <ol class="sources">
   {sorted.map((s) => (
     <li>
-      <span class={`tier tier--${s.tier}`}>{TIER_LABEL[s.tier]}</span>
       <a href={s.url} rel="nofollow noopener" target="_blank">{s.title}</a>
-      <span class="sources__meta"> — {s.publisher}{s.date ? `, ${s.date}` : ''}</span>
-      <span class="sources__used">Used for: {s.usedFor}</span>
+      <span class="sources__meta">
+        {' '}— {s.publisher}{s.date ? `, ${s.date}` : ''} · {TIER_LABEL[s.tier]}
+      </span>
+      <span class="sources__used">Supports: {s.usedFor}</span>
     </li>
   ))}
 </ol>

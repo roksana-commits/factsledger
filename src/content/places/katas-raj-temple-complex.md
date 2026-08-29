@@ -92,7 +92,7 @@ sources:
     tier: tier1
     date: 12 April 2016
     usedFor: Katas Raj's inclusion in Pakistan's tentative list submission as an ancient centre of pilgrimage.
-author: Roksana
+author: Muhammad
 published: 2026-08-29
 lastUpdated: 2026-08-29
 ---

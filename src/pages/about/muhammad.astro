@@ -7,25 +7,25 @@ const jsonLd = {
   '@type': 'ProfilePage',
   mainEntity: {
     '@type': 'Person',
-    name: 'Roksana',
-    jobTitle: 'Research & Editorial',
-    url: `${SITE.url}/about/roksana/`,
+    name: SITE.author.name,
+    jobTitle: SITE.author.role,
+    url: `${SITE.url}/about/${SITE.author.slug}/`,
     worksFor: { '@type': 'Organization', name: SITE.publisher, url: SITE.url },
   },
 };
 ---
 
 <Page
-  title="Roksana"
+  title={SITE.author.name}
   eyebrow="Author"
-  lede="Research & Editorial — writes and maintains the profiles on this site."
+  lede="Research & Editorial — researches and maintains the profiles on this site."
 >
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
   <p>
-    Roksana researches and writes the entity profiles published on {SITE.name}, and is responsible for the site's
-    source standards. Work covers institutions and individuals whose public record is scattered across government
-    documents, awarding-body publications and local press archives.
+    {SITE.author.name} researches and writes the entity profiles published on {SITE.name}, and is responsible for
+    the site's source standards. Work covers institutions and individuals whose public record is scattered across
+    government documents, awarding-body publications and local press archives.
   </p>
 
   <h2>Approach</h2>

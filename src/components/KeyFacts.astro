@@ -1,0 +1,19 @@
+---
+interface Fact { label: string; value: string; firstParty?: boolean }
+interface Props { facts: Fact[] }
+const { facts } = Astro.props;
+---
+
+{facts.length > 0 && (
+  <dl class="keyfacts">
+    {facts.map((f) => (
+      <>
+        <dt>{f.label}</dt>
+        <dd>
+          {f.value}
+          {f.firstParty && <span class="fp" title="Stated by the subject about itself">stated by the subject</span>}
+        </dd>
+      </>
+    ))}
+  </dl>
+)}

@@ -13,7 +13,7 @@ const { title, description, eyebrow, lede, updated, noindex } = Astro.props;
 ---
 
 <Base title={title} description={description ?? lede} noindex={noindex}>
-  <div class="wrap narrow">
+  <div class="wrap narrow" style="margin-inline:auto">
     {eyebrow && <p class="eyebrow">{eyebrow}</p>}
     <h1>{title}</h1>
     {lede && <p class="lede">{lede}</p>}

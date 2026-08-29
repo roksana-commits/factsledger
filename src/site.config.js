@@ -17,6 +17,11 @@ export const SITE = {
   locale: 'en',
   // Editorial
   founded: 2026,
+  author: {
+    name: 'Muhammad',
+    slug: 'muhammad',
+    role: 'Research & Editorial',
+  },
 };
 
 /** Entity categories. Add a category here and it appears in nav, homepage and sitemap. */

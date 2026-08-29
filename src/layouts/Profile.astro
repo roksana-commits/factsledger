@@ -1,6 +1,6 @@
 ---
 import Base from './Base.astro';
-import Infobox from '../components/Infobox.astro';
+import KeyFacts from '../components/KeyFacts.astro';
 import SourceList from '../components/SourceList.astro';
 import { SITE, CATEGORY_BY_SLUG } from '../site.config.js';
 
@@ -49,7 +49,7 @@ const jsonLd = {
       description: d.summary,
       datePublished: d.published.toISOString(),
       dateModified: d.lastUpdated.toISOString(),
-      author: { '@type': 'Person', name: d.author, url: `${SITE.url}/about/roksana/` },
+      author: { '@type': 'Person', name: d.author, url: `${SITE.url}/about/${SITE.author.slug}/` },
       publisher: { '@type': 'Organization', name: SITE.publisher, url: SITE.url },
       mainEntityOfPage: pageUrl,
       about: entityLd,
@@ -79,7 +79,6 @@ const TIER_NAMES: Record<string, string> = {
   tier3: 'tier 3',
   'first-party': 'first-party',
 };
-// Only mention tiers the profile actually uses — "0 tier 3" is noise.
 const tierBreakdown = Object.entries(TIER_NAMES)
   .map(([key, label]) => [d.sources.filter((s: any) => s.tier === key).length, label] as const)
   .filter(([count]) => count > 0)
@@ -89,97 +88,81 @@ const hasFirstParty = d.sources.some((s: any) => s.tier === 'first-party');
 ---
 
 <Base title={d.title} description={d.summary} jsonLd={jsonLd}>
-  <div class="wrap">
-    <p class="breadcrumb">
-      <a href="/">Home</a> › <a href={`/${category}/`}>{cat.label}</a> › {d.title}
+  <article class="wrap article">
+    <p class="kicker"><a href={`/${category}/`}>{cat.label}</a></p>
+
+    <h1>{d.title}</h1>
+    <p class="lede">{d.summary}</p>
+
+    <p class="byline">
+      Researched by <a href={`/about/${SITE.author.slug}/`}>{d.author}</a> · {fmt(d.published)}
+      {d.lastUpdated.valueOf() !== d.published.valueOf() && <> · updated {fmt(d.lastUpdated)}</>}
     </p>
 
-    <div class="profile">
-      <div>
-        <h1>{d.title}</h1>
-        <p class="lede">{d.summary}</p>
+    <KeyFacts facts={facts} />
 
-        <div class="note" style="margin-top:1.75rem">
-          <p>
-            <strong>Source quality.</strong> This profile cites {d.sources.length} source{d.sources.length === 1 ? '' : 's'}
-            ({tierBreakdown}).
-            {hasFirstParty ? (
-              <>
-                Claims made by the subject about itself are marked <span class="fp">first-party</span> and are not
-                presented as independent evidence.
-              </>
-            ) : (
-              <>Every source is independent of the subject; no first-party material is cited.</>
-            )}
-            {' '}See our <a href="/about/source-policy/">source policy</a>.
-          </p>
-          {d.sourceNote && <p>{d.sourceNote}</p>}
-        </div>
-
-        <div class="prose">
-          <slot />
-        </div>
-
-        {d.timeline.length > 0 && (
-          <>
-            <h2 id="timeline">Timeline</h2>
-            <div class="table-scroll">
-              <table>
-                <thead>
-                  <tr><th scope="col">Year</th><th scope="col">Documented event</th><th scope="col">Source type</th></tr>
-                </thead>
-                <tbody>
-                  {d.timeline.map((t: any) => (
-                    <tr><td>{t.year}</td><td>{t.event}</td><td>{t.sourceType ?? '—'}</td></tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </>
-        )}
-
-        {d.openItems.length > 0 && (
-          <>
-            <h2 id="open-items">Open items</h2>
-            <div class="note note--flag">
-              <p style="margin-bottom:0.6rem">
-                <strong>Claims we could not verify.</strong> These are recorded openly rather than published as fact or
-                quietly dropped. If you hold a source that settles one, please
-                <a href="/about/corrections/"> tell us</a>.
-              </p>
-              <ul style="margin:0; padding-left:1.2rem">
-                {d.openItems.map((item: string) => <li>{item}</li>)}
-              </ul>
-            </div>
-          </>
-        )}
-
-        <h2 id="sources">Sources</h2>
-        <SourceList sources={d.sources} />
-
-        {d.related.length > 0 && (
-          <>
-            <h2 id="related">Related entities</h2>
-            <ul>
-              {d.related.map((r: any) => <li><a href={r.href}>{r.label}</a></li>)}
-            </ul>
-          </>
-        )}
-
-        <h2 id="about-this-profile">About this profile</h2>
-        <p>
-          Written by <a href="/about/roksana/">{d.author}</a> — Research &amp; Editorial.
-          Published {fmt(d.published)}. Last updated {fmt(d.lastUpdated)}.
-        </p>
-        <p style="font-size:0.95rem; color:var(--ink-soft)">
-          Every factual claim above is linked to the source it rests on. {SITE.name} is not affiliated with
-          {' '}{d.title}. If you can document an error, see our <a href="/about/corrections/">corrections policy</a>.
-        </p>
-      </div>
-
-      <div class="profile__aside">
-        <Infobox title={d.title} entityType={d.entityType} facts={facts} />
-      </div>
+    <div class="prose">
+      <slot />
     </div>
-  </div>
+
+    {d.timeline.length > 0 && (
+      <>
+        <h2 id="timeline">Timeline</h2>
+        <dl class="timeline">
+          {d.timeline.map((t: any) => (
+            <>
+              <dt>{t.year}</dt>
+              <dd>{t.event}</dd>
+            </>
+          ))}
+        </dl>
+      </>
+    )}
+
+    {d.openItems.length > 0 && (
+      <>
+        <h2 id="open-items">What we could not verify</h2>
+        <p>
+          These claims came up in research and could not be confirmed. They are recorded here rather than published
+          as fact or quietly dropped. If you hold a source that settles one,
+          <a href="/about/corrections/"> please tell us</a>.
+        </p>
+        <ul>
+          {d.openItems.map((item: string) => <li>{item}</li>)}
+        </ul>
+      </>
+    )}
+
+    <h2 id="sources">Sources</h2>
+    <p class="note-line">
+      {d.sources.length} source{d.sources.length === 1 ? '' : 's'} ({tierBreakdown}), each opened and read against
+      the claim it supports.
+      {hasFirstParty
+        ? ' Statements the subject makes about itself are marked as such and are not treated as independent evidence.'
+        : ' Every source is independent of the subject; no first-party material is cited.'}
+      {' '}See the <a href="/about/source-policy/">source policy</a>.
+    </p>
+    {d.sourceNote && <p class="note-line">{d.sourceNote}</p>}
+    <SourceList sources={d.sources} />
+
+    {d.related.length > 0 && (
+      <>
+        <h2 id="related">Related</h2>
+        <ul>
+          {d.related.map((r: any) => <li><a href={r.href}>{r.label}</a></li>)}
+        </ul>
+      </>
+    )}
+
+    <footer class="article__footer">
+      <p>
+        Researched and written by <a href={`/about/${SITE.author.slug}/`}>{d.author}</a>.
+        Published {fmt(d.published)}; last updated {fmt(d.lastUpdated)}.
+      </p>
+      <p>
+        Every factual claim above is linked to the source it rests on. {SITE.name} is not affiliated with
+        {' '}{d.title}. If you can document an error, see our <a href="/about/corrections/">corrections policy</a>.
+      </p>
+    </footer>
+  </article>
 </Base>
