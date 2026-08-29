@@ -1,0 +1,82 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE, CATEGORIES } from '../site.config.js';
+
+const all = [];
+for (const cat of CATEGORIES) {
+  const entries = await getCollection(cat.collection as any);
+  for (const e of entries as any[]) {
+    if (!e.data.draft) all.push({ ...e, category: cat.slug, categoryLabel: cat.label });
+  }
+}
+all.sort((a, b) => b.data.lastUpdated.valueOf() - a.data.lastUpdated.valueOf());
+const recent = all.slice(0, 12);
+
+const fmt = (d: Date) =>
+  new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(d);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: SITE.url,
+  description: SITE.description,
+  publisher: { '@type': 'Organization', name: SITE.publisher, url: SITE.url },
+};
+---
+
+<Base title={SITE.name} jsonLd={jsonLd}>
+  <div class="wrap">
+    <div class="narrow">
+      <p class="eyebrow">Independent reference profiles</p>
+      <h1>Documented entities. Independent sources. Clear context.</h1>
+      <p class="lede">
+        {SITE.name} publishes research-backed profiles of schools, universities, people, organizations and places,
+        compiled from government records, institutional publications and independent reporting. Every claim is linked
+        to the source it rests on, and first-party statements are labelled as such.
+      </p>
+      <p style="font-family:var(--font-ui); font-size:0.9rem; margin-top:1.25rem">
+        <a href="/about/methodology/">How we research</a> ·
+        <a href="/about/source-policy/">What we cite</a> ·
+        <a href="/about/corrections/">How to correct us</a>
+      </p>
+    </div>
+
+    <h2 style="margin-top:3.5rem">Browse by category</h2>
+    <ul class="cards">
+      {CATEGORIES.map((c) => (
+        <li class="card">
+          <h3><a href={`/${c.slug}/`}>{c.label}</a></h3>
+          <p>{c.blurb}</p>
+        </li>
+      ))}
+    </ul>
+
+    <h2 style="margin-top:3rem">Recently researched</h2>
+    {recent.length === 0 ? (
+      <p style="color:var(--ink-soft)">No profiles published yet.</p>
+    ) : (
+      <ul class="index-list">
+        {recent.map((e: any) => (
+          <li>
+            <a href={`/${e.category}/${e.id}/`}>{e.data.title}</a>
+            <p>{e.data.summary}</p>
+            <p class="card__meta">
+              {e.categoryLabel} · {e.data.country} · {e.data.sources.length} sources · updated {fmt(e.data.lastUpdated)}
+            </p>
+          </li>
+        ))}
+      </ul>
+    )}
+
+    <div class="narrow">
+      <h2 style="margin-top:3rem">What this site is not</h2>
+      <p>
+        {SITE.name} is not an encyclopedia and does not reproduce content from one. Profiles are researched
+        independently from primary and published sources. Where a claim cannot be verified, it is listed openly as an
+        open item rather than published as fact.
+      </p>
+    </div>
+  </div>
+</Base>

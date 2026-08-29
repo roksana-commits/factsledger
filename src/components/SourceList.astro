@@ -1,0 +1,30 @@
+---
+interface Source {
+  title: string; url: string; publisher: string;
+  tier: 'tier1' | 'tier2' | 'tier3' | 'first-party';
+  date?: string; usedFor: string;
+}
+interface Props { sources: Source[] }
+const { sources } = Astro.props;
+
+const TIER_LABEL: Record<Source['tier'], string> = {
+  tier1: 'Tier 1',
+  tier2: 'Tier 2',
+  tier3: 'Tier 3',
+  'first-party': 'First-party',
+};
+
+const ORDER: Source['tier'][] = ['tier1', 'tier2', 'tier3', 'first-party'];
+const sorted = [...sources].sort((a, b) => ORDER.indexOf(a.tier) - ORDER.indexOf(b.tier));
+---
+
+<ol class="sources">
+  {sorted.map((s) => (
+    <li>
+      <span class={`tier tier--${s.tier}`}>{TIER_LABEL[s.tier]}</span>
+      <a href={s.url} rel="nofollow noopener" target="_blank">{s.title}</a>
+      <span class="sources__meta"> — {s.publisher}{s.date ? `, ${s.date}` : ''}</span>
+      <span class="sources__used">Used for: {s.usedFor}</span>
+    </li>
+  ))}
+</ol>

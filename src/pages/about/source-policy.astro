@@ -1,0 +1,79 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+---
+
+<Page
+  title="Source policy"
+  eyebrow="Editorial"
+  lede="What we cite, how we rank it, and what we will not cite at any tier."
+  updated="29 August 2026"
+>
+  <p>
+    Not all sources carry the same weight, and a profile that treats them as if they did is misleading even when
+    every individual link works. Every source cited on this site is labelled with a tier, shown next to the citation
+    on the profile itself.
+  </p>
+
+  <h2>Tier 1 — strong</h2>
+  <ul>
+    <li>Government departments, regulators and public registries</li>
+    <li>Court and other public records</li>
+    <li>Major national newspapers and broadcasters</li>
+    <li>Academic publications and established publishers</li>
+    <li>Official awarding and accrediting bodies, for their own awards</li>
+  </ul>
+
+  <h2>Tier 2 — good</h2>
+  <ul>
+    <li>Established specialist and industry publications</li>
+    <li>Local newspapers with an identifiable editorial staff</li>
+    <li>Professional associations and sector bodies</li>
+  </ul>
+
+  <h2>Tier 3 — supporting</h2>
+  <ul>
+    <li>Smaller specialist outlets</li>
+    <li>Self-published expert sources, where the author is identifiable and the subject is within their expertise</li>
+  </ul>
+  <p>
+    Tier 3 sources can support detail, but a profile is not published on tier 3 evidence alone.
+  </p>
+
+  <h2>First-party</h2>
+  <p>
+    A subject's own website, filings, press releases and social accounts. These are cited for what a subject says
+    about itself — a founding year, a stated mission, a programme list — and are marked
+    <span class="fp">first-party</span> wherever they appear. They are never presented as independent
+    confirmation of the same claim.
+  </p>
+
+  <h2>Not cited</h2>
+  <p>These are excluded regardless of what they happen to say:</p>
+  <ul>
+    <li>Business and school directories that aggregate unverified data</li>
+    <li>Scraped or mirrored sites</li>
+    <li>AI-generated content farms</li>
+    <li>Anonymous blogs and SEO spam</li>
+    <li>Content the subject paid to place, where that is detectable</li>
+  </ul>
+  <p>
+    Directory listings are sometimes useful as a research lead — a phone number to check, a detail to look for in a
+    better source — but they do not appear in a citation list.
+  </p>
+
+  <h2>The rule the site is built on</h2>
+  <p>
+    <strong>Every source cited has been opened and read against the claim it supports.</strong> A link that exists is
+    not evidence that it says what a draft claims it says. This check has already caught fabricated citations in our
+    own drafts, and it is a required step before any profile is published.
+  </p>
+  <p>
+    A profile that cannot muster at least one tier 1 or tier 2 source is not published. This is enforced by the site's
+    build: a profile whose sources are all first-party or tier 3 fails the build rather than going live.
+  </p>
+
+  <p style="font-size:0.95rem; color:var(--ink-soft)">
+    Questions about a specific citation: <a href={`mailto:${SITE.correctionsEmail}`}>{SITE.correctionsEmail}</a>.
+  </p>
+</Page>

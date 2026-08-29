@@ -1,0 +1,53 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+---
+
+<Page
+  title={`About ${SITE.name}`}
+  eyebrow="About"
+  lede="An independent reference for documented organizations, people, places and institutions."
+>
+  <p>
+    {SITE.name} publishes source-backed profiles of real-world entities: schools, universities, people,
+    organizations and places. Each profile gathers what the public record actually contains about a subject —
+    government records, awarding-body documentation, press reporting and the subject's own statements — and
+    attributes every claim to the source it came from.
+  </p>
+
+  <h2>Why the site exists</h2>
+  <p>
+    Information about many real-world entities is fragmented. A school's award sits in a PDF on one site, its
+    government registration in a spreadsheet on another, and its public activity in a decade of local newspaper
+    archives. Nobody has assembled it, so a reader searching the entity's name finds directory listings that
+    reproduce each other's unverified data.
+  </p>
+  <p>
+    A profile here does that assembly, and shows its working. That means saying plainly which claims rest on
+    independent reporting, which come from the subject itself, and which could not be verified at all.
+  </p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>We do not copy content from encyclopedias or reproduce deleted articles from elsewhere.</li>
+    <li>We do not publish claims we could not trace to a source we have read.</li>
+    <li>We do not accept payment to create, alter, favourably frame or remove a profile.</li>
+    <li>We do not describe a subject as "best", "top" or "leading" without independent evidence.</li>
+  </ul>
+
+  <h2>How we work</h2>
+  <ul>
+    <li><a href="/about/methodology/">Methodology</a> — how a profile is researched and built.</li>
+    <li><a href="/about/source-policy/">Source policy</a> — what we cite and what we refuse to cite.</li>
+    <li><a href="/about/editorial-policy/">Editorial policy</a> — neutrality, independence and review.</li>
+    <li><a href="/about/corrections/">Corrections</a> — how to get something fixed.</li>
+    <li><a href="/about/roksana/">Who writes this</a>.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    Editorial and general enquiries: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+    Corrections: <a href={`mailto:${SITE.correctionsEmail}`}>{SITE.correctionsEmail}</a>, or use the
+    <a href="/contact/"> contact form</a>.
+  </p>
+</Page>

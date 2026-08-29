@@ -1,0 +1,51 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  mainEntity: {
+    '@type': 'Person',
+    name: 'Roksana',
+    jobTitle: 'Research & Editorial',
+    url: `${SITE.url}/about/roksana/`,
+    worksFor: { '@type': 'Organization', name: SITE.publisher, url: SITE.url },
+  },
+};
+---
+
+<Page
+  title="Roksana"
+  eyebrow="Author"
+  lede="Research & Editorial — writes and maintains the profiles on this site."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <p>
+    Roksana researches and writes the entity profiles published on {SITE.name}, and is responsible for the site's
+    source standards. Work covers institutions and individuals whose public record is scattered across government
+    documents, awarding-body publications and local press archives.
+  </p>
+
+  <h2>Approach</h2>
+  <ul>
+    <li>Primary documents before secondary summaries.</li>
+    <li>Every cited source opened and read against the claim it supports.</li>
+    <li>First-party statements labelled, never presented as independent confirmation.</li>
+    <li>Unverified claims published as open items rather than dropped or hedged.</li>
+  </ul>
+
+  <h2>Standards this author works to</h2>
+  <ul>
+    <li><a href="/about/methodology/">Methodology</a></li>
+    <li><a href="/about/source-policy/">Source policy</a></li>
+    <li><a href="/about/editorial-policy/">Editorial policy</a></li>
+    <li><a href="/about/corrections/">Corrections policy</a></li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    <a href={`mailto:${SITE.email}`}>{SITE.email}</a> — or use the <a href="/contact/">contact form</a>.
+  </p>
+</Page>

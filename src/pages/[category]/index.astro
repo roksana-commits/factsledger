@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { CATEGORIES } from '../../site.config.js';
+
+export async function getStaticPaths() {
+  return Promise.all(
+    CATEGORIES.map(async (cat) => {
+      const entries = (await getCollection(cat.collection as any)).filter((e: any) => !e.data.draft);
+      entries.sort((a: any, b: any) =>
+        (a.data.sortTitle ?? a.data.title).localeCompare(b.data.sortTitle ?? b.data.title),
+      );
+      return { params: { category: cat.slug }, props: { cat, entries } };
+    }),
+  );
+}
+
+const { cat, entries } = Astro.props;
+---
+
+<Base title={cat.label} description={cat.blurb}>
+  <div class="wrap">
+    <p class="breadcrumb"><a href="/">Home</a> › {cat.label}</p>
+    <div class="narrow">
+      <p class="eyebrow">Category</p>
+      <h1>{cat.label}</h1>
+      <p class="lede">{cat.blurb}</p>
+    </div>
+
+    {entries.length === 0 ? (
+      <p style="margin-top:2rem; color:var(--ink-soft)">No profiles published in this category yet.</p>
+    ) : (
+      <ul class="index-list">
+        {entries.map((e: any) => (
+          <li>
+            <a href={`/${cat.slug}/${e.id}/`}>{e.data.title}</a>
+            <p>{e.data.summary}</p>
+            <p class="card__meta" style="margin-top:0.45rem; font-family:var(--font-ui); font-size:0.78rem; color:var(--ink-faint)">
+              {e.data.location ? `${e.data.location} · ` : ''}{e.data.country} · {e.data.sources.length} sources
+            </p>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</Base>

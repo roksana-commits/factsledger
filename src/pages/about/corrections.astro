@@ -1,0 +1,61 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+---
+
+<Page
+  title="Corrections policy"
+  eyebrow="Editorial"
+  lede="How to report an error, and what we do with it."
+  updated="29 August 2026"
+>
+  <p>
+    Profiles here are built from the public record, and the public record contains errors. So do we. If you can
+    document a mistake, we want to hear about it.
+  </p>
+
+  <h2>How to report an error</h2>
+  <p>
+    Use the <a href="/contact/">contact form</a> and choose "Correction", or email
+    <a href={`mailto:${SITE.correctionsEmail}`}>{SITE.correctionsEmail}</a>. The most useful reports include:
+  </p>
+  <ul>
+    <li>the profile's address (URL)</li>
+    <li>the exact sentence you believe is wrong</li>
+    <li>what the correct information is</li>
+    <li>a source we can check — this is the part that lets us act</li>
+  </ul>
+  <p>
+    We can act on a report without a source, but only by re-examining our own citations. A correction that replaces one
+    unsourced claim with another will not be made.
+  </p>
+
+  <h2>What happens next</h2>
+  <ol>
+    <li>We acknowledge the report, normally within five working days.</li>
+    <li>We re-read the source underlying the disputed claim.</li>
+    <li>
+      If the source does not support the claim, the claim is removed or rewritten immediately — we do not wait for a
+      replacement source to be found.
+    </li>
+    <li>If a better source establishes different facts, the profile is updated and the last-updated date changes.</li>
+    <li>
+      If the claim stands, we explain to the reporter which source supports it and why. Disagreement in good faith is
+      recorded as an open item on the profile where it is substantive.
+    </li>
+  </ol>
+
+  <h2>How corrections appear</h2>
+  <p>
+    Minor fixes — typography, formatting, a broken link — are made silently. Any change to a factual claim updates the
+    profile's last-updated date. Where a correction materially changes what the profile said, a dated correction note
+    is added to the profile itself, rather than the previous version being quietly replaced.
+  </p>
+
+  <h2>Claims we could not verify</h2>
+  <p>
+    Profiles carry an "Open items" section listing claims we encountered but could not confirm. These are published
+    deliberately: they show a reader exactly where the record runs out. If you hold a document that settles one, that
+    is one of the most useful things you can send us.
+  </p>
+</Page>

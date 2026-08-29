@@ -1,0 +1,25 @@
+---
+import Base from './Base.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  eyebrow?: string;
+  lede?: string;
+  updated?: string;
+  noindex?: boolean;
+}
+const { title, description, eyebrow, lede, updated, noindex } = Astro.props;
+---
+
+<Base title={title} description={description ?? lede} noindex={noindex}>
+  <div class="wrap narrow">
+    {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+    <h1>{title}</h1>
+    {lede && <p class="lede">{lede}</p>}
+    {updated && <p class="breadcrumb" style="margin-top:1rem">Last updated: {updated}</p>}
+    <div class="prose" style="margin-top:2rem">
+      <slot />
+    </div>
+  </div>
+</Base>

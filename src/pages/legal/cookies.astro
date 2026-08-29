@@ -1,0 +1,52 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+---
+
+<Page
+  title="Cookie policy"
+  eyebrow="Legal"
+  lede="A short page, because this site uses very few cookies."
+  updated="29 August 2026"
+>
+  <h2>The short version</h2>
+  <p>
+    {SITE.name} sets <strong>no analytics, advertising, profiling or social media cookies</strong>. There is no
+    tracking pixel on this site and no third-party script that follows you elsewhere. That is why you are not being
+    shown a consent banner: there is nothing here to consent to.
+  </p>
+
+  <h2>What may be set</h2>
+  <h3>Strictly necessary cookies</h3>
+  <p>
+    Our host, Cloudflare, may set a security cookie (commonly <code>__cf_bm</code>, and in some cases
+    <code>cf_clearance</code>) to distinguish human visitors from automated traffic and to protect the site from
+    abuse. These are strictly necessary for the site to be served securely, are short-lived, and are not used to
+    profile you or to advertise to you. Under UK and EU rules, strictly necessary cookies do not require consent.
+  </p>
+
+  <h3>Nothing else</h3>
+  <p>
+    We set no cookies of our own for preferences, sessions or measurement. The site's light and dark appearance
+    follows your operating system setting and is not stored anywhere.
+  </p>
+
+  <h2>Third-party content</h2>
+  <p>
+    We do not embed videos, maps, comment systems, fonts loaded from third-party servers, or social media widgets, so
+    none of those set cookies here. Links to external sources open on those sites, which have their own cookie
+    practices — following a citation to a newspaper means entering that newspaper's cookie regime, not ours.
+  </p>
+
+  <h2>Controlling cookies</h2>
+  <p>
+    You can block or delete cookies in your browser settings. Blocking Cloudflare's security cookie may cause the
+    site's protection layer to challenge your requests more often, but the content will still be readable.
+  </p>
+
+  <h2>Questions</h2>
+  <p>
+    Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. See also our
+    <a href="/legal/privacy/"> privacy policy</a>.
+  </p>
+</Page>

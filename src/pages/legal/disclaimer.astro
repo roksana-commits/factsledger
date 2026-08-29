@@ -1,0 +1,65 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+---
+
+<Page
+  title="Disclaimer"
+  eyebrow="Legal"
+  lede="What this site is, and what it is not."
+  updated="29 August 2026"
+>
+  <h2>No affiliation</h2>
+  <p>
+    {SITE.name} is independent. We are not affiliated with, authorised by, endorsed by or sponsored by any school,
+    university, company, organization, government body or individual described on this site. Profiles are written
+    without the involvement of their subjects. Names and marks belong to their owners and appear here descriptively.
+  </p>
+
+  <h2>Not an official record</h2>
+  <p>
+    This site is not a government register, an accreditation body, a ranking, or an official record of any entity. It
+    is a compilation of what published sources say. Where an official record exists, that record — not this page — is
+    authoritative, and we link to it wherever we can.
+  </p>
+
+  <h2>Not advice</h2>
+  <p>
+    Nothing here is legal, financial, admissions, employment, medical or investment advice. If you are choosing a
+    school, evaluating an organization or making any other consequential decision, verify the underlying facts
+    directly with the entity and with the relevant official body.
+  </p>
+
+  <h2>Accuracy and currency</h2>
+  <p>
+    Profiles are accurate to the sources cited, as at the last-updated date shown on each page. Institutions change
+    leadership, addresses, status and accreditation, and sources are sometimes wrong or later corrected. An unverified
+    claim is listed as an open item on the profile rather than presented as fact.
+  </p>
+
+  <h2>Neutrality</h2>
+  <p>
+    A profile existing on this site is not an endorsement, a recommendation, a rating or a judgement of quality. The
+    absence of a profile means nothing at all about an entity — it usually means we have not researched it yet. We do
+    not rank subjects and do not describe them as "best", "top" or "leading".
+  </p>
+
+  <h2>External links</h2>
+  <p>
+    We link to external sources so readers can verify claims. We are not responsible for the content or availability
+    of those sites, and a link is not an endorsement of anything else they publish.
+  </p>
+
+  <h2>Fair use of quoted material</h2>
+  <p>
+    Short quotations from cited sources are used for reporting, verification and comment, with attribution and a link.
+    Rights in the quoted material remain with the original publisher. If you are a rights holder and object to a
+    specific quotation, write to <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we will address it.
+  </p>
+
+  <h2>Reporting a problem</h2>
+  <p>
+    Factual errors: <a href="/about/corrections/">corrections policy</a>. Anything else:
+    <a href={`mailto:${SITE.email}`}> {SITE.email}</a>.
+  </p>
+</Page>

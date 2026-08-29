@@ -1,0 +1,24 @@
+---
+import { getCollection, render } from 'astro:content';
+import Profile from '../../layouts/Profile.astro';
+import { CATEGORIES } from '../../site.config.js';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const cat of CATEGORIES) {
+    const entries = await getCollection(cat.collection as any);
+    for (const entry of entries as any[]) {
+      if (entry.data.draft) continue;
+      paths.push({ params: { category: cat.slug, slug: entry.id }, props: { entry, category: cat.slug } });
+    }
+  }
+  return paths;
+}
+
+const { entry, category } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Profile entry={entry} category={category}>
+  <Content />
+</Profile>

@@ -1,0 +1,86 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+---
+
+<Page
+  title="Terms of use"
+  eyebrow="Legal"
+  lede={`The terms on which ${SITE.name} is made available.`}
+  updated="29 August 2026"
+>
+  <p>By using this site you accept these terms. If you do not accept them, please do not use the site.</p>
+
+  <h2>What we provide</h2>
+  <p>
+    {SITE.name} publishes reference profiles compiled from publicly available sources. The site is provided for
+    information. It is not advice — not legal, financial, educational, admissions, employment or investment advice —
+    and should not be relied on as the sole basis for a decision about any entity described here.
+  </p>
+
+  <h2>Accuracy</h2>
+  <p>
+    We take care to cite sources accurately and to check them before publication, and we correct errors when they are
+    documented to us. We do not warrant that the site is complete, current or error-free. Public records change,
+    sources are revised, and external pages move or disappear. Where a claim is unverified we say so on the profile.
+  </p>
+
+  <h2>Your use of the site</h2>
+  <p>You may read, link to, quote and cite this site freely. You may not:</p>
+  <ul>
+    <li>scrape or bulk-copy the site in a way that burdens the service or republishes profiles wholesale;</li>
+    <li>use the content to train a model that reproduces the profiles as its own output without attribution;</li>
+    <li>present our material as your own, or strip attribution and source labelling from it;</li>
+    <li>use the site to harass any person profiled here;</li>
+    <li>attempt to breach, probe or disrupt the site's security.</li>
+  </ul>
+
+  <h2>Intellectual property</h2>
+  <p>
+    The written profiles, page structure and design are © {SITE.founded}–{new Date().getFullYear()} {SITE.publisher}.
+    Individual facts are not owned by us, and material quoted from cited sources remains the property of those
+    sources; quotations are used in a limited, attributed way for reporting and comment. Names, logos and trade marks
+    of entities described on this site belong to their owners, and their appearance here is descriptive, not an
+    indication of any affiliation or endorsement.
+  </p>
+  <p>
+    Short quotations with a link back are welcome. For substantial reuse, ask us:
+    <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+  </p>
+
+  <h2>External links</h2>
+  <p>
+    Profiles link to external sources so you can check our work. We do not control those sites and are not responsible
+    for their content, availability or practices. A citation is a pointer to evidence, not an endorsement.
+  </p>
+
+  <h2>Subjects of profiles</h2>
+  <p>
+    Nothing here is intended to defame, disparage or misrepresent any person or organization. If you are the subject
+    of a profile and believe it contains an error, see our <a href="/about/corrections/">corrections policy</a> — that
+    route is faster and more effective than a legal letter, and we act on documented errors regardless of how they
+    reach us.
+  </p>
+
+  <h2>Liability</h2>
+  <p>
+    To the fullest extent permitted by law, {SITE.publisher} is not liable for any loss arising from use of, or
+    reliance on, this site or any site linked from it. Nothing in these terms limits liability for death or personal
+    injury caused by negligence, for fraud, or for anything else that cannot lawfully be excluded.
+  </p>
+
+  <h2>Availability</h2>
+  <p>
+    We may change, suspend, withdraw or update the site or any profile at any time, including removing content while
+    it is under review.
+  </p>
+
+  <h2>Changes to these terms</h2>
+  <p>
+    Updated terms are posted on this page with a new date. Continuing to use the site after that means you accept the
+    revised terms.
+  </p>
+
+  <h2>Contact</h2>
+  <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+</Page>

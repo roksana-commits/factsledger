@@ -1,0 +1,111 @@
+---
+import '../styles/global.css';
+import { SITE, CATEGORIES } from '../site.config.js';
+
+interface Props {
+  title: string;
+  description?: string;
+  /** Extra JSON-LD to inject, already an object. */
+  jsonLd?: Record<string, unknown>;
+  noindex?: boolean;
+}
+
+const { title, description = SITE.description, jsonLd, noindex = false } = Astro.props;
+const pageTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} — ${SITE.name}`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+const path = Astro.url.pathname;
+const year = new Date().getFullYear();
+const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${year}`;
+---
+
+<!doctype html>
+<html lang={SITE.locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="brand" href="/">
+          Facts<span>Ledger</span>
+          <small>{SITE.tagline}</small>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <ul>
+            {CATEGORIES.map((c) => (
+              <li>
+                <a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>
+                  {c.label}
+                </a>
+              </li>
+            ))}
+            <li><a href="/about/" aria-current={path.startsWith('/about/') ? 'page' : undefined}>About</a></li>
+            <li><a href="/contact/" aria-current={path === '/contact/' ? 'page' : undefined}>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="site-footer__inner">
+          <div>
+            <h2>{SITE.name}</h2>
+            <p style="margin:0 0 0.6rem">{SITE.description}</p>
+            <p style="margin:0"><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+          </div>
+          <div>
+            <h2>Browse</h2>
+            <ul>
+              {CATEGORIES.map((c) => <li><a href={`/${c.slug}/`}>{c.label}</a></li>)}
+            </ul>
+          </div>
+          <div>
+            <h2>Editorial</h2>
+            <ul>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/about/editorial-policy/">Editorial policy</a></li>
+              <li><a href="/about/source-policy/">Source policy</a></li>
+              <li><a href="/about/methodology/">Methodology</a></li>
+              <li><a href="/about/corrections/">Corrections</a></li>
+              <li><a href="/about/roksana/">Authors</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="site-footer__legal">
+          <p style="margin:0 0 0.5rem">
+            <a href="/legal/privacy/">Privacy</a> ·
+            <a href="/legal/terms/">Terms</a> ·
+            <a href="/legal/cookies/">Cookies</a> ·
+            <a href="/legal/disclaimer/">Disclaimer</a> ·
+            <a href="/contact/">Contact</a>
+          </p>
+          <p style="margin:0">
+            © {copyrightYears} {SITE.publisher}. Profiles are compiled from publicly
+            available sources and cite them individually. {SITE.name} is not affiliated with any entity it documents.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

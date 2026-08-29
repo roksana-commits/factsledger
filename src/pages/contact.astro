@@ -1,0 +1,116 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site.config.js';
+---
+
+<Base title="Contact" description={`Contact ${SITE.name} — corrections, source tips, editorial enquiries and rights questions.`}>
+  <div class="wrap narrow">
+    <p class="eyebrow">Contact</p>
+    <h1>Contact {SITE.name}</h1>
+    <p class="lede">
+      Corrections and source tips are the most useful things you can send us. Everything else is welcome too.
+    </p>
+
+    <div class="note" style="margin-top:2rem">
+      <p style="margin-bottom:0.5rem"><strong>Email works too — often faster.</strong></p>
+      <p style="margin:0">
+        Editorial and general: <a href={`mailto:${SITE.email}`}>{SITE.email}</a><br />
+        Corrections: <a href={`mailto:${SITE.correctionsEmail}`}>{SITE.correctionsEmail}</a>
+      </p>
+    </div>
+
+    <h2>Reporting an error</h2>
+    <p>
+      If you are reporting a factual error, please include the profile's address, the exact sentence at issue, and a
+      source we can check. See the <a href="/about/corrections/">corrections policy</a> for what happens next.
+    </p>
+
+    <h2>Send a message</h2>
+    <form class="form" id="contact-form" method="post" action="/api/contact" novalidate>
+      <div class="field">
+        <label for="subject">What is this about?</label>
+        <select id="subject" name="subject" required>
+          <option value="correction">Correction — something on a profile is wrong</option>
+          <option value="source">Source tip — I have a document you should see</option>
+          <option value="subject">I am the subject of a profile</option>
+          <option value="rights">Rights or legal</option>
+          <option value="other">Something else</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="name">Your name <span class="hint">Optional. We will use it when replying.</span></label>
+        <input id="name" name="name" type="text" autocomplete="name" maxlength="120" />
+      </div>
+
+      <div class="field">
+        <label for="email">Your email <span class="hint">Required, so we can reply.</span></label>
+        <input id="email" name="email" type="email" autocomplete="email" required maxlength="200" />
+      </div>
+
+      <div class="field">
+        <label for="page">Profile URL <span class="hint">If your message is about a specific page.</span></label>
+        <input id="page" name="page" type="url" placeholder="https://…" maxlength="400" />
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required minlength="20" maxlength="5000"></textarea>
+      </div>
+
+      <div class="hp" aria-hidden="true">
+        <label for="website">Leave this field empty</label>
+        <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <button type="submit">Send message</button>
+      <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <p style="font-size:0.9rem; color:var(--ink-soft); margin-top:2rem">
+      What happens to what you send is described in our <a href="/legal/privacy/">privacy policy</a>. We do not add
+      you to any mailing list.
+    </p>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var form = document.getElementById('contact-form');
+      var status = document.getElementById('form-status');
+      if (!form) return;
+
+      form.addEventListener('submit', async function (event) {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+
+        var button = form.querySelector('button[type="submit"]');
+        button.disabled = true;
+        status.removeAttribute('data-state');
+        status.textContent = 'Sending…';
+
+        try {
+          var response = await fetch('/api/contact', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(Object.fromEntries(new FormData(form))),
+          });
+          var result = await response.json().catch(function () { return {}; });
+
+          if (response.ok) {
+            form.reset();
+            status.setAttribute('data-state', 'ok');
+            status.textContent = result.message || 'Thank you — your message has been received. We aim to reply within five working days.';
+          } else {
+            status.setAttribute('data-state', 'error');
+            status.textContent = result.message || 'Something went wrong. Please email us directly instead.';
+          }
+        } catch (error) {
+          status.setAttribute('data-state', 'error');
+          status.textContent = 'Could not reach the server. Please email us directly instead.';
+        } finally {
+          button.disabled = false;
+        }
+      });
+    })();
+  </script>
+</Base>

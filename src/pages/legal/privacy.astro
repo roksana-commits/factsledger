@@ -1,0 +1,103 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+---
+
+<Page
+  title="Privacy policy"
+  eyebrow="Legal"
+  lede={`How ${SITE.name} handles personal data.`}
+  updated="29 August 2026"
+>
+  <p>
+    This policy explains what data this site collects, why, and what you can do about it. It is written to be read,
+    not to be survived.
+  </p>
+
+  <h2>Who we are</h2>
+  <p>
+    {SITE.name} ({SITE.url}) is the data controller for the personal data described here. Contact:
+    <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+  </p>
+
+  <h2>What we collect</h2>
+
+  <h3>When you just read the site</h3>
+  <p>
+    This is a static site. It sets no tracking cookies and embeds no advertising or social media trackers. Our hosting
+    provider, Cloudflare, processes technical information inherent to serving a web page — your IP address, browser
+    user agent, the page requested and the time — for delivery, security and abuse prevention. This is our legitimate
+    interest in operating a functioning, non-abused website. We do not use it to build a profile of you.
+  </p>
+
+  <h3>When you contact us</h3>
+  <p>
+    If you use the contact form or email us, we receive what you send: your name (if you give one), your email
+    address, and the content of your message. We use it only to respond, and to keep a record of correction requests
+    so that we can show why a profile changed. The lawful basis is our legitimate interest in answering enquiries and
+    maintaining an accountable editorial record.
+  </p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>We do not sell or rent personal data.</li>
+    <li>We do not run advertising or share data with ad networks.</li>
+    <li>We do not use analytics that profile individual visitors across sites.</li>
+    <li>We do not send marketing email. If you write to us, you get a reply, not a newsletter.</li>
+  </ul>
+
+  <h2>Processors we rely on</h2>
+  <ul>
+    <li><strong>Cloudflare</strong> — hosting, content delivery and security for this site.</li>
+    <li><strong>Our email provider</strong> — receiving and storing correspondence sent to our published addresses.</li>
+  </ul>
+  <p>These providers process data on our instructions and under their own security obligations.</p>
+
+  <h2>How long we keep things</h2>
+  <ul>
+    <li>General correspondence: normally up to 24 months, then deleted.</li>
+    <li>
+      Correction requests and the reasoning behind a resulting change: retained for as long as the profile is
+      published, because a correction record that disappears is not a correction record.
+    </li>
+    <li>Server and security logs: retained by Cloudflare according to its own retention periods.</li>
+  </ul>
+
+  <h2>Personal data inside profiles</h2>
+  <p>
+    Some profiles are about people. That information is not collected from you — it is compiled from published,
+    publicly available sources, and each claim is cited. We publish it in the public interest in maintaining an
+    accurate, sourced record of documented public activity, and we limit profiles of living people to that public
+    activity. See our <a href="/about/editorial-policy/">editorial policy</a> for the limits we apply.
+  </p>
+  <p>
+    If you are the subject of a profile, you can ask us to correct inaccurate information, object to its publication,
+    or request removal. Write to <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and tell us which profile and which
+    statements are at issue. We will respond, explain what a claim rests on, and correct or remove anything we cannot
+    support.
+  </p>
+
+  <h2>Your rights</h2>
+  <p>
+    Depending on where you live, you may have the right to access the personal data we hold about you, to have it
+    corrected or deleted, to object to or restrict our processing, and to receive a copy in a portable format. To
+    exercise any of these, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We aim to respond within 30 days
+    and will not charge you for a reasonable request.
+  </p>
+  <p>
+    If you are in the UK, EU or another jurisdiction with a data protection authority, you also have the right to
+    complain to it. We would rather you came to us first, but that right does not depend on doing so.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    This site is not directed at children and we do not knowingly collect personal data from them. Note that profiles
+    of institutions such as schools describe the institution, not individual pupils.
+  </p>
+
+  <h2>Changes</h2>
+  <p>
+    If this policy changes materially, the updated date above changes with it and the current version always appears
+    on this page.
+  </p>
+</Page>

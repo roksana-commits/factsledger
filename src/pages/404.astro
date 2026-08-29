@@ -1,0 +1,12 @@
+---
+import Page from '../layouts/Page.astro';
+import { CATEGORIES } from '../site.config.js';
+---
+
+<Page title="Page not found" eyebrow="404" lede="That page does not exist, or has been moved." noindex={true}>
+  <p>Try one of the categories:</p>
+  <ul>
+    {CATEGORIES.map((c) => <li><a href={`/${c.slug}/`}>{c.label}</a></li>)}
+  </ul>
+  <p>If you followed a link here from elsewhere on this site, please <a href="/contact/">tell us</a>.</p>
+</Page>

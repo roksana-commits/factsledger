@@ -1,0 +1,74 @@
+---
+import Page from '../../layouts/Page.astro';
+import { SITE } from '../../site.config.js';
+---
+
+<Page
+  title="Editorial policy"
+  eyebrow="Editorial"
+  lede="Independence, neutrality and the standards a profile must meet before it is published."
+  updated="29 August 2026"
+>
+  <h2>Independence</h2>
+  <p>
+    {SITE.name} is independent of the entities it documents. We are not affiliated with, endorsed by or sponsored by
+    any subject profiled on this site. We do not accept payment, gifts or other consideration in exchange for
+    creating, altering, favourably framing, delaying or removing a profile, and we do not sell links.
+  </p>
+  <p>
+    Where a relationship exists between the site and a subject that a reader might reasonably want to know about, it is
+    disclosed on the profile itself.
+  </p>
+
+  <h2>Neutrality</h2>
+  <p>
+    Profiles describe what the record documents. They do not rank, rate or recommend. Promotional language —
+    "best", "top", "leading", "prestigious", "renowned" — is not used, including in a subject's own words unless it is
+    presented as a direct, attributed quotation.
+  </p>
+
+  <h2>Verification</h2>
+  <p>
+    Every claim in a profile is traceable to a cited source that has been read. See the
+    <a href="/about/methodology/">methodology</a> and <a href="/about/source-policy/">source policy</a> for how that
+    works in practice.
+  </p>
+
+  <h2>Living people</h2>
+  <p>
+    Profiles of living people are limited to their documented public activity — their work, roles, published output
+    and public statements. We do not publish private contact details, home addresses, family information about
+    non-public individuals, health information, or allegations that are not documented in a tier 1 source. Material
+    about a living person that is contested and thinly sourced is removed while it is reviewed, not left up pending a
+    decision.
+  </p>
+
+  <h2>Right of reply</h2>
+  <p>
+    Any subject of a profile may contact us about its content. Where a subject disputes a claim, we re-examine the
+    underlying source. Where the subject supplies information about itself, it may be added as an attributed
+    first-party statement; it does not displace independent reporting on the same point.
+  </p>
+
+  <h2>Removal requests</h2>
+  <p>
+    We consider requests to remove a profile on their merits, weighing the public interest in a documented record
+    against the individual circumstances raised. Factual inaccuracy is corrected. Discomfort with an accurate,
+    well-sourced fact about a public entity is not by itself a reason for removal, but requests involving private
+    individuals, safety concerns or legal obligations are taken seriously and answered.
+  </p>
+
+  <h2>Use of research tools</h2>
+  <p>
+    We use software, including AI tools, to help find and organise sources. No claim reaches publication on the
+    strength of an AI-generated summary. Sources proposed by any tool are treated as leads until the underlying
+    document has been read by a person, because such tools do produce citations to documents that do not contain the
+    claim — we have caught this in our own drafts, and the check exists because of it.
+  </p>
+
+  <h2>Complaints</h2>
+  <p>
+    Editorial complaints: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We aim to acknowledge within five working
+    days.
+  </p>
+</Page>
