@@ -28,6 +28,12 @@ export const CATEGORIES = [
     blurb: 'Primary and secondary schools documented from government records, award bodies and independent reporting.',
   },
   {
+    slug: 'universities',
+    label: 'Universities & Colleges',
+    collection: 'universities',
+    blurb: 'Universities and colleges documented from statutory records, regulators and independent reporting.',
+  },
+  {
     slug: 'people',
     label: 'People',
     collection: 'people',

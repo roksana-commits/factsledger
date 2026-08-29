@@ -51,11 +51,6 @@ openItems:
     Neither is asserted.
   - Kantipur names its basketball team only as "Golden Peak" (also "GoldenPeak", "GoldenPick"), never with the
     school's full name. The attribution is probable but not stated in the source.
-related:
-  - label: British Council International School Award
-    href: /organizations/
-  - label: Kathmandu
-    href: /places/
 sources:
   - title: "International School Award: press release, 20 October 2020"
     url: https://www.britishcouncil.org.np/sites/default/files/press_release_isa-20_october_2020.pdf

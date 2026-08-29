@@ -93,6 +93,7 @@ const makeCollection = (dir: string) =>
 
 export const collections = {
   schools: makeCollection('schools'),
+  universities: makeCollection('universities'),
   people: makeCollection('people'),
   organizations: makeCollection('organizations'),
   places: makeCollection('places'),
