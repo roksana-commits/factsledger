@@ -73,7 +73,19 @@ const facts = [
   ...d.facts,
 ];
 
-const tierCount = (t: string) => d.sources.filter((s: any) => s.tier === t).length;
+const TIER_NAMES: Record<string, string> = {
+  tier1: 'tier 1',
+  tier2: 'tier 2',
+  tier3: 'tier 3',
+  'first-party': 'first-party',
+};
+// Only mention tiers the profile actually uses — "0 tier 3" is noise.
+const tierBreakdown = Object.entries(TIER_NAMES)
+  .map(([key, label]) => [d.sources.filter((s: any) => s.tier === key).length, label] as const)
+  .filter(([count]) => count > 0)
+  .map(([count, label]) => `${count} ${label}`)
+  .join(', ');
+const hasFirstParty = d.sources.some((s: any) => s.tier === 'first-party');
 ---
 
 <Base title={d.title} description={d.summary} jsonLd={jsonLd}>
@@ -90,10 +102,16 @@ const tierCount = (t: string) => d.sources.filter((s: any) => s.tier === t).leng
         <div class="note" style="margin-top:1.75rem">
           <p>
             <strong>Source quality.</strong> This profile cites {d.sources.length} source{d.sources.length === 1 ? '' : 's'}
-            ({tierCount('tier1')} tier&nbsp;1, {tierCount('tier2')} tier&nbsp;2, {tierCount('tier3')} tier&nbsp;3,
-            {' '}{tierCount('first-party')} first-party). Claims made by the subject about itself are marked
-            <span class="fp">first-party</span> and are not presented as independent evidence.
-            See our <a href="/about/source-policy/">source policy</a>.
+            ({tierBreakdown}).
+            {hasFirstParty ? (
+              <>
+                Claims made by the subject about itself are marked <span class="fp">first-party</span> and are not
+                presented as independent evidence.
+              </>
+            ) : (
+              <>Every source is independent of the subject; no first-party material is cited.</>
+            )}
+            {' '}See our <a href="/about/source-policy/">source policy</a>.
           </p>
           {d.sourceNote && <p>{d.sourceNote}</p>}
         </div>
