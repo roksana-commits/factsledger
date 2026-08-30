@@ -2,6 +2,8 @@
 import Page from '../../layouts/Page.astro';
 import { SITE } from '../../site.config.js';
 
+const sameAs = Object.values(SITE.author.social ?? {}).filter(Boolean);
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfilePage',
@@ -10,7 +12,9 @@ const jsonLd = {
     name: SITE.author.name,
     jobTitle: SITE.author.role,
     url: `${SITE.url}/about/${SITE.author.slug}/`,
+    ...(SITE.author.image ? { image: `${SITE.url}${SITE.author.image}` } : {}),
     worksFor: { '@type': 'Organization', name: SITE.publisher, url: SITE.url },
+    ...(sameAs.length ? { sameAs } : {}),
   },
 };
 ---
@@ -21,6 +25,16 @@ const jsonLd = {
   lede="Research & Editorial — researches and maintains the profiles on this site."
 >
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  {SITE.author.image && (
+    <img
+      src={SITE.author.image}
+      alt={SITE.author.name}
+      width="120"
+      height="120"
+      style="border-radius: 50%; margin-bottom: 1rem;"
+    />
+  )}
 
   <p>
     {SITE.author.name} researches and writes the entity profiles published on {SITE.name}, and is responsible for
@@ -47,5 +61,10 @@ const jsonLd = {
   <h2>Contact</h2>
   <p>
     <a href={`mailto:${SITE.email}`}>{SITE.email}</a> — or use the <a href="/contact/">contact form</a>.
+    {SITE.author.social?.facebook && (
+      <>
+        {' '}Also on <a href={SITE.author.social.facebook} rel="me noopener" target="_blank">Facebook</a>.
+      </>
+    )}
   </p>
 </Page>

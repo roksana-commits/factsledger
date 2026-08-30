@@ -21,6 +21,10 @@ export const SITE = {
     name: 'Muhammad',
     slug: 'muhammad',
     role: 'Research & Editorial',
+    image: '/images/author-muhammad.jpg',
+    social: {
+      facebook: 'https://www.facebook.com/likhan1987',
+    },
   },
 };
 
