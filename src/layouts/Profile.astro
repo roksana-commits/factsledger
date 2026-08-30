@@ -87,7 +87,7 @@ const tierBreakdown = Object.entries(TIER_NAMES)
 const hasFirstParty = d.sources.some((s: any) => s.tier === 'first-party');
 ---
 
-<Base title={d.title} description={d.summary} jsonLd={jsonLd}>
+<Base title={d.title} description={d.summary} jsonLd={jsonLd} ogType="article">
   <article class="wrap article">
     <p class="kicker"><a href={`/${category}/`}>{cat.label}</a></p>
 

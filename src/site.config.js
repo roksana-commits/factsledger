@@ -10,6 +10,7 @@ export const SITE = {
     'A source-backed reference for schools, universities, people, organizations and places. Every claim is linked to the source it rests on.',
   // Change this to your real domain before the first deploy.
   url: 'https://factsledger.com',
+  socialImage: '/images/factsledger-social.jpg',
   // Contact + legal
   email: 'contact@factsledger.com',
   correctionsEmail: 'corrections@factsledger.com',

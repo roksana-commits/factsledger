@@ -8,12 +8,14 @@ interface Props {
   /** Extra JSON-LD to inject, already an object. */
   jsonLd?: Record<string, unknown>;
   noindex?: boolean;
+  ogType?: 'website' | 'article';
 }
 
-const { title, description = SITE.description, jsonLd, noindex = false } = Astro.props;
+const { title, description = SITE.description, jsonLd, noindex = false, ogType = 'website' } = Astro.props;
 const pageTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} — ${SITE.name}`;
 const robots = noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
-const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+const canonical = noindex ? null : new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+const socialImage = new URL(SITE.socialImage, SITE.url).href;
 const path = Astro.url.pathname;
 const year = new Date().getFullYear();
 const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${year}`;
@@ -27,15 +29,19 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
-    <link rel="canonical" href={canonical} />
+    {canonical && <link rel="canonical" href={canonical} />}
     <meta property="og:site_name" content={SITE.name} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonical} />
-    <meta name="twitter:card" content="summary" />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:alt" content={`${SITE.name} — ${SITE.tagline}`} />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image:alt" content={`${SITE.name} — ${SITE.tagline}`} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}

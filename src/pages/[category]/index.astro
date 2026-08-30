@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { CATEGORIES } from '../../site.config.js';
+import { CATEGORIES, SITE } from '../../site.config.js';
 
 export async function getStaticPaths() {
   return Promise.all(
@@ -16,9 +16,28 @@ export async function getStaticPaths() {
 }
 
 const { cat, entries } = Astro.props;
+const pageUrl = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: cat.label,
+  description: cat.blurb,
+  url: pageUrl,
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: `${SITE.url}/` },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: entries.length,
+    itemListElement: entries.map((e: any, index: number) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: e.data.title,
+      url: `${SITE.url}/${cat.slug}/${e.id}/`,
+    })),
+  },
+};
 ---
 
-<Base title={cat.label} description={cat.blurb}>
+<Base title={cat.label} description={cat.blurb} jsonLd={jsonLd}>
   <div class="wrap">
     <p class="breadcrumb"><a href="/">Home</a> › {cat.label}</p>
     <div class="narrow">
