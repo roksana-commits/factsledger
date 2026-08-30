@@ -49,6 +49,7 @@ const baseProfile = z.object({
     'ReligiousSite',
     'Hospital',
     'Place',
+    'Event',
   ]),
   country: z.string(),
   location: z.string().optional(),
@@ -97,4 +98,5 @@ export const collections = {
   people: makeCollection('people'),
   organizations: makeCollection('organizations'),
   places: makeCollection('places'),
+  events: makeCollection('events'),
 };

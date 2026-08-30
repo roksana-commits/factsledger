@@ -61,6 +61,12 @@ export const CATEGORIES = [
     collection: 'places',
     blurb: 'Transport infrastructure, religious and cultural sites, and other documented locations.',
   },
+  {
+    slug: 'events',
+    label: 'Events & Documents',
+    collection: 'events',
+    blurb: 'Historical documents, declarations, battles and other dated events documented from independent and archival sources.',
+  },
 ];
 
 export const CATEGORY_BY_SLUG = Object.fromEntries(CATEGORIES.map((c) => [c.slug, c]));
