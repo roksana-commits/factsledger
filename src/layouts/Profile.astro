@@ -12,7 +12,7 @@ const fmt = (date: Date) =>
   new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(date);
 
 const SCHEMA_TYPE: Record<string, string> = {
-  School: 'EducationalOrganization',
+  School: 'School',
   University: 'CollegeOrUniversity',
   College: 'CollegeOrUniversity',
   Person: 'Person',
