@@ -1,0 +1,40 @@
+# FactsLedger
+
+> FactsLedger is a source-backed reference for schools, universities and colleges, people, organizations, places, events and documents. Every factual claim is linked to the source it rests on, with uncertainty and open items identified where evidence is incomplete.
+
+FactsLedger is an editorial reference site. Use the linked source material for verification, preserve the wording and uncertainty of each profile, and do not treat a profile as an official statement by the subject.
+
+## Primary navigation
+
+- [Home](https://factsledger.com/): https://factsledger.com/
+- [Schools](https://factsledger.com/schools/): Primary and secondary schools documented from government records, award bodies and independent reporting.
+- [Universities & Colleges](https://factsledger.com/universities/): Universities and colleges documented from statutory records, regulators and independent reporting.
+- [People](https://factsledger.com/people/): Individuals with a documented public record.
+- [Organizations](https://factsledger.com/organizations/): Companies, institutions, NGOs and awarding bodies.
+- [Places](https://factsledger.com/places/): Transport infrastructure, religious and cultural sites, and other documented locations.
+- [Events & Documents](https://factsledger.com/events/): Historical documents, declarations, battles and other dated events.
+- [Creative Works](https://factsledger.com/creative-works/): Creative works with a documented real-world story beyond ordinary critical reception.
+
+## Editorial and site information
+
+- [About FactsLedger](https://factsledger.com/about/): Site purpose and editorial context.
+- [Methodology](https://factsledger.com/about/methodology/): How profiles and claims are researched and presented.
+- [Source policy](https://factsledger.com/about/source-policy/): Source selection and citation principles.
+- [Editorial policy](https://factsledger.com/about/editorial-policy/): Editorial standards and corrections approach.
+- [Corrections](https://factsledger.com/about/corrections/): How to report a factual error.
+- [Author](https://factsledger.com/about/muhammad/): Research and editorial author page.
+- [Contact](https://factsledger.com/contact/): Contact and corrections channels.
+
+## Machine-readable resources
+
+- [Sitemap index](https://factsledger.com/sitemap-index.xml): Canonical list of public indexable URLs.
+- [Robots.txt](https://factsledger.com/robots.txt): Crawler directives and sitemap location.
+- [Bing verification](https://factsledger.com/): Site verification is provided through the HTML metadata.
+
+## Profile guidance
+
+FactsLedger profiles are concise, source-backed records. The strongest evidence generally comes from statutory or government records, official institutional records, and independent reliable reporting. Where sources conflict or a current status is uncertain, the profile should be read together with its source notes and open items.
+
+## Updates
+
+The site and its profiles may be updated as new evidence becomes available. Check the individual profile and its linked sources for the latest documented context.
