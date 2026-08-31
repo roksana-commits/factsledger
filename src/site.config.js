@@ -67,6 +67,12 @@ export const CATEGORIES = [
     collection: 'events',
     blurb: 'Historical documents, declarations, battles and other dated events documented from independent and archival sources.',
   },
+  {
+    slug: 'creative-works',
+    label: 'Creative Works',
+    collection: 'creative-works',
+    blurb: 'Novels, films, songs and other creative works with a documented real-world story — a controversy, a court case, a notable production history — beyond ordinary critical reception.',
+  },
 ];
 
 export const CATEGORY_BY_SLUG = Object.fromEntries(CATEGORIES.map((c) => [c.slug, c]));
