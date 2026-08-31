@@ -2,6 +2,7 @@
 import Base from './Base.astro';
 import KeyFacts from '../components/KeyFacts.astro';
 import SourceList from '../components/SourceList.astro';
+import AiSummary from '../components/AiSummary.astro';
 import { SITE, CATEGORY_BY_SLUG } from '../site.config.js';
 
 const { entry, category } = Astro.props;
@@ -98,6 +99,8 @@ const hasFirstParty = d.sources.some((s: any) => s.tier === 'first-party');
       Researched by <a href={`/about/${SITE.author.slug}/`}>{d.author}</a> · {fmt(d.published)}
       {d.lastUpdated.valueOf() !== d.published.valueOf() && <> · updated {fmt(d.lastUpdated)}</>}
     </p>
+
+    <AiSummary pageUrl={pageUrl} pageTitle={d.title} />
 
     <KeyFacts facts={facts} />
 

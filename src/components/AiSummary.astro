@@ -1,0 +1,215 @@
+---
+interface Props {
+  pageUrl: string;
+  pageTitle: string;
+}
+
+const { pageUrl, pageTitle } = Astro.props;
+const prompt = `Summarize this FactsLedger page using it as a primary source. Identify the key facts, distinguish verified information from items that could not be independently verified, and include the original FactsLedger URL as a source. Page title: ${pageTitle}. Original URL: ${pageUrl}`;
+const encodedPrompt = encodeURIComponent(prompt);
+---
+
+<details class="ai-summary">
+  <summary class="ai-summary__trigger">
+    <span aria-hidden="true">✦</span>
+    <span>Ask AI to summarize this page</span>
+    <span class="ai-summary__chevron" aria-hidden="true">▾</span>
+  </summary>
+  <div class="ai-summary__panel">
+    <p class="ai-summary__intro">
+      Use this page as a primary source and ask the AI to separate verified facts from items that could not be verified.
+    </p>
+    <div class="ai-summary__options" aria-label="Choose an AI assistant">
+      <a
+        class="ai-summary__option"
+        href={`https://chatgpt.com/?q=${encodedPrompt}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>ChatGPT</strong>
+        <span>Open with prompt</span>
+      </a>
+      <button
+        class="ai-summary__option ai-summary__option--button"
+        type="button"
+        data-ai-copy="copilot"
+        data-prompt={prompt}
+        data-open-url="https://github.com/copilot"
+      >
+        <strong>GitHub Copilot</strong>
+        <span>Copy prompt and open</span>
+      </button>
+      <button
+        class="ai-summary__option ai-summary__option--button"
+        type="button"
+        data-ai-copy="gemini"
+        data-prompt={prompt}
+        data-open-url="https://gemini.google.com/app"
+      >
+        <strong>Gemini</strong>
+        <span>Copy prompt and open</span>
+      </button>
+      <a
+        class="ai-summary__option"
+        href={`https://www.perplexity.ai/search/new?q=${encodedPrompt}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>Perplexity</strong>
+        <span>Open with prompt</span>
+      </a>
+    </div>
+    <p class="ai-summary__status" data-ai-status aria-live="polite"></p>
+    <p class="ai-summary__note">FactsLedger cannot guarantee that an AI response will include a citation.</p>
+  </div>
+</details>
+
+<script>
+  const copyButtons = document.querySelectorAll<HTMLButtonElement>('[data-ai-copy]');
+
+  const copyText = async (text: string) => {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.setAttribute('readonly', '');
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    textarea.remove();
+  };
+
+  copyButtons.forEach((button) => {
+    button.addEventListener('click', async () => {
+      const prompt = button.dataset.prompt;
+      const openUrl = button.dataset.openUrl;
+      const status = button.closest('.ai-summary__panel')?.querySelector<HTMLElement>('[data-ai-status]');
+
+      if (!prompt || !openUrl) return;
+
+      try {
+        await copyText(prompt);
+        if (status) status.textContent = 'Prompt copied. Paste it into the AI chat that just opened.';
+      } catch {
+        if (status) status.textContent = 'The AI chat opened. Copy the prompt from the page if needed.';
+      }
+
+      window.open(openUrl, '_blank', 'noopener,noreferrer');
+    });
+  });
+</script>
+
+<style>
+  .ai-summary {
+    margin: 1.75rem 0 2rem;
+    border: 1px solid var(--line, #d8d2c8);
+    border-radius: 0.75rem;
+    background: var(--surface-soft, #f8f6f2);
+  }
+
+  .ai-summary__trigger {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.85rem 1rem;
+    color: var(--ink, #20211f);
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .ai-summary__trigger::-webkit-details-marker {
+    display: none;
+  }
+
+  .ai-summary__trigger > span:first-child {
+    color: var(--accent, #8a5d32);
+  }
+
+  .ai-summary__chevron {
+    margin-left: auto;
+    color: var(--muted, #6d6a63);
+    transition: transform 160ms ease-out;
+  }
+
+  .ai-summary[open] .ai-summary__chevron {
+    transform: rotate(180deg);
+  }
+
+  .ai-summary__panel {
+    padding: 0 1rem 1rem;
+  }
+
+  .ai-summary__intro,
+  .ai-summary__note,
+  .ai-summary__status {
+    margin: 0;
+    color: var(--muted, #6d6a63);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .ai-summary__options {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.55rem;
+    margin: 0.9rem 0;
+  }
+
+  .ai-summary__option {
+    display: flex;
+    min-height: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.12rem;
+    border: 1px solid var(--line, #d8d2c8);
+    border-radius: 0.55rem;
+    padding: 0.65rem 0.7rem;
+    color: inherit;
+    background: var(--paper, #fff);
+    text-decoration: none;
+    transition: border-color 160ms ease-out, transform 160ms ease-out;
+  }
+
+  .ai-summary__option:hover,
+  .ai-summary__option:focus-visible {
+    border-color: var(--accent, #8a5d32);
+    transform: translateY(-1px);
+  }
+
+  .ai-summary__option--button {
+    width: 100%;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .ai-summary__option strong {
+    font-size: 0.92rem;
+  }
+
+  .ai-summary__option span {
+    color: var(--muted, #6d6a63);
+    font-size: 0.76rem;
+  }
+
+  .ai-summary__status {
+    min-height: 1.35rem;
+    color: var(--accent, #8a5d32);
+  }
+
+  .ai-summary__note {
+    font-size: 0.78rem;
+  }
+
+  @media (max-width: 700px) {
+    .ai-summary__options {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>
