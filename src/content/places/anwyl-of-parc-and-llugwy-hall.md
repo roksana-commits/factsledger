@@ -96,7 +96,7 @@ sources:
     usedFor: >-
       Corroborating narrative detail, including the location of a later junior branch's descendants as farmers
       at "Towyn" in Denbighshire.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

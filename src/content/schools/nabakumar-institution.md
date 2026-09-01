@@ -71,7 +71,7 @@ sources:
     publisher: Nabakumar Institution & Dr. Shahidullah College
     tier: first-party
     usedFor: Present-day name and structure of the institution.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 ---

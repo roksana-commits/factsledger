@@ -63,7 +63,7 @@ openItems:
     The organization's claimed lifetime reach ("650,000," "700,000+," "half a million,"
     "85,308 in China") varies across its own and its successor's materials and is not
     independently verified; not stated as a single fact here.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

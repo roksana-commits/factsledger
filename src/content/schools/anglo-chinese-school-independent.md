@@ -112,7 +112,7 @@ sources:
     usedFor: >-
       The school's own statement of its 1886 founding, its motto, the SEC and Integrated Programme structure, and
       its 2005 IB World School authorisation as the pioneer national school for the IB Diploma.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

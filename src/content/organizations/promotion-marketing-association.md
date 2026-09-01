@@ -88,7 +88,7 @@ sources:
     tier: tier2
     date: "10 April 2008"
     usedFor: The 2008 Super Reggie award to 7-Eleven and FreshWorks, and a direct quote from PMA president Bonnie Carlson.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

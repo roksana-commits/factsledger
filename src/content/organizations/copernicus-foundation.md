@@ -82,7 +82,7 @@ sources:
     usedFor: >-
       The 1970 origin, 1979 Gateway Theatre acquisition, the venue's history as an early sound-film theatre, and
       the Taste of Polonia Festival.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

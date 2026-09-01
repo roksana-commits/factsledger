@@ -111,7 +111,7 @@ sources:
     usedFor: >-
       The UGC notification number and date, the Section 22 degree-awarding statement, and AIU and ACU
       memberships, all as stated by the university.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-29
 lastUpdated: 2026-08-29
 ---

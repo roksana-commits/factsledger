@@ -76,7 +76,7 @@ sources:
     tier: first-party
     date: ""
     usedFor: His 1998 accreditation, early career with the Aboriginal Legal Service in the Northern Territory, and his areas of specialisation.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

@@ -89,7 +89,7 @@ sources:
     publisher: Avanza (investor press release)
     tier: first-party
     usedFor: Exact announcement (6 September 2023) and start (6 November 2023) dates, and confirmation of his age (42) and law degrees at the time.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 draft: false

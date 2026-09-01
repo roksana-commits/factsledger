@@ -48,7 +48,7 @@ openItems:
     Individual Austin Chronicle articles are cited collectively via the outlet's own
     search archive rather than as separate dated entries for each piece; specific
     quotations in this profile are drawn from the archive's own article summaries.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

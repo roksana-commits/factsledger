@@ -41,7 +41,7 @@ sources:                      # at least one, and at least one tier1 or tier2
     date: 20 October 2020
     usedFor: The specific claim this source supports.
 
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-29
 lastUpdated: 2026-08-29
 draft: false                  # true keeps it out of the build

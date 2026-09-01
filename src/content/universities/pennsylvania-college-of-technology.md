@@ -91,7 +91,7 @@ sources:
     publisher: Pennsylvania College of Technology
     tier: first-party
     usedFor: The 1989 reorganization into Pennsylvania College of Technology as a Penn State special-mission affiliate.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

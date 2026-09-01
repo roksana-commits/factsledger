@@ -59,7 +59,7 @@ openItems:
     A full account of his honors and named awards, if any, was not independently
     confirmed this pass; none is stated here beyond his administrative and academic
     appointments.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

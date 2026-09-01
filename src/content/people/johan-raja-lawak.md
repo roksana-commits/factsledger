@@ -70,7 +70,7 @@ sources:
     tier: tier2
     date: "2025-04-04"
     usedFor: His restaurant and vending-machine ventures, his wife's role in the business, and his continuing Hot FM work.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

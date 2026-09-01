@@ -69,7 +69,7 @@ sources:
     tier: tier2
     date: "19 January 2017"
     usedFor: Confirmation of her status as a Princeton doctoral student and her fieldwork role in Namibia at the time of the Nature paper.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

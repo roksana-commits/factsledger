@@ -87,7 +87,7 @@ sources:
     publisher: Heritage Gateway (Oxfordshire Historic Environment Record)
     tier: tier1
     usedFor: Independent corroboration of the site's history and heritage status.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 draft: false

@@ -95,7 +95,7 @@ sources:
     tier: tier1
     date: "11 May 2021"
     usedFor: Her appearance as a guest discussing pandemics and human ecology.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

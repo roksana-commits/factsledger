@@ -73,7 +73,7 @@ sources:
       Independent confirmation of her silver medal at the 2022 World Rowing Championships (lightweight
       women's pair, 2nd in the A final) and bronze at the 2023 World Rowing Championships (3rd in the
       final), including event locations.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 draft: false

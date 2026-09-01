@@ -73,7 +73,7 @@ sources:
     tier: tier1
     date: "20 August 2016"
     usedFor: Independent confirmation of the journalist's identity and Washington-area public profile.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

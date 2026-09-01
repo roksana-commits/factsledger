@@ -71,7 +71,7 @@ sources:
     tier: tier1
     date: "15 June 2015"
     usedFor: Independent reporting context for Johnson's policy journalism and congressional analysis.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

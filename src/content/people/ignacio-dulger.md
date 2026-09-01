@@ -60,7 +60,7 @@ sources:
     tier: tier1
     date: "2025-06-17"
     usedFor: His June 2025 public criticism of Governor Claudio Orrego over regional government contracting.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

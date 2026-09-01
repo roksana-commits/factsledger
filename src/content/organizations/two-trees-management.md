@@ -79,7 +79,7 @@ sources:
     tier: tier2
     date: "2017-02-01"
     usedFor: The 2017 class-action allegations and the company's public denial.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

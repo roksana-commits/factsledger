@@ -74,7 +74,7 @@ sources:
     publisher: Le Ballon Rond
     tier: tier3
     usedFor: Supporting confirmation of the club's identity and honors record.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 draft: false

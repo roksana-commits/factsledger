@@ -56,7 +56,7 @@ sources:
     tier: tier1
     date: "2026-07-20"
     usedFor: His age and education, his role leading the Jantar Mantar sit-in, and his own stated motivation for the protest.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

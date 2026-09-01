@@ -109,7 +109,7 @@ sources:
     publisher: Katowice Airport (corporate blog)
     tier: tier3
     usedFor: 1929–1938 LOT passenger and cargo traffic statistics, sourced by the article to an official interwar statistical publication.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

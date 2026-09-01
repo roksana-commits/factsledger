@@ -84,7 +84,7 @@ sources:
     publisher: Colegiul Național Diaconovici-Tietz
     tier: first-party
     usedFor: Institutional history, name changes, bilingual programme, and the 2019–2023 renovation.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 ---

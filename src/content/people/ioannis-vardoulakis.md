@@ -86,7 +86,7 @@ sources:
     usedFor: >-
       The dedication of the school, the Arthur–Vardoulakis equation, his books, and the doctoral schools he
       organised.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-29
 lastUpdated: 2026-08-29
 ---

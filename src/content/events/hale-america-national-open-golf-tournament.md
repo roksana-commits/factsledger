@@ -96,7 +96,7 @@ sources:
     tier: tier1
     date: "1942-06-22"
     usedFor: Contemporaneous confirmation of the final result and its immediate press treatment.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

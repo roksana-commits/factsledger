@@ -57,7 +57,7 @@ sources:
     publisher: UK Companies House
     tier: tier1
     usedFor: Incorporation date, registered office, company status, and the firm's two earlier corporate names before it adopted its current one.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

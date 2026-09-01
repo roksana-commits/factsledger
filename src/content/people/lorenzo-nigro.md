@@ -97,7 +97,7 @@ sources:
     tier: tier2
     date: "2019"
     usedFor: The 2019 Silvia Dell'Orso Prize for his book "Jericho. The Prehistoric Revolution", and his teaching/expedition-directing role since 2000 and 2005 respectively.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

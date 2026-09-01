@@ -66,7 +66,7 @@ sources:
     tier: first-party
     date: "2026-08-29"
     usedFor: The date and length of his contract extension.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

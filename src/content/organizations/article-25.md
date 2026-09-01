@@ -81,7 +81,7 @@ sources:
     publisher: Article 25
     tier: first-party
     usedFor: Founder, patron, charity/company registration numbers, and current project locations.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 ---

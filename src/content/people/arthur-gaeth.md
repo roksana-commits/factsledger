@@ -67,7 +67,7 @@ sources:
     publisher: Stanford University Libraries (SearchWorks catalog)
     tier: tier1
     usedFor: A second, independent library-catalog record corroborating the same 1946 Nuremberg broadcast.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

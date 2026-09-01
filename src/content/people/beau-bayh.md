@@ -64,7 +64,7 @@ openItems:
     As of this profile, the general election has not yet occurred; his Republican
     opponent was to be chosen 20 June 2026. This profile does not state or predict an
     outcome.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

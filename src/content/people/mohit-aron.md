@@ -88,7 +88,7 @@ sources:
     publisher: "Rice University, George R. Brown School of Engineering"
     tier: tier1
     usedFor: The doctorate in computer science with a focus on distributed systems, and the 2018 alumni award.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-29
 lastUpdated: 2026-08-29
 ---

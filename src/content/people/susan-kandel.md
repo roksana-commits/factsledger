@@ -62,7 +62,7 @@ sources:
     publisher: Williams College History Department
     tier: tier3
     usedFor: Corroborating detail on her education and career narrative, in her own words.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

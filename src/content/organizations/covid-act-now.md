@@ -96,7 +96,7 @@ sources:
     tier: first-party
     date: ""
     usedFor: The project's own statement that it is archived, with data frozen since May 2024 and the API scheduled for shutoff on 11 March 2026.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

@@ -61,7 +61,7 @@ openItems:
     40+ countries") are the companies' own figures, questioned by independent trade
     commentary, and are not stated as independently verified fact.
   - "YCD Multimedia was itself later wound down, per unconfirmed trade commentary; not independently verified this pass."
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

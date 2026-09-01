@@ -47,7 +47,7 @@ sources:
     tier: tier2
     date: "2012-08-06"
     usedFor: His band history, 2011 solo album, record label, and his film and music-video directing work, including "The Shutdown"'s awards.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

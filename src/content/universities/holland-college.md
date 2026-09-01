@@ -80,7 +80,7 @@ sources:
     publisher: Holland College
     tier: first-party
     usedFor: The opening date, initial enrolment and the origin of the college's name.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-29
 lastUpdated: 2026-08-29
 ---

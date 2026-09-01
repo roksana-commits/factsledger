@@ -43,7 +43,7 @@ sources:
     publisher: Slovenian Tourist Board
     tier: tier1
     usedFor: Arctur's leadership role, CEO Tomi Ilijaš, and details of the Tourism Impact Model (TIM) tool and its pilot deployments.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

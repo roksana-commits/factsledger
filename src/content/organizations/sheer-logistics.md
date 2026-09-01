@@ -60,7 +60,7 @@ sources:
     publisher: FreightWaves
     tier: tier2
     usedFor: The 2024 CargoBarn acquisition and Joel Gard's appointment as CEO.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

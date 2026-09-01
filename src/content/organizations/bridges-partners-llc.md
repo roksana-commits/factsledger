@@ -66,7 +66,7 @@ sources:
     tier: tier2
     date: "24 July 2026"
     usedFor: Independent policy analysis placing the campaign in a wider public-diplomacy context; broader estimates are attributed.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

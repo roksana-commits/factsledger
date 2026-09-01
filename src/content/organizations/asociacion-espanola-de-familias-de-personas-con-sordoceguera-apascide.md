@@ -79,7 +79,7 @@ sources:
     tier: tier1
     date: ""
     usedFor: Independent accreditation and organizational transparency context.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

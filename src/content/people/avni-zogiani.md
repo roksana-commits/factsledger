@@ -62,7 +62,7 @@ openItems:
     World Politics Review's full interview with Zogiani is paywalled beyond its
     introduction; only the publicly visible framing is cited here, not his specific
     interview answers.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

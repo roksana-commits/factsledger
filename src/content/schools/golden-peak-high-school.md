@@ -121,7 +121,7 @@ sources:
     publisher: Golden Peak High School
     tier: first-party
     usedFor: Founding year, medium of instruction and location as stated by the school.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-29
 lastUpdated: 2026-08-29
 ---

@@ -44,7 +44,7 @@ openItems:
     Beyond the Slate piece, independent coverage of her career is limited; biographical
     and career-history detail above is drawn from her own site and a low-editorial-bar
     interview series and should be treated as self-reported.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

@@ -77,7 +77,7 @@ sources:
     tier: tier2
     date: ""
     usedFor: Historical context for the 1792 origins of the W.H. Smith news-vending business.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

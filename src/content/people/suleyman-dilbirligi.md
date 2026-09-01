@@ -70,7 +70,7 @@ openItems:
     Ayla's (Kim Eunja's) whereabouts after a final 2013 letter to Dilbirliği are not
     established by the sources read for this profile; this profile does not speculate
     about her current status.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

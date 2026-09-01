@@ -47,7 +47,7 @@ sources:
     tier: tier1
     date: "2023-06-14"
     usedFor: The competition's role as a talent pipeline and its competitive relationship with rugby league recruitment.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

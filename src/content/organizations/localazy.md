@@ -78,7 +78,7 @@ sources:
     tier: tier2
     date: "30 April 2024"
     usedFor: Independent corroboration of the 2024 Polish expansion.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

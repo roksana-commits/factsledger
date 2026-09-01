@@ -97,7 +97,7 @@ sources:
     publisher: Twinobusingye Severino & Co. Advocates
     tier: first-party
     usedFor: Full name, birth date, place of birth, and educational background.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 draft: false

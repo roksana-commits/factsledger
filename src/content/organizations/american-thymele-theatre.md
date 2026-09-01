@@ -80,7 +80,7 @@ sources:
     tier: tier2
     date: "2013-07-01"
     usedFor: The 2013 Hippolytus production, its cast size and venues, and confirmation it was the festival's fifth year.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

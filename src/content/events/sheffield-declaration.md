@@ -86,7 +86,7 @@ sources:
     publisher: Alpha History
     tier: tier2
     usedFor: Primary-text extracts of the resolves and supporting context on their content and adoption.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 draft: false

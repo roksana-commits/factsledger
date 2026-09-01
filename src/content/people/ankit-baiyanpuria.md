@@ -39,7 +39,7 @@ sources:
     tier: tier2
     date: "2026-08"
     usedFor: His birth details, wrestling background, and the scheduled exhibition match, including the explicit note that he has no professional MMA record.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false

@@ -66,7 +66,7 @@ openItems:
     The founding year (c. 2010) is inferred from the 2025 edition being described as the
     "15th anniversary" by independent press, not confirmed against a primary founding
     record.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

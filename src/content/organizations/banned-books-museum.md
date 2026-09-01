@@ -94,7 +94,7 @@ sources:
     tier: tier1
     date: ""
     usedFor: Recognition as a listed city attraction.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

@@ -175,7 +175,7 @@ sources:
     publisher: Brihaspati Vidyasadan
     tier: first-party
     usedFor: The school's self-described years of operation, location, grade range and staff numbers.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
 lastUpdated: 2026-08-30
 draft: false

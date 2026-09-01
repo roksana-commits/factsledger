@@ -107,7 +107,7 @@ sources:
     publisher: Priyo
     tier: tier3
     usedFor: Birth date and the alternate "tenth grade" detail.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 ---

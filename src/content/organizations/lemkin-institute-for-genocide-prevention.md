@@ -83,7 +83,7 @@ sources:
     tier: tier1
     date: "14 November 2025"
     usedFor: Congressional record documenting a resolution that references the institute's work.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
 lastUpdated: "2026-09-01"
 draft: false

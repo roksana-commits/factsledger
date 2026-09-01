@@ -46,7 +46,7 @@ sources:
     tier: tier2
     date: "2024-07-02"
     usedFor: His birth year and place, education, career path through Suntory and Nakahata Advertising, founding his own firm in 1990, notable clients, and his 2023 TCC Hall of Fame induction.
-author: Muhammad
+author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
 lastUpdated: "2026-08-31"
 draft: false
