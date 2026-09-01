@@ -22,7 +22,7 @@ FactsLedger is an editorial reference site. Use the linked source material for v
 - [Source policy](https://factsledger.com/about/source-policy/): Source selection and citation principles.
 - [Editorial policy](https://factsledger.com/about/editorial-policy/): Editorial standards and corrections approach.
 - [Corrections](https://factsledger.com/about/corrections/): How to report a factual error.
-- [Author](https://factsledger.com/about/muhammad/): Research and editorial author page.
+- [Author](https://factsledger.com/about/muhammad-abdullah-al-yasin/): Research and editorial author page.
 - [Contact](https://factsledger.com/contact/): Contact and corrections channels.
 
 ## Machine-readable resources

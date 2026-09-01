@@ -20,7 +20,7 @@ export const SITE = {
   founded: 2026,
   author: {
     name: 'Muhammad Abdullah Al Yasin',
-    slug: 'muhammad',
+    slug: 'muhammad-abdullah-al-yasin',
     role: 'Research & Editorial',
     image: '/images/author-muhammad.jpg',
     social: {
