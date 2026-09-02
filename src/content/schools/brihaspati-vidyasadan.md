@@ -96,6 +96,9 @@ openItems:
     The school's own site states it has operated for "42 years," implying a founding around 1984–85; this figure
     could not be independently confirmed and appears to be a static, non-updating claim rather than a precise date.
   - No independent confirmation was found of the case's outcome (conviction, dismissal or settlement) after the charges were filed in May 2025; the most recent reporting found, from April 2026, describes the case as still pending.
+related:
+  - label: Golden Peak High School
+    href: /schools/golden-peak-high-school/
 sources:
   - title: "Empire Of 'Vishal Group' In The Land Of Bal Mandir"
     url: https://english.himalayatimes.com.np/2023/09/76323/
