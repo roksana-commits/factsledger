@@ -30,6 +30,14 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
     <meta name="description" content={description} />
     <meta name="msvalidate.01" content="94E623A7EDA7045B12D66E59EC44BECD" />
     <meta name="google-site-verification" content="AJBfsiJhJwE07MCY5rLmTJrUuTu5JZudrrKCANv-Yls" />
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TPER3L60KK"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TPER3L60KK');
+    </script>
     <meta name="robots" content={robots} />
     {canonical && <link rel="canonical" href={canonical} />}
     <meta property="og:site_name" content={SITE.name} />
