@@ -3,7 +3,7 @@ title: "American Thymele Theatre"
 sortTitle: "American Thymele Theatre"
 summary: >-
   A New York nonprofit founded in 1993 to stage free Greek and classical drama, which
-  completed a 14-year project to perform all 19 surviving plays of Euripides and was
+  completed a 14-year project to perform all 18 surviving plays of Euripides and was
   selected to present at the 2004 Athens Olympics Cultural Olympiad.
 entityType: Organization
 country: United States
@@ -16,7 +16,7 @@ facts:
     value: Preserve and promote Hellenic culture in America through free public performances
     firstParty: true
   - label: Flagship project
-    value: "New York Euripides Summer Festival (2009-2023) — all 19 surviving Euripides plays staged over 14 years"
+    value: "New York Euripides Summer Festival (2009-2023) — all 18 surviving Euripides plays staged over 14 years"
   - label: Notable recognition
     value: Selected by the Cultural Olympiad Committee to present "The Grocer's Daughter" at the 2004 Athens Olympics; grants from the Stavros S. Niarchos Foundation
 timeline:
@@ -27,7 +27,7 @@ timeline:
     event: Selected by the Cultural Olympiad Committee to present "The Grocer's Daughter" at the Athens Olympics.
     sourceType: Ethnic/specialist press
   - year: "2009"
-    event: Launches the New York Euripides Summer Festival, a multi-year project to stage all 19 surviving Euripides plays.
+    event: Launches the New York Euripides Summer Festival, a multi-year project to stage all 18 surviving Euripides plays.
     sourceType: Theater trade press
   - year: "2011"
     event: Stages "Medea" as a free outdoor production across three New York City venues.
@@ -82,7 +82,7 @@ sources:
     usedFor: The 2013 Hippolytus production, its cast size and venues, and confirmation it was the festival's fifth year.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
-lastUpdated: "2026-09-01"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -100,7 +100,7 @@ Niarchos Foundation
 ## The Euripides Summer Festival
 
 In 2009 the company launched the New York Euripides Summer Festival, a long-running project
-to stage every one of the 19 surviving plays of Euripides as free outdoor performances across
+to stage every one of the 18 surviving plays of Euripides as free outdoor performances across
 New York City. Independently documented productions along the way include "Medea" (2011),
 "Children of Hercules" (2012) — reviewed by Time Out New York as a 25-person cast production
 ([Time Out New York](https://www.timeout.com/newyork/theater/children-of-hercules)) —

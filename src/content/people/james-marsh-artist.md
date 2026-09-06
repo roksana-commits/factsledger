@@ -10,8 +10,7 @@ country: United Kingdom
 location: Hythe, Kent, United Kingdom
 facts:
   - label: Born
-    value: "1946, Yorkshire, United Kingdom"
-    firstParty: true
+    value: "1946 (year stated by third-party sources); Yorkshire birthplace unconfirmed — see below"
   - label: Education
     value: "National Diploma in Design, Batley College of Art and Design (1965)"
     firstParty: true
@@ -21,6 +20,9 @@ facts:
     value: Time Inc, Penguin Books, British Airways
     firstParty: true
 timeline:
+  - year: "1965"
+    event: Graduates from Batley College of Art and Design with a National Diploma in Design.
+    sourceType: First-party biography
   - year: "1966-1967"
     event: Works at Pye Records, then Decca Records as studio manager.
     sourceType: First-party biography
@@ -62,7 +64,15 @@ sourceNote: >-
   verified from any source read for this profile and is omitted rather than
   repeated as fact. Career facts sourced only to his own biography are marked
   first-party; the Record Collector review and the Album Cover Hall of Fame
-  interview are independent of him.
+  interview are independent of him. IMPORTANT SOURCING CAVEAT, added on
+  re-audit: this profile had attributed Marsh's 1946 Yorkshire birth to his
+  own jamesmarsh.com/bio-info/ page as first-party, but re-fetching that page
+  during this audit found it states no birth year or birthplace at all — it
+  begins its chronology with his 1965 graduation from Batley College of Art
+  and Design. The birth year appears on third-party reference aggregators
+  but could not be traced to any source read directly for this profile; the
+  birthplace (Yorkshire) could not be re-confirmed anywhere. Both are now
+  treated as unconfirmed rather than first-party-sourced fact.
 sources:
   - title: "Spirit Of Talk Talk (book review)"
     url: https://recordcollectormag.com/reviews/book/spirit-of-talk-talk
@@ -85,19 +95,24 @@ sources:
     url: https://jamesmarsh.com/bio-info/
     publisher: James Marsh (personal website)
     tier: first-party
-    usedFor: Birth year, education, and the chronology of his early career at Pye, Decca, Ink Studios and Head Office.
+    usedFor: >-
+      Education (Batley College of Art and Design, 1965) and the chronology of his early career at Pye,
+      Decca, Ink Studios and Head Office. NOTE: this page does not itself state a birth year or
+      birthplace, contrary to what this profile originally attributed to it (see sourcing caveat above).
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-03"
-lastUpdated: "2026-09-03"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
 ## Overview
 
-James Marsh is a British illustrator and painter, born in Yorkshire in 1946 and trained at Batley College
-of Art and Design. He worked at Pye and Decca Records before joining illustrator Alan Aldridge's Ink
-Studios in the late 1960s, contributing to Aldridge's "The Beatles Illustrated Lyrics" and Andy Warhol's
-"Chelsea Girls" poster, then co-ran his own studio, Head Office, through the 1970s
+James Marsh is a British illustrator and painter, trained at Batley College of Art and Design, graduating
+in 1965. Third-party reference sources give his birth year as 1946, and some describe him as born in
+Yorkshire, but neither detail could be confirmed on his own biography page, which begins its account with
+his 1965 graduation rather than his birth. He worked at Pye and Decca Records before joining illustrator
+Alan Aldridge's Ink Studios in the late 1960s, contributing to Aldridge's "The Beatles Illustrated Lyrics"
+and Andy Warhol's "Chelsea Girls" poster, then co-ran his own studio, Head Office, through the 1970s
 ([jamesmarsh.com](https://jamesmarsh.com/bio-info/) — first-party).
 
 ## Talk Talk album covers

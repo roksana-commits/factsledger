@@ -43,9 +43,14 @@ timeline:
     event: Eintracht Frankfurt announces an extension of his contract to 2031.
     sourceType: Club announcement (first-party)
 sourceNote: >-
-  kicker.de and the Wetterauer Zeitung, both read directly, are independent of the club; the
-  contract-extension date comes from Eintracht Frankfurt's own announcement and is marked
-  first-party.
+  kicker.de and the Wetterauer Zeitung, both read directly at the time of original research, are
+  independent of the club; the contract-extension date comes from Eintracht Frankfurt's own
+  announcement and is marked first-party. IMPORTANT SOURCING CAVEAT, added on re-audit: kicker.de
+  now blocks automated fetches via robots.txt and could not be re-verified this pass; the
+  Wetterauer Zeitung and Eintracht Frankfurt citations are both bare homepage URLs rather than
+  links to the specific articles/announcement, and neither could be confirmed as leading to the
+  claimed content on re-fetch. All three sources are flagged below pending corrected, reachable
+  citations; the facts are retained from the original research pass.
 sources:
   - title: "Jeremiaha Maluze — player profile"
     url: https://www.kicker.de/jerimiaha-maluze/spieler
@@ -66,9 +71,16 @@ sources:
     tier: first-party
     date: "2026-08-29"
     usedFor: The date and length of his contract extension.
+openItems:
+  - >-
+    On re-audit (September 2026), kicker.de returned a robots.txt block and could not be
+    re-fetched; the Wetterauer Zeitung and Eintracht Frankfurt URLs are bare homepages, not
+    article-specific links, and neither could be confirmed as leading to the claimed content.
+    This profile's facts rest on the original research pass and are flagged here pending
+    corrected, reachable source URLs.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 

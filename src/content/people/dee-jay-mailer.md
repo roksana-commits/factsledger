@@ -58,7 +58,7 @@ sources:
       of Kamehameha Schools.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -68,7 +68,7 @@ Dee Jay Mailer is a healthcare and global-health executive and a Kamehameha Scho
 
 ## Becoming CEO of Kamehameha Schools
 
-In December 2003, Mailer was selected as CEO of Kamehameha Schools from a pool of 200 applicants after 11 hours of interviews. Reflecting on her career path, she said: "I work really hard in the role I am in, and then another leadership door opens and I walk through." Her stated priorities for the role included strengthening the school's endowment, extending its educational reach to Hawaiian children beyond its campuses, and connecting students with alumni mentors ([Mālamalama](http://www.hawaii.edu/malamalama/2004/05/f8_ks.html); [Honolulu Magazine](https://www.honolulumagazine.com/q-a-dee-jay-mailer/)). She described her approach to the role in customer-service terms: "Whether your customer is a little kindergartener just entering school or a high school senior about to graduate, we are here to serve Hawaiian children with opportunities for education" ([Honolulu Magazine](https://www.honolulumagazine.com/q-a-dee-jay-mailer/)).
+In December 2003, Mailer was selected as CEO of Kamehameha Schools from a pool of 200 applicants after 11 hours of interviews. Mālamalama reported that the school was, at the time, "still sensitive about improprieties of past trustees and allegations leveled at her predecessor" — context that helps explain the rigor of the search that led to Mailer's selection ([Mālamalama](http://www.hawaii.edu/malamalama/2004/05/f8_ks.html)). Reflecting on her career path, she said: "I work really hard in the role I am in, and then another leadership door opens and I walk through." Her stated priorities for the role included strengthening the school's endowment, extending its educational reach to Hawaiian children beyond its campuses, and connecting students with alumni mentors ([Mālamalama](http://www.hawaii.edu/malamalama/2004/05/f8_ks.html); [Honolulu Magazine](https://www.honolulumagazine.com/q-a-dee-jay-mailer/)). She described her approach to the role in customer-service terms: "Whether your customer is a little kindergartener just entering school or a high school senior about to graduate, we are here to serve Hawaiian children with opportunities for education" ([Honolulu Magazine](https://www.honolulumagazine.com/q-a-dee-jay-mailer/)).
 
 ## What this profile does not claim
 

@@ -37,8 +37,11 @@ timeline:
     event: >-
       At a city commission meeting, cautions colleagues against using the
       commission to direct law-enforcement action against a political
-      opponent, calling it "troubling" and "improper"; the commission votes
-      3-2 to request an after-action report. He maintains he did not trespass.
+      opponent, calling it "troubling" and "improper," after Commissioner
+      Williams-Cox raises the incident and says on the record, "I saw the
+      video so I know it happened"; the commission votes 3-2, with Matlow and
+      Commissioner Jack Porter opposed, to request an after-action report. He
+      maintains he did not trespass.
     sourceType: Independent news outlet
 sourceNote: >-
   Both sources were fetched and read in full. Our Tallahassee is an
@@ -64,7 +67,7 @@ sources:
       colleagues against directing enforcement at a political opponent.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -83,10 +86,15 @@ headquarters where work crews were removing 20 oak trees that residents had foug
 livestreamed video from the scene and posted photos criticizing the tree removal; Tallahassee Police
 subsequently opened a trespassing investigation into the visit. O'Keefe denied jumping a fence marked with a
 no-trespassing sign, and Matlow has maintained he did not trespass. At a city commission meeting soon after,
-Matlow cautioned his colleagues against using the commission to direct law-enforcement action against a
-political opponent, calling the approach "troubling" and "improper"; the commission nonetheless voted 3-2 to
-request an after-action report on the incident. As of this reporting, the State Attorney's office had made no
-charging decision ([Yahoo News](https://news.yahoo.com/tpd-confirms-trespassing-investigation-okeefe-102830909.html)).
+Commissioner Curtis Richardson's colleague Jacqueline Williams-Cox raised the incident, saying on the record,
+"I understand that there was an incident that occurred ... where there was a commissioner from our sister
+government who trespassed on city property. And I saw the video so I know it happened." Matlow cautioned his
+colleagues against using the commission to direct law-enforcement action against a political opponent, calling
+the approach "troubling" and "improper"; the commission nonetheless voted 3-2, with Matlow and Commissioner
+Jack Porter opposed, to request an after-action report on the incident. Mayor John Dailey separately said he
+was "totally disturbed" by O'Keefe's actions and characterized them as potentially felonious. As of this
+reporting, the State Attorney's office had made no charging decision
+([Yahoo News](https://news.yahoo.com/tpd-confirms-trespassing-investigation-okeefe-102830909.html)).
 
 ## What this profile does not claim
 

@@ -51,6 +51,13 @@ openItems:
   - >-
     A claimed 2011 "Popular Male Comedy Artist" award could not be independently confirmed from any
     source read for this profile and is not included.
+  - >-
+    On re-audit, re-checking the mStar damages report found a breakdown of RM150,100 in general
+    damages to Johan, RM20,000 in trauma compensation to his wife, and RM50,000 in costs — which sums
+    to RM220,100, not the RM170,100 this profile (and the article's own summary line) describes as the
+    "combined" total. It is possible the RM50,000 in costs was awarded separately rather than folded
+    into the RM170,100 figure; this profile retains the RM170,100 total as originally reported rather
+    than asserting a recalculated figure, since the source's own arithmetic does not fully reconcile.
 sources:
   - title: "Johan raja lawak — High Court damages award report"
     url: https://www.mstar.com.my/lokal/semasa/2014/07/07/johan-raja-lawak
@@ -72,7 +79,7 @@ sources:
     usedFor: His restaurant and vending-machine ventures, his wife's role in the business, and his continuing Hot FM work.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 

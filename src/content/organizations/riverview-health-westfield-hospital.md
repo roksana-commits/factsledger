@@ -20,7 +20,11 @@ facts:
     value: Westfield ranked the sixth-fastest-growing city in the U.S. per a 2023 U.S. Census Bureau report
 timeline:
   - year: "2018-10-23"
-    event: Riverview Health Westfield Hospital opens, with then-CEO Seth Warren discussing the grand opening.
+    event: >-
+      Riverview Health Westfield Hospital opens, with then-CEO Seth Warren discussing the grand opening; the
+      project grew during construction from a planned outpatient center into a full hospital, with three
+      operating suites built instead of one, plus added CT imaging and inpatient beds, after construction
+      paused partway through for a redesign.
     sourceType: Independent local news outlet
   - year: "2025-05"
     event: >-
@@ -57,13 +61,13 @@ sources:
       partners, and Westfield's 2023 Census Bureau growth ranking.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
 ## Overview
 
-Riverview Health Westfield Hospital opened on October 23, 2018, in Westfield, Indiana, as part of the Riverview Health system, with then-CEO Seth Warren discussing the hospital ahead of its grand opening ([Current Publishing](https://youarecurrent.com/2018/10/22/riverview-health-westfield-hospital-to-open-oct-23/); [Current Publishing](https://www.youarecurrent.com/2018/08/21/a-westfield-hospital-riverview-health-ceo-seth-warren-talks-grand-opening/)).
+Riverview Health Westfield Hospital opened on October 23, 2018, in Westfield, Indiana, as part of the Riverview Health system, with then-CEO Seth Warren discussing the hospital ahead of its grand opening ([Current Publishing](https://youarecurrent.com/2018/10/22/riverview-health-westfield-hospital-to-open-oct-23/); [Current Publishing](https://www.youarecurrent.com/2018/08/21/a-westfield-hospital-riverview-health-ceo-seth-warren-talks-grand-opening/)). The project grew substantially during construction: what began as a planned outpatient center expanded into a full hospital, with three operating suites built instead of the one originally planned, plus added CT imaging and inpatient beds; construction paused partway through for a redesign to accommodate this expanded scope ([Current Publishing](https://www.youarecurrent.com/2018/08/21/a-westfield-hospital-riverview-health-ceo-seth-warren-talks-grand-opening/)).
 
 ## A 2025 expansion tied to Westfield's growth
 

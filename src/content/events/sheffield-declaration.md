@@ -18,6 +18,10 @@ facts:
     value: A committee of eleven Sheffield men, moderated by Col. John Ashley
   - label: Published
     value: The Massachusetts Spy, February 1773
+  - label: Documented grievances
+    value: >-
+      Governors' and judges' salaries paid by the crown rather than raised locally; trials removed from
+      local jurisdiction; disputed land-boundary rulings
 timeline:
   - year: "1767"
     event: Theodore Sedgwick, a young lawyer, settles in Sheffield, Massachusetts.
@@ -27,7 +31,9 @@ timeline:
       On 12 January, Sheffield's freeholders and inhabitants unanimously approve a set of resolutions,
       drafted by Sedgwick and debated by a committee of eleven at Col. John Ashley's home, opening with
       "Mankind in a state of nature are equal, free, and independent of each other, and have a right to the
-      undisturbed enjoyment of their lives, their liberty and property."
+      undisturbed enjoyment of their lives, their liberty and property," and going on to list specific
+      grievances: governors' and judges' salaries paid by the crown rather than locally, trials removed from
+      local jurisdiction, and disputed land-boundary rulings.
     sourceType: Regional newspaper
   - year: "1773"
     event: The resolves are published in The Massachusetts Spy the following month and circulate through the colonies.
@@ -88,7 +94,7 @@ sources:
     usedFor: Primary-text extracts of the resolves and supporting context on their content and adoption.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
-lastUpdated: "2026-08-30"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -101,8 +107,12 @@ and debated by a committee of eleven local men at the home of Col. John Ashley, 
 that "mankind in a state of nature are equal, free, and independent of each other, and have a right to the
 undisturbed enjoyment of their lives, their liberty and property"
 ([The Berkshire Eagle](https://www.berkshireeagle.com/history/sheffield-resolves-1773-american-revolutionary-roots/article_08a60fc3-cf5b-43fd-8664-673a9a1af93c.html)).
-The document went on to condemn British parliamentary taxation of the colonies without representation as a
-betrayal of these rights. It was published the following month in The Massachusetts Spy and circulated widely
+The document went on to condemn specific, documented grievances against crown authority: that the salaries of
+governors and judges were paid by the crown rather than raised locally by the colonies themselves, that trials
+had been removed from local jurisdiction, and that land-boundary disputes had been resolved by rulings the
+Sheffield freeholders considered unjust
+([Alpha History](https://alphahistory.com/americanrevolution/extracts-sheffield-declaration-1773/)). It was
+published the following month in The Massachusetts Spy and circulated widely
 ([Alpha History](https://alphahistory.com/americanrevolution/extracts-sheffield-declaration-1773/)).
 
 ## An ideological throughline

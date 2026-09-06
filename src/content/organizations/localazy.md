@@ -31,7 +31,9 @@ timeline:
       alongside returning investor Lighthouse Ventures, bringing total funding to nearly €1 million.
     sourceType: National + specialist press
   - year: "2024"
-    event: Expands into the Polish market, naming clients including ROUVY, Scaleway, Plastic Bank, Donar Online and CARE.
+    event: >-
+      Expands into the Polish market; AIN names clients including ROUVY, Scaleway, Plastic Bank, Donar Online
+      and CARE, while Tech.eu independently covers the same expansion without naming specific clients.
     sourceType: Specialist press
 sourceNote: >-
   Each source below was fetched and read against the claim it supports. A widely repeated marketing figure
@@ -39,6 +41,10 @@ sourceNote: >-
   materials and is not independently verified; it is not repeated here. No independent confirmation of a
   reported partnership with UNICEF was found, so it is not stated here either.
 openItems:
+  - >-
+    AIN states the 2023 funding round was "€1 million at a €4.5M valuation," while Forbes Czech Republic — the
+    source this profile otherwise follows — gives the round's amount as approximately €500,000. This
+    funding-amount conflict between two independently reported figures is not resolved here.
   - >-
     Sources give slightly different founding years: contemporaneous 2020 press describes the platform as
     newly public, while a 2023 article describes the company as founded "four years" earlier, implying 2019. This
@@ -80,7 +86,7 @@ sources:
     usedFor: Independent corroboration of the 2024 Polish expansion.
 author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
-lastUpdated: 2026-08-30
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -107,11 +113,11 @@ describing itself as already profitable at the time.
 
 ## Expansion
 
-In April 2024, Localazy expanded into the Polish market, with the company naming a client roster spanning
-commercial and social-enterprise customers, including ROUVY, Scaleway, Plastic Bank, Donar Online and CARE,
-independently reported by both AIN and Tech.eu
-([AIN](https://en.ain.ua/2024/04/30/localazy-expands-into-polish-cee-markets/);
-[Tech.eu](https://tech.eu/2024/04/30/localazy-brings-its-localised-translation-services-to-polish-brands/)).
+In April 2024, Localazy expanded into the Polish market. AIN reported a client roster spanning commercial and
+social-enterprise customers, including ROUVY, Scaleway, Plastic Bank, Donar Online and CARE
+([AIN](https://en.ain.ua/2024/04/30/localazy-expands-into-polish-cee-markets/)); Tech.eu independently covered
+the same expansion but did not name specific clients
+([Tech.eu](https://tech.eu/2024/04/30/localazy-brings-its-localised-translation-services-to-polish-brands/)).
 
 ## What this profile does not claim
 

@@ -28,11 +28,16 @@ timeline:
 sourceNote: >-
   All three sources are independent newspaper or broadcast journalism about the competition itself,
   read directly for this profile — not the association's own materials or fixture listings.
+openItems:
+  - >-
+    The Gold Coast Bulletin source is cited via its bare homepage URL rather than a link to the specific
+    article; a re-check could not locate the original article's direct URL, so this citation carries a
+    sourcing-hygiene gap.
 sources:
   - title: "TSS on track for 11th crown"
     url: https://www.goldcoastbulletin.com.au
     publisher: Gold Coast Bulletin
-    tier: tier1
+    tier: tier2
     date: "2018-07-30"
     usedFor: The competition's roughly century-long history and The Southport School's title record within it.
   - title: "GPS Rugby: Gregory Terrace must overcome history to topple rivals"
@@ -49,7 +54,7 @@ sources:
     usedFor: The competition's role as a talent pipeline and its competitive relationship with rugby league recruitment.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 

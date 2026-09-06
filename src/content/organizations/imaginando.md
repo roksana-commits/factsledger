@@ -54,7 +54,7 @@ sources:
       BAM's 2023 launch and 2024 update.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -64,7 +64,7 @@ Imaginando is a music-software studio based in Braga, Portugal, founded in 2014 
 
 ## Product history
 
-Imaginando followed TKFX with LK (2015), which converted Santos's personal Ableton Live controller project into a remote-control and MIDI-sequencing tool, and DRC (2016), a synthesizer built to capture "all the great features of '80s synths." Its 2021 release, VS (Visual Synthesizer), became the company's most successful product until the November 2023 launch of BAM — a comprehensive production studio combining synthesizers, samplers, effects and an extensive sound library, described as the culmination of the company's earlier work. An updated version, 1.1.0, followed in April 2024. Santos has said the company's aim is to "provide music software products to help people follow their dreams" through accessible, user-friendly interfaces ([Music Connection](https://www.musicconnection.com/up-close-imaginando/)).
+Imaginando followed TKFX with LK (2015), which converted Santos's personal Ableton Live controller project into a remote-control and MIDI-sequencing tool, and DRC (2016), a synthesizer built to capture "all the great features of '80s synths." The company also released FRMS, a hybrid granular/FM/subtractive/additive synthesizer, between DRC and its 2021 release VS (Visual Synthesizer), which became the company's most successful product until the November 2023 launch of BAM — a comprehensive production studio combining synthesizers, samplers, effects and an extensive sound library, described as the culmination of the company's earlier work. An updated version, 1.1.0, followed in April 2024. Santos has said the company's aim is to "provide music software products to help people follow their dreams" through accessible, user-friendly interfaces ([Music Connection](https://www.musicconnection.com/up-close-imaginando/)).
 
 ## What this profile does not claim
 

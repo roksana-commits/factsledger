@@ -45,13 +45,13 @@ sources:
       Singapore.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
 ## Overview
 
-Cross Ratio Entertainment is a Singapore independent record label founded in 2015 by Dean Augustine, a music-industry veteran with more than 30 years of experience who had previously helped develop artists including Aiza Seguerra and Tay Kewei. The label describes its mission as cultivating "outstanding singers to enter the international market," and its roster grew to include artists such as Akeem Jahat, Alfred Sim, Belinda Lee and Derrick Hoh, alongside more than 200 artists it distributes, including Gentle Bones and Fauzie Laily ([Music Business Worldwide](https://www.musicbusinessworldwide.com/warner-music-singapore-inks-global-distribution-deal-with-cross-ratio-entertainment/)).
+Cross Ratio Entertainment is a Singapore independent record label founded in 2015 by Dean Augustine, a music-industry veteran with more than 30 years of experience who had previously helped develop artists including Aiza Seguerra, Tay Kewei, Vanessa Carlton and MlCappella. The label describes its mission as cultivating "outstanding singers to enter the international market," and its roster grew to include artists such as Akeem Jahat, Alfred Sim, Belinda Lee and Derrick Hoh, alongside more than 200 artists it distributes, including Gentle Bones and Fauzie Laily ([Music Business Worldwide](https://www.musicbusinessworldwide.com/warner-music-singapore-inks-global-distribution-deal-with-cross-ratio-entertainment/)).
 
 ## Warner Music Singapore partnership
 

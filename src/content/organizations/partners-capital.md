@@ -34,7 +34,8 @@ timeline:
       General Atlantic acquires a minority stake in Partners Capital through one of its funds — not
       balance-sheet capital — structured to give liquidity to founding partners and early
       shareholders (many in their 70s and 80s) and to retain senior talent through equity incentives
-      with a six-year lockup, while reserving shares for future partners.
+      with a six-year lockup, while reserving shares for future partners. The deal follows the departures of
+      two named CIOs — Colin Pan (2021) and Suzanne Streeter (2023).
     sourceType: Financial trade press
 sourceNote: >-
   The firm's founding date and early corporate-name history come from its own UK Companies House
@@ -59,7 +60,7 @@ sources:
     usedFor: Incorporation date, registered office, company status, and the firm's two earlier corporate names before it adopted its current one.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -77,10 +78,11 @@ Early backers included the Rothschild Foundation and Apax Capital founding partn
 
 By 2024 the firm managed roughly $50 billion and was led by CEO Arjun Raghavan, with Paul Dimitruk
 among its co-founders. That year, private equity firm General Atlantic acquired a minority stake in
-Partners Capital through one of its funds. Institutional Investor reports the deal was structured
-specifically to manage succession: it gives liquidity to founding partners and early shareholders, many
-of them in their seventies and eighties, while retaining current senior staff through equity incentives
-carrying a six-year lockup and reserving shares for future partners. Raghavan described the logic as
+Partners Capital through one of its funds. Institutional Investor reports the deal followed the
+departures of two named chief investment officers, Colin Pan in 2021 and Suzanne Streeter in 2023, and
+was structured specifically to manage succession: it gives liquidity to founding partners and early
+shareholders, many of them in their seventies and eighties, while retaining current senior staff through
+equity incentives carrying a six-year lockup and reserving shares for future partners. Raghavan described the logic as
 resetting "the economics" to "more easily achieve the generational transfer"
 ([Institutional Investor](https://www.institutionalinvestor.com/article/2cz096w6yb7a4zm07ydj4/corner-office/partners-capital-found-a-partner-of-its-own-in-general-atlantic)).
 

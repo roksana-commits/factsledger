@@ -8,7 +8,7 @@ summary: >-
   after a funding shortfall.
 entityType: Organization
 country: United Kingdom
-established: "2000"
+established: "1999-11-18"
 facts:
   - label: Founder
     value: Chris Underhill MBE
@@ -20,8 +20,10 @@ facts:
   - label: Merger
     value: "Merged into CBM UK, 20 July 2017, after a funding shortfall (BasicNeeds' income was roughly £1.6M versus CBM UK's £6M)"
 timeline:
-  - year: "2000"
-    event: Founded by Chris Underhill MBE, per its charitable trust document.
+  - year: "1999-11-18"
+    event: >-
+      Founded by Chris Underhill MBE; the UK Charity Commission's record shows the Declaration
+      of Trust establishing BasicNeeds was made on 18 November 1999.
     sourceType: Government record
   - year: "2012"
     event: >-
@@ -65,14 +67,17 @@ openItems:
     independently verified; not stated as a single fact here.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
-lastUpdated: "2026-09-01"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
 ## Overview
 
 BasicNeeds was a UK-founded international NGO working on mental health and epilepsy in the
-context of poverty and development, founded in 2000 by Chris Underhill MBE. Its model
+context of poverty and development. The UK Charity Commission's record shows it was founded by
+Chris Underhill MBE via a Declaration of Trust made on 18 November 1999
+([UK Charity Commission](https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/3967856/governing-document)).
+Its model
 combined access to community-based mental-health treatment with livelihoods support, stigma
 reduction and health-worker training — an approach documented in a 2012 peer-reviewed case
 study of its Nepal program in the academic journal PLOS Medicine

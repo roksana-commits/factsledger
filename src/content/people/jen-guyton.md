@@ -26,19 +26,25 @@ timeline:
     event: Wins the Plants and Fungi category of the Natural History Museum's Wildlife Photographer of the Year competition, for a photograph of a welwitschia plant in the Namib Desert.
     sourceType: National museum (awarding body)
   - year: "2020"
-    event: Receives the American Society of Mammalogists' Murie Family Conservation Award for doctoral research and conservation work in Gorongosa National Park, Mozambique.
+    event: >-
+      Receives the American Society of Mammalogists' Murie Family Conservation Award for doctoral research and
+      conservation work in Gorongosa National Park, Mozambique, where her continuing annual bat surveys have led
+      to the discovery of three new species.
     sourceType: Professional scientific society (awarding body)
 sourceNote: >-
-  Each source below was fetched and read against the claim it supports. This profile includes only her
+  Each source below was fetched and read against the claim it supports. This profile includes her
   independently confirmed academic co-authorship and two awards conferred by organizations with no financial or
-  editorial relationship to her. Numerous other awards and honors listed on her own website could not be
-  independently confirmed at the time of writing and are not included.
+  editorial relationship to her. UPDATE on re-audit: the Natural History Museum's own Wildlife Photographer of
+  the Year award page independently states that Guyton "is a National Geographic Young Explorer," so that
+  designation is now included as confirmed by an independent tier1 source rather than treated as an unconfirmed
+  claim from her own website. Other awards and honors listed on her own website remain unconfirmed and are not
+  included.
 openItems:
   - >-
-    Her own website lists a substantially longer record of awards, fellowships and grants (including a
-    Fulbright-National Geographic Digital Storytelling Fellowship, a National Geographic Explorer designation,
-    and several photography-competition placements). These were not independently confirmed against each
-    awarding body's own records during this research pass and are not stated here.
+    Her own website lists a substantially longer record of awards, fellowships and grants beyond the National
+    Geographic Young Explorer designation (now confirmed via NHM, see above), including a Fulbright-National
+    Geographic Digital Storytelling Fellowship and several photography-competition placements. These remain
+    unconfirmed against each awarding body's own records and are not stated here.
   - >-
     A 2022 paper in the Proceedings of the National Academy of Sciences, listed on academic aggregator sites as
     including her as a co-author, could not be directly opened and confirmed at the publisher's own page at the
@@ -71,7 +77,7 @@ sources:
     usedFor: Confirmation of her status as a Princeton doctoral student and her fieldwork role in Namibia at the time of the Nature paper.
 author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
-lastUpdated: 2026-08-30
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -93,14 +99,17 @@ Wildlife Photographer of the Year competition, for a photograph of a welwitschia
 ([Natural History Museum](https://www.nhm.ac.uk/wpy/gallery/2018-desert-relic)). In 2020, the American Society of
 Mammalogists gave her its Murie Family Conservation Award, citing doctoral research in Mozambique's Gorongosa
 National Park that combined biological surveys with work on interactions between large herbivores and plants,
-including a guide to the park's bats and research on how reintroducing large herbivores could help control the
-invasive shrub Mimosa pigra ([American Society of Mammalogists](https://mammalogy.org/2020-award-recipients)).
+including a guide to the park's bats, research on how reintroducing large herbivores could help control the
+invasive shrub Mimosa pigra, and continuing annual bat surveys that the society says "has led to the discovery
+of three new species" ([American Society of Mammalogists](https://mammalogy.org/2020-award-recipients)). The
+Natural History Museum's own Wildlife Photographer of the Year award page independently describes her as "a
+National Geographic Young Explorer" ([Natural History Museum](https://www.nhm.ac.uk/wpy/gallery/2018-desert-relic)).
 
 ## What this profile does not claim
 
 Guyton's own website lists a considerably longer record of fellowships, grants and photography-competition
-recognitions, including a National Geographic Explorer designation and a Fulbright-National Geographic
-fellowship. None of these is independently confirmed here, since this profile includes only recognitions
-independently verified directly with the awarding body. A further academic paper attributed to her in the
+recognitions beyond her National Geographic Young Explorer designation, which is independently confirmed here
+via the Natural History Museum's own award page. A Fulbright-National Geographic fellowship and other claimed
+honors are not independently confirmed and are not included. A further academic paper attributed to her in the
 Proceedings of the National Academy of Sciences could not be directly confirmed at the publisher's site during
 research and is not cited.

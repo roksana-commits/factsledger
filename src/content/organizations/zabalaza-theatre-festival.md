@@ -19,7 +19,9 @@ facts:
     value: "Community mini-festivals and script readings across the Western Cape feeding into an annual main festival at the Baxter Theatre Centre each March, featuring around 50 new works, plus a \"Finest of the Fest\" mentorship award of a two-week professional season"
     firstParty: true
   - label: Funders
-    value: Western Cape Department of Cultural Affairs and Sports; Oppenheimer Memorial Trust Fund; City of Cape Town
+    value: >-
+      Western Cape Department of Cultural Affairs and Sports; Oppenheimer Memorial Trust Fund; Makwande
+      Empowerment Trust; City of Cape Town; HCI Foundation
 timeline:
   - year: "2025-03"
     event: >-
@@ -68,7 +70,7 @@ openItems:
     record.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
-lastUpdated: "2026-09-01"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -77,7 +79,8 @@ draft: false
 The Zabalaza Theatre Festival is an annual theatre-development programme run by the Baxter
 Theatre Centre in Cape Town, in partnership with the Western Cape Department of Cultural
 Affairs and Sports (DCAS), and supported by funders including the Oppenheimer Memorial Trust
-Fund and the City of Cape Town. It develops theatre practitioners from the Western Cape
+Fund, the Makwande Empowerment Trust, the City of Cape Town and the HCI Foundation
+([Theatre Scene Cape Town](https://www.theatrescenecpt.co.za/post/press-winners-16th-zabalaza-theatre-festival)). It develops theatre practitioners from the Western Cape
 through community mini-festivals and script readings that feed into an annual main festival
 at the Baxter each March, showcasing around 50 new South African works. A mentorship
 component, "Finest of the Fest," awards winning productions a two-week professional season

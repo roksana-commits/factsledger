@@ -8,7 +8,7 @@ summary: >-
 entityType: Organization
 country: United Kingdom
 location: London
-established: "2005"
+established: "2004"
 facts:
   - label: Legal status
     value: "Registered charity, England and Wales, no. 1112621; company no. 05608022"
@@ -21,10 +21,22 @@ facts:
     firstParty: true
   - label: 2024 recognition
     value: RIBA International Award for Excellence (Collège Amadou Hampaté Bâ, Niamey, Niger)
+  - label: Vetting context (2013 hire)
+    value: >-
+      Office manager Scott "William" Golding had a prior conviction (six months' imprisonment, ordered to
+      repay £9,500 for theft from Wallace and Gromit's Grand Appeal) before Article 25 hired him in 2013
 timeline:
-  - year: "2005"
-    event: Founded as a UK architectural charity, named for Article 25 of the UN's Universal Declaration of Human Rights.
-    sourceType: First-party
+  - year: "2004"
+    event: >-
+      Established as a UK architectural charity, named for Article 25 of the UN's Universal Declaration of
+      Human Rights (Dezeen reports the organisation as "established in 2004").
+    sourceType: Specialist press
+  - year: "2013"
+    event: >-
+      Article 25 hires Scott "William" Golding as office manager. He had a prior conviction — six months'
+      imprisonment and an order to repay £9,500 — for theft from Wallace and Gromit's Grand Appeal, before
+      being hired.
+    sourceType: Specialist press
   - year: "2015"
     event: >-
       Discovers over £200,000 in unapproved payments hidden by systematic falsification of financial
@@ -83,7 +95,7 @@ sources:
     usedFor: Founder, patron, charity/company registration numbers, and current project locations.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
-lastUpdated: "2026-08-30"
+lastUpdated: "2026-09-05"
 ---
 
 ## Overview
@@ -101,6 +113,9 @@ In mid-2015, Article 25's bank alerted the charity to irregular account activity
 appears to be a systematic falsification of financial statements that have hidden multiple unapproved payments"
 exceeding £200,000 ([ArchDaily](https://www.archdaily.com/769992/article-25-launch-appeal-after-uncovering-multiple-unapproved-payments-in-excess-of-200000-pounds)).
 The charity's office manager, who went by the name William Golding at work (his legal first name was Scott),
+had a prior conviction — six months' imprisonment and an order to repay £9,500 for theft from Wallace and
+Gromit's Grand Appeal — before Article 25 hired him in 2013
+([Dezeen](https://www.dezeen.com/2015/07/15/article-25-architecture-charity-bookkeeper-charged-fraud/)). He
 stopped responding to colleagues on 29 June 2015 and was arrested shortly afterward in Bournemouth
 ([Third Sector](https://www.thirdsector.co.uk/charity-worker-jailed-260k-fraud/finance/article/1377751)).
 Dezeen reported that he was charged with fraud and false accounting

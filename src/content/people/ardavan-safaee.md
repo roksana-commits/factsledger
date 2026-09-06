@@ -27,9 +27,12 @@ timeline:
   - year: "2020"
     event: >-
       Pathé receives a complaint of sexual assault against a director during
-      a production; the company removes the director from the set and from
-      post-production work, navigating contractual questions around
-      authorship rights in the process.
+      a production; the company suspends the director from the set (the
+      production continues with the cinematographer completing the shoot),
+      limits him to working remotely during post-production, and excludes
+      him from the film's communication, marketing and promotion, while
+      navigating contractual questions around authorship rights in the
+      process.
     sourceType: French National Assembly committee testimony
   - year: "2024 (undated)"
     event: >-
@@ -75,7 +78,7 @@ sources:
     usedFor: Confirmation of his role as president of Pathé Films, his "cinema has become cool again" quote, and the three named 2024 releases.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-03"
-lastUpdated: "2026-09-03"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -101,10 +104,12 @@ set-design departments
 ([Assemblée Nationale](https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cecine/l17cecine2425043_compte-rendu.pdf)).
 
 As one example, he described a 2020 production in which Pathé received a complaint of sexual assault
-against a director; the company removed the director from the set and from post-production work, while
-managing the contractual complexities that arose around the director's authorship rights on the finished
-film. He also discussed how the company weighs legal responsibility, reputational risk and economic factors
-when deciding whether to continue working with someone facing an allegation
+against a director. The company suspended the director from the set, with the cinematographer completing
+the shoot; during post-production, the director was limited to working remotely and was excluded from the
+film's communication, marketing and promotion — while the company managed the contractual complexities
+that arose around the director's authorship rights on the finished film. He also discussed how the company
+weighs legal responsibility, reputational risk and economic factors when deciding whether to continue
+working with someone facing an allegation
 ([Assemblée Nationale](https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cecine/l17cecine2425043_compte-rendu.pdf)).
 
 ## What this profile does not claim

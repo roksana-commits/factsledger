@@ -26,9 +26,11 @@ timeline:
   - year: "1994"
     event: >-
       Travels to Rwanda four days after the genocide begins, hitchhiking in
-      from Burundi after airports close; is threatened at a checkpoint by
-      Hutu militiamen who mistake her for Belgian, and escapes with the help
-      of a French colleague.
+      from Burundi after airports close; is stopped at a checkpoint by Hutu
+      militiamen wielding machetes who initially mistake her for Belgian and
+      threaten to kill her, before she retrieves her Canadian passport from
+      her jeans pocket and a French colleague's rapport-building helps talk
+      the militiamen down.
     sourceType: Independent public-radio feature; independent nonprofit magazine feature
   - year: "2015 (approx.)"
     event: >-
@@ -70,7 +72,7 @@ sources:
       international-affairs beat.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -88,8 +90,10 @@ In 1990, Northam covered the buildup to the Gulf War from Saudi Arabia, staying 
 seven months ([NextTribe](https://nexttribe.com/magazine/war-correspondent/)). In April 1994, she
 traveled to Rwanda four days after the genocide began, hitchhiking in from Burundi after airports closed,
 alongside a French Associated Press photographer. At a checkpoint, Hutu militiamen holding machetes
-mistook her for Belgian; she and her colleague talked their way past the threat, with his French-language
-skills and rapport-building credited with the escape. She later described witnessing "pure butchery" in
+mistook her for Belgian and threatened to kill her — she has recalled them saying, in effect, "yeah, they
+wanted to kill me." With her fingers "completely numb," she worked her Canadian passport out of her jeans
+pocket; when the lead militiaman saw she was Canadian, and her colleague's French-language rapport-building
+took hold, "he pulled back, and we went through." She later described witnessing "pure butchery" in
 Rwanda that "hurt my soul" ([NPR](https://www.npr.org/2026/07/11/nx-s1-5866592/a-veteran-foreign-correspondent-looks-back-on-a-career-covering-conflicts); [NextTribe](https://nexttribe.com/magazine/war-correspondent/)).
 
 ## Afghanistan, Pakistan and a shift in beat

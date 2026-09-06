@@ -28,6 +28,12 @@ timeline:
   - year: "2017"
     event: Takes early retirement from Harvard after building its research-computing organization, spanning data centers, petascale storage and low-latency networks.
     sourceType: Independent trade publication
+  - year: "2017-2018"
+    event: >-
+      Spends time at The Next Platform, an HPC- and data-center-focused technology publication,
+      between leaving Harvard and joining Witnix; insideHPC's account does not specify an exact
+      role or the precise dates of this stop.
+    sourceType: Independent trade publication
   - year: "2018"
     event: Joins startup Witnix, bringing HPC expertise from his Harvard, Broad Institute and Wellcome Trust Sanger Institute career.
     sourceType: Independent trade publication
@@ -68,7 +74,7 @@ sources:
       motivated the move.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -92,8 +98,11 @@ competing with the cloud: "This isn't a competitor to the cloud. It's a compleme
 
 ## After Harvard
 
-Cuff took early retirement from Harvard in 2017, then returned to the field in 2018 to join the startup Witnix,
-and again in March 2022 to become Chief of Scientific Computing and Partnerships at GigaIO, a composable-computing
+Cuff took early retirement from Harvard in 2017. insideHPC's account of his career notes he was "most recently
+at The Next Platform" before joining Witnix in 2018, indicating a stop at that HPC- and data-center-focused
+publication between the two, though the piece does not specify his exact role or dates there
+([insideHPC](https://insidehpc.com/2018/08/hpc-elder-james-cuff-joins-witnix-startup/)). He returned to the
+field again in March 2022 to become Chief of Scientific Computing and Partnerships at GigaIO, a composable-computing
 company, where he works on next-generation scientific-computing architecture. He described the move as addressing
 a longstanding problem in his field: "configuration discrepancy and data locality have been challenges" throughout
 his career ([Bio-IT World](https://www.bio-itworld.com/trends-from-the-trenches/james-cuff-on-computing-s-evolution-and-the-next-fascinating-challenge)).

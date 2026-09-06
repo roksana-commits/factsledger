@@ -37,11 +37,22 @@ timeline:
     event: Named the Republican Party's mayoral candidate for Peñalolén in that October's municipal elections.
     sourceType: Major Chilean newspaper
 sourceNote: >-
-  All three sources are independent Chilean outlets, read directly for this profile. The 2025
-  criticism of Governor Orrego is reported here as Dülger's own allegation, as none of the sources
-  read confirm the underlying spending claim independently.
+  All three sources are independent Chilean outlets, originally read directly for this profile.
+  IMPORTANT SOURCING CAVEAT, added on re-audit: re-fetching all three URLs during a September 2026
+  audit found none reliably reachable — El Líbero and 24 Horas both returned 404 errors, and
+  La Tercera's URL loaded only its generic current homepage with no visible content about Dülger
+  (likely paywalled or requiring JavaScript rendering not available to this session's fetch tool).
+  None of the three could be re-verified this pass. The facts below are retained from the original
+  research but should be treated with added caution pending re-verification. The 2025 criticism of
+  Governor Orrego is reported here as Dülger's own allegation, as none of the sources originally read
+  confirmed the underlying spending claim independently.
 openItems:
   - This profile does not have an independently confirmed vote count or result for his unsuccessful 2023 Constitutional Council candidacy.
+  - >-
+    On re-audit (September 2026), none of this profile's three sources could be re-verified live:
+    El Líbero and 24 Horas returned 404 errors, and La Tercera's URL showed only a generic homepage.
+    This profile's facts rest on the original research pass and are flagged here pending
+    re-verification against working source URLs.
 sources:
   - title: "Ignacio Dülger, la apuesta republicana para la alcaldía de Peñalolén"
     url: https://www.latercera.com/la-tercera-pm/noticia/ignacio-dulger-la-apuesta-republicana-para-la-alcaldia-de-penalolen/

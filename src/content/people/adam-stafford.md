@@ -49,7 +49,7 @@ sources:
     usedFor: His band history, 2011 solo album, record label, and his film and music-video directing work, including "The Shutdown"'s awards.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -68,4 +68,11 @@ Alongside music, Stafford has directed short films and music videos. His video f
 Sad's "Seven Years of Letters" won Best Video at the 2011 Scottish New Music Awards. His short film
 "The Shutdown" went on to win seven international awards, and he later directed "No Hope for Men
 Below," about a 1923 mining disaster
+([Louder Than War](https://louderthanwar.com/new-artist-day-adam-stafford/)). He has also recorded
+under the alias "Size of Kansas," and released a 2012 split 7-inch single with Rick Redbeard
 ([Louder Than War](https://louderthanwar.com/new-artist-day-adam-stafford/)).
+
+## What this profile does not claim
+
+The Skinny's review URL currently fails with an SSL/hostname error and could not be re-verified during the
+most recent audit of this profile; the review is still cited here from an earlier successful fetch.

@@ -21,8 +21,12 @@ facts:
     value: Elevated to Colegiul Național (National College) rank in 2016
 timeline:
   - year: "1877"
-    event: Founded on 7 October as Școala Superioară Comunală (Communal Higher School), initially co-educational.
-    sourceType: First-party / local history
+    event: >-
+      Founded on 7 October. Accounts of its original form conflict: the school's own history describes
+      it as Școala Superioară Comunală (Communal Higher School), initially co-educational, while
+      independent local press instead describes it as "prima Școală Civilă de Băieți" (the first Civil
+      School for Boys), a boys-only institution, a designation it says the school kept until 1919.
+    sourceType: First-party / local history; independent local press (conflicting)
   - year: "1933"
     event: Future mathematician Ciprian Foiaș is born in Reșița.
     sourceType: Academic journal
@@ -45,13 +49,24 @@ sourceNote: >-
   Each source below was fetched and read against the claim it supports. The American Mathematical Society's
   memorial notice for Ciprian Foiaș independently confirms he was born in Reșița in 1933, but does not name this
   specific school; his attendance here is reported only by the school itself and by local press repeating that
-  claim, and is flagged as such rather than presented as independently confirmed.
+  claim, and is flagged as such rather than presented as independently confirmed. IMPORTANT DISCREPANCY, added
+  on re-audit: this profile's own cited sources conflict on the school's founding type. The school's first-party
+  history (cndt.ro) describes 1877 founding as a co-educational "Communal Higher School," while independent
+  local outlet Caon.ro, re-checked during this audit, describes the same founding as "prima Școală Civilă de
+  Băieți" ("the first Civil School for Boys") — a boys-only designation kept until 1919. Neither account is
+  dismissed here; both are now stated as competing versions rather than presenting the first-party account alone
+  as settled fact.
 openItems:
   - >-
     Ciprian Foiaș's birth in Reșița is independently confirmed by the American Mathematical Society's memorial
     notice, but no independent source found confirms he specifically attended this school (as opposed to another
     school in the city); the claim rests on the school's own alumni list and on local press that appears to
     repeat it.
+  - >-
+    On re-audit, the school's first-party history and independent local press Caon.ro give conflicting
+    descriptions of the school's 1877 founding type — co-educational "Communal Higher School" per the school
+    itself, versus a boys-only "Civil School for Boys" per Caon.ro. This profile states both rather than
+    resolving the conflict, since no independent record settling it was found.
   - >-
     The €1.1 million renovation figure and EU-funding attribution come from the school's own materials; no
     independent EU project database record was checked this session.
@@ -86,14 +101,18 @@ sources:
     usedFor: Institutional history, name changes, bilingual programme, and the 2019–2023 renovation.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
-lastUpdated: "2026-08-30"
+lastUpdated: "2026-09-05"
 ---
 
 ## Overview
 
 Diaconovici-Tietz National College is a bilingual Romanian-German secondary school in Reșița, in Romania's
-Banat region, founded on 7 October 1877 as a communal school for the children of local steelworks and mining
-families ([Colegiul Național Diaconovici-Tietz](https://cndt.ro/)). It has changed names and structure repeatedly
+Banat region, founded on 7 October 1877. Accounts of its original form conflict: the school's own history
+describes it as a co-educational communal school for the children of local steelworks and mining families
+([Colegiul Național Diaconovici-Tietz](https://cndt.ro/)), while independent local outlet Caon.ro instead
+describes the founding as "prima Școală Civilă de Băieți" ("the first Civil School for Boys"), a boys-only
+designation it says the school retained until 1919
+([Caon.ro](https://caon.ro/bastilia-a-sarbatorit-140-de-ani-de-invatamant/1911244/)). It has changed names and structure repeatedly
 across Austro-Hungarian, Romanian, and Communist-era administrations, and was elevated to Colegiul Național
 (National College) rank in 2016. Locally it is known as "Bastilia" ("the Bastille"), for the fortress-like stone
 building it has occupied for well over a century

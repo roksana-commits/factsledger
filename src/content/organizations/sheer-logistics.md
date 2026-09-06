@@ -35,7 +35,9 @@ timeline:
     event: Joel Gard becomes CEO.
     sourceType: Logistics industry trade press
   - year: "2024-04"
-    event: Sheer Logistics acquires 3PL company CargoBarn, expanding its brokerage specialties.
+    event: >-
+      Sheer Logistics acquires 3PL company CargoBarn, expanding its brokerage specialties and adding four new
+      office locations: Fresno, California; Atlanta, Georgia; Dallas, Texas; and Jacksonville, Florida.
     sourceType: Logistics industry trade press
 sourceNote: >-
   Both sources for this profile are original, byline-authored reporting from FreightWaves, an established
@@ -62,7 +64,7 @@ sources:
     usedFor: The 2024 CargoBarn acquisition and Joel Gard's appointment as CEO.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -86,7 +88,8 @@ transportation is often misrepresented" as basic brokerage work, whereas Sheer d
 fee-based solutions" aimed at "efficiency gains, cost reductions, service improvement"
 ([FreightWaves](https://www.freightwaves.com/news/freighttech-titans-invest-in-sheer-logistics-modern-approach-to-managed-transportation)).
 Joel Gard became CEO in January 2024, and that April the company acquired the third-party logistics
-provider CargoBarn to expand its brokerage specialties
+provider CargoBarn to expand its brokerage specialties, adding four new office locations — Fresno,
+California; Atlanta, Georgia; Dallas, Texas; and Jacksonville, Florida
 ([FreightWaves](https://www.freightwaves.com/news/sheer-logistics-acquires-cargobarn-to-expand-brokerage-specialties)).
 
 ## What this profile does not claim

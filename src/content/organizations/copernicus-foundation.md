@@ -42,7 +42,7 @@ timeline:
   - year: "2020"
     event: >-
       Sues the City of Chicago after the city agrees to sell a former Jefferson Park firehouse to a rival
-      developer for one dollar, rejecting the Foundation's $300,000 offer.
+      developer for $10, rejecting the Foundation's $300,000 offer.
     sourceType: Regional press + broadcast
 sourceNote: >-
   Each source below was fetched and read against the claim it supports. A promotional claim linking the
@@ -84,7 +84,7 @@ sources:
       the Taste of Polonia Festival.
 author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
-lastUpdated: 2026-08-30
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -103,7 +103,8 @@ The Foundation has been a registered 501(c)(3) nonprofit since October 1972
 
 In 1979, using surplus funds from the monument campaign, the Foundation purchased the former Gateway Theatre in
 Chicago's Jefferson Park neighbourhood, built in the late 1920s as one of the city's first theatres built for
-sound film. The venue, now known as the Copernicus Center, has hosted both former U.S. presidents George H.W. Bush
+sound film; it was later renamed the Mitchell Kobelinski Theater. The venue, now known overall as the Copernicus
+Center, has hosted Pope John Paul II during his 1979 U.S. visit as well as former presidents George H.W. Bush
 and Barack Obama ([Block Club Chicago](https://blockclubchicago.org/2021/07/26/jefferson-parks-copernicus-foundation-marks-50-years-with-history-book-this-place-is-a-legacy/)).
 In 1980, the Foundation established the Taste of Polonia Festival, which has grown into one of the largest Polish
 festivals in the United States. As of fiscal year 2025, IRS filings show the Foundation reporting $2.33 million in
@@ -114,7 +115,7 @@ revenue and $4.73 million in net assets, with Kamila Sumelka serving as Executiv
 
 In November 2020, the Chicago Sun-Times reported that the Copernicus Foundation had sued the City of Chicago after
 the city agreed to sell a long-vacant former firehouse near its Jefferson Park headquarters to a rival developer,
-Ambrosia Homes Development, for one dollar, rejecting the Foundation's $300,000 offer. Attorney Robert Fioretti,
+Ambrosia Homes Development, for $10, rejecting the Foundation's $300,000 offer. Attorney Robert Fioretti,
 representing the Foundation, said: "Sometimes, things go on behind the scenes. We are advocating for an open,
 transparent and fair process"
 ([Chicago Sun-Times](https://chicago.suntimes.com/2020/11/11/21561394/chicago-firehouse-sale-copernicus-foundation-lawsuit-jefferson-park)).

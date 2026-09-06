@@ -28,7 +28,8 @@ timeline:
   - year: "2011-10-27"
     event: >-
       Acquired by YCD Multimedia in a stock transaction, accompanied by a $6 million
-      funding round led by Carmel Ventures and Opus Capital; the combined company
+      funding round led by Carmel Ventures, Opus Capital, Pitango Venture Capital and Plenus;
+      the combined company
       claimed to serve over 2,000 brands in more than 40 countries.
     sourceType: Trade press
 sourceNote: >-
@@ -63,7 +64,7 @@ openItems:
   - "YCD Multimedia was itself later wound down, per unconfirmed trade commentary; not independently verified this pass."
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
-lastUpdated: "2026-09-01"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -78,7 +79,8 @@ content for clients such as banks, airports and stock exchanges
 ## Acquisition
 
 On 27 October 2011, C-nario was acquired by YCD Multimedia in a stock transaction,
-accompanied by a $6 million funding round led by Carmel Ventures and Opus Capital. The
+accompanied by a $6 million funding round led by four co-investors: Carmel Ventures, Opus
+Capital, Pitango Venture Capital and Plenus. The
 combined company claimed to serve more than 2,000 brands across over 40 countries — a
 figure the independent trade columnist Dave Haynes greeted with open skepticism at the time
 ([Digital Signage Today](https://www.digitalsignagetoday.com/news/ycd-picks-up-c-nario/);

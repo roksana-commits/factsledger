@@ -26,7 +26,8 @@ timeline:
   - year: "2020"
     event: >-
       Dallas County Judge Clay Jenkins cites a covidactnow.org projection in issuing a shelter-in-place order,
-      drawing both public health endorsement and methodological criticism.
+      drawing both public health endorsement and methodological criticism; states including Michigan and
+      Kentucky similarly reference the organization's modeling when announcing their own stay-at-home orders.
     sourceType: National broadcaster affiliate
   - year: "2020"
     event: Registers as the 501(c)(3) nonprofit "Act Now Coalition."
@@ -98,7 +99,7 @@ sources:
     usedFor: The project's own statement that it is archived, with data frozen since May 2024 and the API scheduled for shutoff on 11 March 2026.
 author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
-lastUpdated: 2026-08-30
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -124,6 +125,8 @@ statewide — in justifying a shelter-in-place order
 ([CBS News DFW](https://www.cbsnews.com/dfw/news/accurate-coronavirus-curve-graphs/)). The same report noted that
 health-data expert Harry Glorikian cautioned that testing shortfalls limited the accuracy of any model at the time,
 while also noting that "every projection... is going to outstrip the number of beds we have in the United States"
+([CBS News DFW](https://www.cbsnews.com/dfw/news/accurate-coronavirus-curve-graphs/)). States including Michigan and
+Kentucky similarly referenced the organization's modeling when announcing their own stay-at-home orders
 ([CBS News DFW](https://www.cbsnews.com/dfw/news/accurate-coronavirus-curve-graphs/)). In 2022, a paper on public
 health surveillance indicators published via the Proceedings of the National Academy of Sciences, associated with
 Carnegie Mellon University's Delphi Group, cited Covid Act Now as one of the public dashboards built using CDC

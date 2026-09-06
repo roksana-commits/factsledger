@@ -58,7 +58,7 @@ sources:
     usedFor: His age and education, his role leading the Jantar Mantar sit-in, and his own stated motivation for the protest.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -83,4 +83,14 @@ In July 2026 he led a sit-in protest at Delhi's Jantar Mantar connected to the N
 controversy and criticism of the education minister. Speaking to NPR about his motivation, Dipke
 described growing up between city life and childhood summers in a central Indian village, and said:
 "In India, if you're rich, the system dances at your fingertips. If you're poor, nobody will be
-there for you" ([NPR](https://www.npr.org/2026/07/20/nx-s1-5889515/india-gen-z-cockroach-party-protests)).
+there for you." Dipke also told NPR that he comes from a Dalit family, and, drawing a comparison to
+his time studying in the US (which he moved to in 2024), said: "at least in the U.S. you are able to
+feed your family" — comparing the caste discrimination he described in India to racism he observed
+in the US ([NPR](https://www.npr.org/2026/07/20/nx-s1-5889515/india-gen-z-cockroach-party-protests)).
+
+## What this profile does not claim
+
+The Al Jazeera and The Wire articles cited above could not be fetched and re-read in full during the most
+recent audit of this profile (Al Jazeera's URL returned an error, and The Wire's page returned only
+metadata); this profile does not rely on any claim from those two sources that could not be independently
+re-verified this pass.

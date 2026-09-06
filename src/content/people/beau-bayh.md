@@ -39,7 +39,10 @@ sourceNote: >-
   with distinct facts (announcement and platform; convention vote count and fundraising).
   His campaign's specific allegations against the incumbent secretary of state are
   presented as his campaign's own claims, not adjudicated fact, in keeping with this
-  site's approach to an active political race.
+  site's approach to an active political race. Morales's on-record rebuttal is included
+  alongside Bayh's allegations for balance. WTHR's URL currently returns a 403 error and
+  could not be re-verified during the most recent audit of this profile; the claim remains
+  plausible via Indiana Capital Chronicle's independent corroboration.
 sources:
   - title: "Beau Bayh, son of former Indiana Governor and U.S. Senator Evan Bayh, launches campaign for Indiana secretary of state"
     url: https://www.wthr.com/article/news/politics/beau-bayh-son-former-indiana-governor-and-us-senator-evan-bayh-launches-campaign-indiana-secretary-of-state-diego-morales/531-c6f6f4a2-2cda-4fc2-a498-9be3b1f428e0
@@ -66,7 +69,7 @@ openItems:
     outcome.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
-lastUpdated: "2026-09-01"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -90,6 +93,9 @@ access in a state that ranks 50th nationally in voter participation, ending stra
 voting, and pledging to serve as a nonpartisan administrator
 ([WTHR](https://www.wthr.com/article/news/politics/beau-bayh-son-former-indiana-governor-and-us-senator-evan-bayh-launches-campaign-indiana-secretary-of-state-diego-morales/531-c6f6f4a2-2cda-4fc2-a498-9be3b1f428e0);
 [Indiana Capital Chronicle](https://indianacapitalchronicle.com/2025/10/06/democrat-beau-bayh-to-run-for-indiana-secretary-of-state/)).
+Morales rejected the criticism on the record, calling Bayh an "East Coast liberal" and pointing to 2022
+spending by Indiana Democrats as the more relevant issue
+([Indiana Capital Chronicle](https://indianacapitalchronicle.com/2025/10/06/democrat-beau-bayh-to-run-for-indiana-secretary-of-state/)).
 
 On 6 June 2026, Bayh won the Democratic nomination at the state convention, defeating
 Blythe Potter with 61 percent of delegate votes (1,385 to 883). He entered the convention

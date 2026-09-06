@@ -17,6 +17,8 @@ facts:
     value: "More than 1,500 volunteers aged 16-27 from 23 countries"
   - label: Recognition
     value: Recognized by The Diana Award, Global Citizen, UNDP, the US State Department, and The Commonwealth Students' Association
+  - label: Operational base (per source, distinct from country of founding)
+    value: "Described in the source as \"Based in Malaysia\" operationally, separate from its October 2014 founding in Bangladesh"
 timeline:
   - year: "2014-10"
     event: >-
@@ -47,7 +49,7 @@ sources:
       award bodies.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -58,6 +60,8 @@ Awareness 360 is a youth volunteer platform founded in Bangladesh in October 201
 ## Scale and programs
 
 As of this reporting, the organization counted more than 1,500 volunteers aged 16 to 27 across 23 countries, with teams working on education in Zimbabwe, human rights in Georgia, mental health in France, and clean-water and sanitation work in Bangladesh. During the COVID-19 pandemic, its Bangladesh team provided food to 450 sex workers' families. The organization has been recognized by The Diana Award, Global Citizen, UNDP, the US State Department, and The Commonwealth Students' Association ([The Business Standard](https://www.tbsnews.net/feature/panorama/awareness-360-bangladeshi-youth-platform-changing-lives-around-world-147805)).
+
+Separately from its October 2014 founding in Bangladesh, the same source describes the platform as operationally "Based in Malaysia" ([The Business Standard](https://www.tbsnews.net/feature/panorama/awareness-360-bangladeshi-youth-platform-changing-lives-around-world-147805)). This profile reports both details as the source states them rather than treating one as superseding the other.
 
 ## What this profile does not claim
 

@@ -18,6 +18,8 @@ facts:
     value: Described by the European Commission's Transition Pathways platform as Slovenia's largest publicly funded tourism R&D initiative
   - label: Flagship tool
     value: "\"Tourism Impact Model\" (TIM), using 300+ indicators, piloted across 6 Black Sea destinations, 24 Danube-region locations and 5 Slovenian municipalities"
+  - label: Award
+    value: "\"Best Innovation in AI and Data Analytics,\" Tourism Innovation Summit 2020, Seville"
 timeline:
   - year: "2018-09"
     event: >-
@@ -45,7 +47,7 @@ sources:
     usedFor: Arctur's leadership role, CEO Tomi Ilijaš, and details of the Tourism Impact Model (TIM) tool and its pilot deployments.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -64,5 +66,12 @@ smart-tourism data platform
 The initiative's flagship product is the "Tourism Impact Model" (TIM), a data tool built on more
 than 300 indicators. According to the Slovenian Tourist Board, TIM has been piloted across six
 Black Sea destinations, 24 locations in the Danube region, and five Slovenian municipalities, and
-Arctur — led by CEO Tomi Ilijaš — has been recognized with an award for the tool's data-analytics
-approach ([Slovenian Tourist Board](https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/14589-a-slovenian-company-awarded-for-their-tourism-impact-model-tool)).
+Arctur — led by CEO Tomi Ilijaš — won the "Best Innovation in AI and Data Analytics" award for the tool at
+the Tourism Innovation Summit 2020 in Seville
+([Slovenian Tourist Board](https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/14589-a-slovenian-company-awarded-for-their-tourism-impact-model-tool)).
+
+## What this profile does not claim
+
+The European Commission's Transition Pathways platform page cited for this project's 2018–2021 timeline is a
+general platform URL rather than a page with visible supporting detail for those specific dates; this profile
+notes that sourcing gap rather than treating the timeline as independently re-verified against that page.

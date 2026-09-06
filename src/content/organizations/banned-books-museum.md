@@ -87,7 +87,10 @@ sources:
     publisher: Estonian Business Register (Centre of Registers and Information Systems)
     tier: tier1
     date: "28 August 2020"
-    usedFor: Legal registration date and form as a non-profit association, and its board membership.
+    usedFor: >-
+      Legal registration date and form as a non-profit association, and its board membership,
+      including a second board member, Urve Leemets (an Estonian national, registered since 28
+      August 2020), alongside founder Joseph Maximillian Dunnigan.
   - title: "Banned Books Museum (attraction listing)"
     url: https://visittallinn.ee/eng/visitor/see-do/things-to-do/attractions-museums/181031/banned-books-museum
     publisher: City of Tallinn (official tourism authority)
@@ -96,7 +99,7 @@ sources:
     usedFor: Recognition as a listed city attraction.
 author: Muhammad Abdullah Al Yasin
 published: 2026-08-30
-lastUpdated: 2026-08-30
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -106,7 +109,8 @@ The Banned Books Museum is a small, single-room museum in Tallinn's Old Town, op
 Maximillian Dunnigan, a Scottish graduate who had lived and worked in China before settling in Estonia to study
 social entrepreneurship at Tallinn University
 ([Estonian World](https://estonianworld.com/culture/a-museum-of-banned-books-opens-in-estonia/)). The museum
-operates as Banned Books MTÜ, a non-profit association registered in Estonia on 28 August 2020
+operates as Banned Books MTÜ, a non-profit association registered in Estonia on 28 August 2020, with Dunnigan and a second board member, Urve Leemets — an
+Estonian national registered on the same date — both listed on its board
 ([Estonian Business Register](https://ariregister.rik.ee/eng/company/80584386/BANNED-BOOKS-MT%C3%9C)). It is
 recognised as a listed attraction by the City of Tallinn's official tourism authority
 ([Visit Tallinn](https://visittallinn.ee/eng/visitor/see-do/things-to-do/attractions-museums/181031/banned-books-museum)).

@@ -43,10 +43,15 @@ timeline:
     sourceType: Real-estate trade press
   - year: "2013"
     event: >-
-      After failing to obtain final certification for a 421-a property-tax abatement at its 125
-      Court Street building while registering 256 units as exempt from rent stabilization, the
-      company self-corrects and refunds affected tenants roughly $299,148 in overcharges plus
-      $90,805 in interest, following a New York State review.
+      Following a 2013 city audit, the company refunds $299,148 in overcharges plus $90,805 in
+      interest to 80 tenants at 125 Court Street — after registering 256 units as exempt from rent
+      stabilization under a 421-a abatement it never obtained final certification for, and after
+      the city's Department of Housing Preservation and Development did not challenge the improper
+      exemptions until 2011. ProPublica reports the building received over $10 million in total
+      421-a tax savings, calculates the total tenant overcharge at roughly $368,000 (about $80,000
+      combined across 64 low-income units and about $288,000 combined across 47 market-rate
+      units) — more than the amount refunded — and reports that reimbursement disputes persisted
+      among affected tenants.
     sourceType: Investigative journalism
   - year: "2017"
     event: >-
@@ -81,7 +86,7 @@ sources:
     usedFor: The 2017 class-action allegations and the company's public denial.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -99,11 +104,16 @@ project eventually valued at close to $3 billion.
 
 ## A tax-abatement dispute at 125 Court Street
 
-A 2013 ProPublica investigation into New York's 421-a property-tax abatement program found that
-Two Trees had registered 256 units at its 125 Court Street building in Brooklyn as exempt from
-rent stabilization without ever obtaining final certification for the abatement. After a state
-review, the company self-corrected and refunded affected tenants roughly $299,148 in overcharges
-plus $90,805 in interest across around 200 lease renewals
+A ProPublica investigation into New York's 421-a property-tax abatement program found that Two
+Trees had registered 256 units at its 125 Court Street building in Brooklyn as exempt from rent
+stabilization without ever obtaining final certification for the abatement, and that the city's
+Department of Housing Preservation and Development (HPD) did not challenge the improper exemptions
+until 2011. Following a 2013 audit, the company refunded $299,148 in overcharges plus $90,805 in
+interest to 80 tenants. ProPublica reported that Two Trees had received over $10 million in total
+421-a tax savings at the building, and calculated the total tenant overcharge at roughly $368,000 —
+about $80,000 combined across 64 low-income units and about $288,000 combined across 47
+market-rate units — more than the amount the company refunded. ProPublica also reported that
+reimbursement disputes persisted among affected tenants after the refund
 ([ProPublica](https://www.propublica.org/article/tenants-take-hit-as-ny-fails-to-police-huge-housing-tax-break)).
 In 2017, a separate class-action lawsuit alleged that Two Trees had committed about $10 million in
 rent fraud and made false statements to the city to secure roughly $92 million in tax subsidies at

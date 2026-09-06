@@ -15,7 +15,9 @@ facts:
   - label: Organizers
     value: United States Golf Association (USGA), PGA of America, and Chicago District Golf Association
   - label: Conceived by
-    value: Tom McMahon, Chicago District Golf Association
+    value: Tom McMahon, Chicago District Golf Association, whose participation was encouraged by John Kelly
+  - label: Entries
+    value: A record 1,500+ entries
   - label: Winner
     value: Ben Hogan, score of 271 (17 under par), including a second-round 62
   - label: Runners-up
@@ -33,11 +35,12 @@ timeline:
   - year: "1942-06-18"
     event: >-
       The Hale America National Open Golf Tournament begins at Ridgemoor Country Club in Chicago, conceived
-      by Tom McMahon of the Chicago District Golf Association as a war-relief fundraiser jointly sponsored
-      by the USGA, PGA of America and CDGA. The format departs from a standard U.S. Open — amateur handicap
-      limits are raised from 3 to 6, qualifying runs through 69 local sites and then 14 sectional sites, and
-      the final field is capped at roughly 100 players, with special exemptions granted to Bobby Jones,
-      Walter Hagen and Jock Hutchison.
+      by Tom McMahon of the Chicago District Golf Association — whose participation was encouraged by John
+      Kelly — as a war-relief fundraiser jointly sponsored by the USGA, PGA of America and CDGA. The format
+      departs from a standard U.S. Open — amateur handicap limits are raised from 3 to 6, qualifying runs
+      through 69 local sites and then 14 sectional sites, and the final field is capped at roughly 100
+      players, with special exemptions granted to Bobby Jones, Walter Hagen and Jock Hutchison. The event
+      draws a record 1,500-plus entries.
     sourceType: Sports-history feature
   - year: "1942-06-21"
     event: >-
@@ -98,7 +101,7 @@ sources:
     usedFor: Contemporaneous confirmation of the final result and its immediate press treatment.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-31"
-lastUpdated: "2026-08-31"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -110,10 +113,14 @@ Pearl Harbor, when the scheduled host, Interlachen Country Club in Minnesota, al
 ([Global Golf Post](https://www.globalgolfpost.com/featured/ben-hogan-hale-america-and-the-myth-of-the-fifth-open-title-2/)).
 Tom McMahon of the Chicago District Golf Association conceived it as a war-relief fundraiser, jointly run by
 the USGA, the PGA of America and the CDGA, with proceeds benefiting the Navy Relief Society and the USO
-([Texas Sports Hall of Fame](https://www.tshof.org/news/did-ben-hogan-win-5-us-opens)). Held 18–21 June 1942
-at Ridgemoor Country Club in Chicago, the event modified the usual U.S. Open format — raising the amateur
-handicap limit, restructuring qualifying into 69 local and 14 sectional sites, and capping the final field
-at roughly 100 players, with exemptions for veterans such as Bobby Jones, Walter Hagen and Jock Hutchison.
+([Texas Sports Hall of Fame](https://www.tshof.org/news/did-ben-hogan-win-5-us-opens)). McMahon's own
+participation in organizing the event was encouraged by John Kelly
+([Global Golf Post](https://www.globalgolfpost.com/featured/ben-hogan-hale-america-and-the-myth-of-the-fifth-open-title-2/)).
+Held 18–21 June 1942 at Ridgemoor Country Club in Chicago, the event modified the usual U.S. Open format —
+raising the amateur handicap limit, restructuring qualifying into 69 local and 14 sectional sites, and
+capping the final field at roughly 100 players, with exemptions for veterans such as Bobby Jones, Walter
+Hagen and Jock Hutchison — and drew a record 1,500-plus entries
+([Global Golf Post](https://www.globalgolfpost.com/featured/ben-hogan-hale-america-and-the-myth-of-the-fifth-open-title-2/)).
 
 ## Result
 

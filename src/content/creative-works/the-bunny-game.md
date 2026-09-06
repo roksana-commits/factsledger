@@ -46,6 +46,12 @@ timeline:
     sourceType: Independent horror-industry news
   - year: "2012-07"
     event: US home-video release, uncut, via Autonomy Pictures.
+    sourceType: Independent horror-industry news
+  - year: "2025 (summer)"
+    event: >-
+      The film receives a remastered reissue — a separate release from the 2012
+      Autonomy Pictures DVD — itself treated as a newsworthy development by genre
+      press.
     sourceType: UK genre-press feature
 sourceNote: >-
   Published here under this site's Creative Works policy, which requires a documented
@@ -86,8 +92,9 @@ sources:
     tier: tier2
     usedFor: >-
       The film's discovery at the Downtown Heavy Metal Horror Film Festival, its
-      uncertain UK release status, cast and crew details, and its 2012 Danse Macabre
-      collector's-edition release.
+      uncertain UK release status, cast and crew details, and its summer 2025
+      remastered reissue (not to be confused with the separate 2012 Autonomy
+      Pictures DVD).
   - title: "A Home Found for The Bunny Game"
     url: https://www.dreadcentral.com/news/31660/a-home-found-for-the-bunny-game/
     publisher: Dread Central
@@ -107,7 +114,7 @@ sources:
       production details rather than as the basis for the profile's inclusion.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-02"
-lastUpdated: "2026-09-02"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -144,7 +151,11 @@ Autonomy Pictures — founded by Derek Curl, David Gregory and Lewis Tice — ac
 rights at SXSW, with Curl describing the film as "the last word on the 'torture-porn'
 sub-genre" and committing to releasing it in America uncut despite the UK ban
 ([Dread Central](https://www.dreadcentral.com/news/31660/a-home-found-for-the-bunny-game/)).
-The uncut US home-video release followed in July 2012.
+The uncut US home-video release followed in July 2012. A separate, remastered
+reissue of the film followed in the summer of 2025 — itself a newsworthy
+development covered by genre press, distinct from the 2012 Autonomy Pictures
+DVD
+([Love Horror](https://lovehorror.co.uk/horror-news/92585/from-uk-ban-to-us-release-the-bunny-game-brings-bloody-mayhem/)).
 
 ## Critical reception
 

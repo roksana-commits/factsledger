@@ -67,9 +67,13 @@ openItems:
     A claimed 2022 Mirror Award finalist nomination appears on her own bio and Muck Rack
     profile but could not be independently confirmed against the Newhouse School's own
     finalists list this pass; not stated as fact here.
+  - >-
+    On the most recent audit of this profile, the Columbia Journalism Review URL returned a paywall (402)
+    error and the WWD URL returned a 404/paywall error; neither could be re-verified this pass. The core
+    narrative remains independently corroborated by Poynter, which was successfully re-read.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-01"
-lastUpdated: "2026-09-01"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 

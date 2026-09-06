@@ -64,8 +64,8 @@ timeline:
   - year: "2021-01-19"
     event: >-
       Goes on trial, at age 91, on charges of complicity in the misuse of corporate
-      assets over the alleged kickback scheme; he maintains his 1995 campaign funds
-      came from merchandise sales at rallies.
+      assets and of seeking to conceal those crimes, over the alleged kickback scheme;
+      he maintains his 1995 campaign funds came from merchandise sales at rallies.
     sourceType: Independent international broadcaster
   - year: "2021-03-04"
     event: >-
@@ -127,7 +127,7 @@ openItems:
     does not assert that connection as established fact.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-02"
-lastUpdated: "2026-09-02"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -170,7 +170,9 @@ settled but whose investigation helped expose the alleged kickback scheme
 ([France 24](https://www.france24.com/en/europe/20210119-french-ex-pm-balladur-goes-on-trial-over-karachi-affair-kickback-allegations)).
 
 Balladur went on trial in January 2021, at age 91, charged with complicity in the misuse of
-corporate assets. In March 2021, he was acquitted of all charges. His former defense
+corporate assets and, separately, with seeking to conceal those crimes
+([France 24](https://www.france24.com/en/europe/20210119-french-ex-pm-balladur-goes-on-trial-over-karachi-affair-kickback-allegations)).
+In March 2021, he was acquitted of all charges. His former defense
 minister, François Léotard, was convicted and given a suspended two-year sentence and a
 €100,000 fine; two intermediaries in the kickback scheme, Ziad Takieddine and Abdul Rahman
 El-Assir, were separately sentenced to five years in prison each

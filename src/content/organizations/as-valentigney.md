@@ -11,12 +11,10 @@ established: "1920"
 facts:
   - label: Founding base
     value: Workers at the Peugeot automobile factory in Valentigney
-  - label: Colors
-    value: Red and white
   - label: Peak result
     value: Runners-up, 1926 Coupe de France (lost 4–1 to Olympique de Marseille)
-  - label: Other honor
-    value: Champion, Championnat de France Amateur, 1935–36 season
+  - label: Other honors (per Statfootballclubfrance)
+    value: A cup run in 1928 and a title in the 1960–61 season
 timeline:
   - year: "1920"
     event: Founded in Valentigney, a Peugeot factory town in the Doubs, largely by Peugeot workers.
@@ -31,8 +29,11 @@ timeline:
       Peugeot director Jean-Pierre Peugeot, impressed by Valentigney's cup run, chooses to back a separately
       newly founded works club, Football Club de Sochaux, rather than expand Valentigney itself.
     sourceType: Specialist press
-  - year: "1935–36"
-    event: Wins the Championnat de France Amateur (the amateur national championship of the era).
+  - year: "1960–61"
+    event: >-
+      Wins a title in the 1960–61 season, per Statfootballclubfrance, which also credits the club with a
+      separate cup run in 1928 — not the 1935–36 amateur championship previously (and incorrectly)
+      attributed to this source.
     sourceType: Specialist press
   - year: "1942–1944"
     event: Merges with Sochaux during the Second World War to form FC Sochaux-Valentigney; the clubs separate again afterward.
@@ -42,7 +43,12 @@ sourceNote: >-
   the French Football Federation's own video archive of the match. The Sochaux founding story is reported here
   as the independent football-history press tells it — Peugeot invested in a newly created club rather than
   simply expanding Valentigney — rather than the simpler "Valentigney became Sochaux" version sometimes repeated
-  online.
+  online. An earlier version of this profile misattributed a claim about the club's colors and a "1935–36
+  amateur championship" to Statfootballclubfrance; that source does not state the club's colors, and its
+  honors record instead describes a 1928 cup run and a 1960–61 title, corrected accordingly. leballonrond.fr
+  returned a 403 error when this profile's sources were re-checked in the most recent audit pass and could not
+  be re-verified; it remains cited here from an earlier successful fetch, but its content was not re-read this
+  pass.
 openItems:
   - >-
     No source found gives a precise account of AS Valentigney's status or activity after its wartime merger with
@@ -68,7 +74,7 @@ sources:
     url: https://statfootballclubfrance.fr/as-valentigney.php
     publisher: Statfootballclubfrance
     tier: tier3
-    usedFor: Supporting confirmation of the club's founding year, colors, and the 1935–36 amateur championship.
+    usedFor: Supporting confirmation of the club's founding year, a 1928 cup run, and a 1960–61 title.
   - title: "AS Valentigney - France - Profil de l'équipe"
     url: https://www.leballonrond.fr/equipe/as-valentigney/84483
     publisher: Le Ballon Rond
@@ -76,7 +82,7 @@ sources:
     usedFor: Supporting confirmation of the club's identity and honors record.
 author: Muhammad Abdullah Al Yasin
 published: "2026-08-30"
-lastUpdated: "2026-08-30"
+lastUpdated: "2026-09-05"
 draft: false
 ---
 
@@ -102,13 +108,15 @@ Valentigney continued on as an amateur side. The two clubs' histories briefly me
 from 1942 to 1944, when they combined to form FC Sochaux-Valentigney before separating again once the war ended
 ([Le Footichiste](https://www.footichiste.com/sochaux-peugeot/)).
 
-Valentigney's own amateur record includes a national title of its own: the club won the Championnat de France
-Amateur, the top amateur championship of the period, in the 1935–36 season
-([Statfootballclubfrance](https://statfootballclubfrance.fr/as-valentigney.php)).
+Valentigney's own honors record, per Statfootballclubfrance, includes a cup run in 1928 and a title win in the
+1960–61 season
+([Statfootballclubfrance](https://statfootballclubfrance.fr/as-valentigney.php)) — not, as an earlier version
+of this profile stated, a "1935–36 Championnat de France Amateur" title, which that source does not describe.
 
 ## What this profile does not claim
 
 This profile does not describe AS Valentigney's activity after the Second World War in any detail; no source
 consulted for this profile covers that period. A separate piece specifically on Valentigney's place in French
 women's football history surfaced during research but returned a server error when this profile's sources were
-checked, so it is not cited or relied upon here.
+checked, so it is not cited or relied upon here. This profile does not state the club's colors, since no source
+consulted here establishes them.
