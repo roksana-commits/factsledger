@@ -7,7 +7,7 @@ export const SITE = {
   name: 'FactsLedger',
   tagline: 'Documented entities. Independent sources. Clear context.',
   description:
-    'A source-backed reference for schools, universities, people, organizations and places. Every claim is linked to the source it rests on.',
+    'A source-backed reference for schools, universities, people, organizations, places and species. Every claim is linked to the source it rests on.',
   // Change this to your real domain before the first deploy.
   url: 'https://factsledger.com',
   socialImage: '/images/factsledger-social.jpg',
@@ -72,6 +72,12 @@ export const CATEGORIES = [
     label: 'Creative Works',
     collection: 'creative-works',
     blurb: 'Novels, films, songs and other creative works with a documented real-world story — a controversy, a court case, a notable production history — beyond ordinary critical reception.',
+  },
+  {
+    slug: 'species',
+    label: 'Species',
+    collection: 'species',
+    blurb: 'Plants, animals and other biological species documented from institutional, academic and independent sources.',
   },
 ];
 

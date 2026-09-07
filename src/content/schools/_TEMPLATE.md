@@ -6,7 +6,7 @@
 title: Example School
 summary: >-
   One or two sentences. Shown on listing pages and used as the meta description. 40–300 characters.
-entityType: School            # School | University | College | Person | Organization | TrainStation | ReligiousSite | Hospital | Place
+entityType: School            # School | University | College | Person | Organization | TrainStation | ReligiousSite | Hospital | Place | Event | CreativeWork | Species
 country: Nepal
 location: District, City
 established: "1991"           # optional, quoted

@@ -51,6 +51,7 @@ const baseProfile = z.object({
     'Place',
     'Event',
     'CreativeWork',
+    'Species',
   ]),
   country: z.string(),
   location: z.string().optional(),
@@ -101,4 +102,5 @@ export const collections = {
   places: makeCollection('places'),
   events: makeCollection('events'),
   'creative-works': makeCollection('creative-works'),
+  species: makeCollection('species'),
 };

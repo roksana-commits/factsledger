@@ -22,6 +22,7 @@ const SCHEMA_TYPE: Record<string, string> = {
   ReligiousSite: 'PlaceOfWorship',
   Hospital: 'Hospital',
   Place: 'Place',
+  Species: 'Taxon',
 };
 
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
@@ -33,10 +34,11 @@ const entityLd: Record<string, unknown> = {
   description: d.summary,
   url: pageUrl,
 };
-if (d.location || d.country) {
+// A postal address doesn't apply to a biological taxon's native range.
+if ((d.location || d.country) && d.entityType !== 'Species') {
   entityLd.address = { '@type': 'PostalAddress', addressLocality: d.location, addressCountry: d.country };
 }
-if (d.established) entityLd.foundingDate = d.established;
+if (d.established && d.entityType !== 'Species') entityLd.foundingDate = d.established;
 const officialSite = d.sources.find((s: any) => s.tier === 'first-party');
 if (officialSite) entityLd.sameAs = [officialSite.url];
 
