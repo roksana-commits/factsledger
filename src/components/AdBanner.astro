@@ -17,6 +17,18 @@
       is:inline
       src="https://www.highrevenueformat.com/fd7eed3b26537030dbb97d843736793a/invoke.js"
     ></script>
+    <script is:inline>
+      (() => {
+        const currentScript = document.currentScript;
+        const banner = currentScript?.closest('.ad-banner');
+        const frame = banner?.querySelector('.ad-banner__frame');
+        if (!banner || !frame) return;
+        window.setTimeout(() => {
+          const renderedAd = frame.querySelector('iframe, img, video, object, embed, ins, a');
+          if (!renderedAd && frame.childElementCount === 0) banner.remove();
+        }, 2500);
+      })();
+    </script>
   </div>
 </aside>
 
