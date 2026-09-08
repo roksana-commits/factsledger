@@ -1,8 +1,26 @@
 ---
+import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
-import { SITE } from '../../site.config.js';
+import { SITE, CATEGORIES } from '../../site.config.js';
 
 const sameAs = Object.values(SITE.author.social ?? {}).filter(Boolean);
+
+const all = [];
+for (const cat of CATEGORIES) {
+  const entries = await getCollection(cat.collection as any);
+  for (const e of entries as any[]) {
+    if (!e.data.draft) all.push({ ...e, category: cat.slug, categoryLabel: cat.label });
+  }
+}
+all.sort((a, b) => b.data.published.valueOf() - a.data.published.valueOf());
+const recent = all.slice(0, 10);
+const categoryCounts = CATEGORIES.map((cat) => ({
+  ...cat,
+  count: all.filter((e) => e.category === cat.slug).length,
+})).filter((cat) => cat.count > 0);
+
+const fmt = (d: Date) =>
+  new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(d);
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -39,16 +57,43 @@ const jsonLd = {
   <p>
     {SITE.author.name} researches and writes the entity profiles published on {SITE.name}, and is responsible for
     the site's source standards. Work covers institutions and individuals whose public record is scattered across
-    government documents, awarding-body publications and local press archives.
+    government documents, awarding-body publications and local press archives — schools and colleges, universities,
+    people, organizations, places, historical events, creative works and, most recently, biological species.
+    {categoryCounts.length > 0 && (
+      <>
+        {' '}As of {fmt(new Date())}, that work spans {all.length} published profiles across {categoryCounts.length}
+        {' '}categories:{' '}
+        {categoryCounts.map((cat, i) => (
+          <>
+            <a href={`/${cat.slug}/`}>{cat.label}</a>
+            {i < categoryCounts.length - 1 ? (i === categoryCounts.length - 2 ? ' and ' : ', ') : '.'}
+          </>
+        ))}
+      </>
+    )}
   </p>
 
   <h2>Approach</h2>
+  <p>
+    Every profile on this site starts from the question of what can actually be confirmed, not what would be
+    convenient to publish. That means fetching and reading a source in full before relying on it — never citing a
+    search snippet or a summary written elsewhere — and checking that the source genuinely supports the specific
+    sentence attributed to it, rather than being merely adjacent to the topic. Where two independent sources
+    disagree on a detail, such as an exact date or a numbered ranking, the disagreement is stated in the profile
+    rather than resolved by guesswork.
+  </p>
   <ul>
     <li>Primary documents before secondary summaries.</li>
     <li>Every cited source opened and read against the claim it supports.</li>
     <li>First-party statements labelled, never presented as independent confirmation.</li>
     <li>Unverified claims published as open items rather than dropped or hedged.</li>
+    <li>Cross-source disagreements stated openly, never silently resolved by guesswork.</li>
   </ul>
+  <p>
+    A profile is not published just because a subject is popular or trending. Many researched candidates are held
+    back — as too thinly sourced, already extensively covered elsewhere, or not a good fit for any of this site's
+    categories — and that screening is treated as part of the job, not a shortfall of it.
+  </p>
 
   <h2>Standards this author works to</h2>
   <ul>
@@ -57,6 +102,19 @@ const jsonLd = {
     <li><a href="/about/editorial-policy/">Editorial policy</a></li>
     <li><a href="/about/corrections/">Corrections policy</a></li>
   </ul>
+
+  {recent.length > 0 && (
+    <>
+      <h2>Recently published</h2>
+      <ul>
+        {recent.map((e: any) => (
+          <li>
+            <a href={`/${e.category}/${e.id}/`}>{e.data.title}</a> — {e.categoryLabel}, {fmt(e.data.published)}
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
 
   <h2>Contact</h2>
   <p>

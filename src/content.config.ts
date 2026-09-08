@@ -66,7 +66,7 @@ const baseProfile = z.object({
   /** Claims that could not be verified, stated openly rather than dropped silently. */
   openItems: z.array(z.string()).default([]),
   related: z.array(z.object({ label: z.string(), href: z.string() })).default([]),
-  author: z.string().default('Muhammad'),
+  author: z.string().default('Muhammad Abdullah Al Yasin'),
   published: z.coerce.date(),
   lastUpdated: z.coerce.date(),
   draft: z.boolean().default(false),

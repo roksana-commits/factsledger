@@ -42,7 +42,7 @@ export const CATEGORIES = [
     slug: 'universities',
     label: 'Universities & Colleges',
     collection: 'universities',
-    blurb: 'Universities and colleges documented from statutory records, regulators and independent reporting.',
+    blurb: 'Universities and colleges documented from statutory records, regulators, accreditation bodies, institutional histories and independent reporting.',
   },
   {
     slug: 'people',
@@ -72,7 +72,7 @@ export const CATEGORIES = [
     slug: 'creative-works',
     label: 'Creative Works',
     collection: 'creative-works',
-    blurb: 'Novels, films, songs and other creative works with a documented real-world story — a controversy, a court case, a notable production history — beyond ordinary critical reception.',
+    blurb: 'Novels, films, songs and other creative works with a documented real-world story — a controversy, a court case, a museum acquisition, a notable production or publication history — beyond ordinary critical reception, sourced from museum records, court documents and independent arts journalism rather than fan wikis or plot summaries.',
   },
   {
     slug: 'species',
