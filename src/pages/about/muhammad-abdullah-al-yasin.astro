@@ -61,10 +61,23 @@ const jsonLd = {
   <h2>Contact</h2>
   <p>
     <a href={`mailto:${SITE.email}`}>{SITE.email}</a> — or use the <a href="/contact/">contact form</a>.
+    {SITE.author.social?.linkedin && (
+      <>
+        {' '}Connect with the author on <a href={SITE.author.social.linkedin} rel="me noopener" target="_blank">LinkedIn</a>.
+      </>
+    )}
     {SITE.author.social?.facebook && (
       <>
         {' '}Also on <a href={SITE.author.social.facebook} rel="me noopener" target="_blank">Facebook</a>.
       </>
     )}
+  </p>
+
+  <h2>Technical development and maintenance</h2>
+  <p>
+    Technical development and website maintenance by Roksana, an independent freelancer.{' '}
+    <a href="https://www.facebook.com/roksana.akhter.ripa.1993" rel="noopener noreferrer" target="_blank">
+      Contact Roksana on Facebook
+    </a>.
   </p>
 </Page>
