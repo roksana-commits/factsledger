@@ -3,7 +3,6 @@ import Base from './Base.astro';
 import KeyFacts from '../components/KeyFacts.astro';
 import SourceList from '../components/SourceList.astro';
 import AiSummary from '../components/AiSummary.astro';
-import AdBanner from '../components/AdBanner.astro';
 import { SITE, CATEGORY_BY_SLUG } from '../site.config.js';
 
 const { entry, category } = Astro.props;
@@ -105,7 +104,6 @@ const hasFirstParty = d.sources.some((s: any) => s.tier === 'first-party');
 
     <AiSummary pageUrl={pageUrl} pageTitle={d.title} />
 
-    <AdBanner />
 
     <KeyFacts facts={facts} />
 
