@@ -13,6 +13,7 @@ export const SITE = {
   socialImage: '/images/factsledger-social.jpg',
   // Contact + legal
   email: 'contact@factsledger.com',
+  donateUrl: 'https://ko-fi.com/muhammadabdullahalyasin',
   correctionsEmail: 'corrections@factsledger.com',
   publisher: 'FactsLedger',
   locale: 'en',

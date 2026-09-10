@@ -17,6 +17,7 @@ const robots = noindex ? 'noindex, follow' : 'index, follow, max-image-preview:l
 const canonical = noindex ? null : new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 const socialImage = new URL(SITE.socialImage, SITE.url).href;
 const path = Astro.url.pathname;
+const donateUrl = SITE.donateUrl;
 const year = new Date().getFullYear();
 const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${year}`;
 ---
@@ -81,7 +82,7 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
             </svg>
             <input type="search" name="q" placeholder="Search profiles" aria-label="Search profiles" />
           </form>
-          <a class="btn-donate" href="/#support" aria-label="Support the FactsLedger research">Donate</a>
+          <a class="btn-donate" href={donateUrl} target="_blank" rel="noopener noreferrer" aria-label="Support the FactsLedger research on Ko-fi">Donate</a>
         </div>
       </div>
       <nav class="nav" aria-label="Primary">
@@ -133,7 +134,7 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
           <div class="site-footer__support">
             <h2>Support</h2>
             <p>Support helps keep the research and website maintenance going.</p>
-            <a class="btn-donate" href="/#support">Donate</a>
+            <a class="btn-donate" href={donateUrl} target="_blank" rel="noopener noreferrer">Donate</a>
           </div>
         </div>
         <div class="site-footer__legal">
