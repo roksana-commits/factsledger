@@ -59,26 +59,46 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
   <body>
     <a class="skip" href="#main">Skip to content</a>
 
+    <div class="site-utility">
+      <nav class="wrap site-utility__inner" aria-label="Utility">
+        <a href="/">Home</a>
+        <a href="/search/">Profile search</a>
+        <a href="/">Category index</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
     <header class="site-header">
       <div class="wrap site-header__inner">
         <a class="brand" href="/">
           Facts<span>Ledger</span>
           <small>{SITE.tagline}</small>
         </a>
-        <nav class="nav" aria-label="Primary">
-          <ul>
-            {CATEGORIES.map((c) => (
-              <li>
-                <a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>
-                  {c.label}
-                </a>
-              </li>
-            ))}
-            <li><a href="/about/" aria-current={path.startsWith('/about/') ? 'page' : undefined}>About</a></li>
-            <li><a href="/contact/" aria-current={path === '/contact/' ? 'page' : undefined}>Contact</a></li>
-          </ul>
-        </nav>
+        <div class="site-header__actions">
+          <form class="search" action="/search/" method="get" role="search">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <circle cx="7" cy="7" r="4.6"></circle><path d="M10.5 10.5 L14 14"></path>
+            </svg>
+            <input type="search" name="q" placeholder="Search profiles" aria-label="Search profiles" />
+          </form>
+          <a class="btn-donate" href="/#support" aria-label="Support the FactsLedger research">Donate</a>
+        </div>
       </div>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__inner">
+          {CATEGORIES.map((c) => (
+            <li>
+              <a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>
+                {c.label}
+              </a>
+            </li>
+          ))}
+          <li class="nav__end">
+            <a href="/about/" aria-current={path.startsWith('/about/') ? 'page' : undefined}>About</a>
+            <a href="/contact/" aria-current={path === '/contact/' ? 'page' : undefined}>Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main id="main">
@@ -88,7 +108,7 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
     <footer class="site-footer">
       <div class="wrap">
         <div class="site-footer__inner">
-          <div>
+          <div class="site-footer__identity">
             <h2>{SITE.name}</h2>
             <p style="margin:0 0 0.6rem">{SITE.description}</p>
             <p style="margin:0"><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
@@ -109,6 +129,11 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
               <li><a href="/about/corrections/">Corrections</a></li>
               <li><a href={`/about/${SITE.author.slug}/`}>Authors</a></li>
             </ul>
+          </div>
+          <div class="site-footer__support">
+            <h2>Support</h2>
+            <p>Support helps keep the research and website maintenance going.</p>
+            <a class="btn-donate" href="/#support">Donate</a>
           </div>
         </div>
         <div class="site-footer__legal">

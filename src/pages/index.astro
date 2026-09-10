@@ -53,30 +53,48 @@ const jsonLd = {
       ))}
     </ul>
 
-    <h2 style="margin-top:3rem">Recently researched</h2>
+    <div class="section-heading" style="margin-top:3rem">
+      <h2>Recently researched</h2>
+      {recent[0] && <span>Updated {fmt(recent[0].data.lastUpdated)}</span>}
+    </div>
     {recent.length === 0 ? (
       <p style="color:var(--ink-soft)">No profiles published yet.</p>
     ) : (
       <ul class="index-list">
         {recent.map((e: any) => (
-          <li>
-            <a href={`/${e.category}/${e.id}/`}>{e.data.title}</a>
-            <p>{e.data.summary}</p>
-            <p class="card__meta">
-              {e.categoryLabel} · {e.data.country} · {e.data.sources.length} sources · updated {fmt(e.data.lastUpdated)}
-            </p>
+          <li class="index-list__row">
+            <div class="index-list__content">
+              <a href={`/${e.category}/${e.id}/`}>{e.data.title}</a>
+              <p>{e.data.summary}</p>
+            </div>
+            <aside class="index-list__aside" aria-label={`${e.data.title} metadata`}>
+              <strong>{e.categoryLabel}</strong>
+              <span>{e.data.country}</span>
+              <span>{e.data.sources.length} sources</span>
+              <time datetime={e.data.lastUpdated.toISOString()}>{fmt(e.data.lastUpdated)}</time>
+            </aside>
           </li>
         ))}
       </ul>
     )}
 
-    <div class="narrow">
-      <h2 style="margin-top:3rem">What this site is not</h2>
-      <p>
-        {SITE.name} is not an encyclopedia and does not reproduce content from one. Profiles are researched
-        independently from primary and published sources. Where a claim cannot be verified, it is listed openly as an
-        open item rather than published as fact.
-      </p>
+    <div class="home-panels">
+      <section class="home-panel home-panel--plain">
+        <h2>What this site is not</h2>
+        <p>
+          {SITE.name} is not an encyclopedia and does not reproduce content from one. Profiles are researched
+          independently from primary and published sources. Where a claim cannot be verified, it is listed openly as an
+          open item rather than published as fact.
+        </p>
+      </section>
+      <section class="home-panel home-panel--support" id="support">
+        <h2>Support the research</h2>
+        <p>
+          Every profile takes careful source-reading before publication. If you would like to support the research and
+          website maintenance, contact us to discuss it.
+        </p>
+        <a class="btn-donate" href={`mailto:${SITE.email}?subject=Support%20FactsLedger`}>Donate</a>
+      </section>
     </div>
   </div>
 </Base>

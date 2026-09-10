@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { SITE, CATEGORIES } from '../../site.config.js';
+
+const all = [];
+for (const cat of CATEGORIES) {
+  const entries = await getCollection(cat.collection as any);
+  for (const e of entries as any[]) {
+    if (!e.data.draft) all.push({ ...e, category: cat.slug, categoryLabel: cat.label });
+  }
+}
+all.sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<Base title="Search profiles" description={`Search documented profiles across ${SITE.name}.`}>
+  <div class="wrap wrap--centred search-page">
+    <p class="eyebrow">Profile search</p>
+    <h1>Search profiles</h1>
+    <p class="lede">Find a documented school, university, person, organization, place, event, creative work or species.</p>
+
+    <form class="search-page__form" role="search">
+      <label class="search-page__label" for="profile-search">Search the profile archive</label>
+      <div class="search-page__controls">
+        <input id="profile-search" type="search" name="q" placeholder="Search profiles" autocomplete="off" />
+        <button type="submit">Search</button>
+      </div>
+    </form>
+    <p class="search-page__count" aria-live="polite"></p>
+
+    <ul class="search-results" aria-label="Profile search results">
+      {all.map((e: any) => (
+        <li data-search={`${e.data.title} ${e.data.summary} ${e.categoryLabel} ${e.data.country}`.toLowerCase()}>
+          <a href={`/${e.category}/${e.id}/`}>{e.data.title}</a>
+          <p>{e.data.summary}</p>
+          <span>{e.categoryLabel} · {e.data.country}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <script is:inline>
+    const form = document.querySelector('.search-page__form');
+    const input = document.querySelector('#profile-search');
+    const results = [...document.querySelectorAll('.search-results li')];
+    const count = document.querySelector('.search-page__count');
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get('q') || '';
+
+    const updateResults = (value) => {
+      const query = value.trim().toLowerCase();
+      let visible = 0;
+      results.forEach((result) => {
+        const matches = !query || result.dataset.search.includes(query);
+        result.hidden = !matches;
+        if (matches) visible += 1;
+      });
+      count.textContent = query ? `${visible} profile${visible === 1 ? '' : 's'} found` : `${visible} profiles`;
+    };
+
+    input.value = initialQuery;
+    input.addEventListener('input', () => updateResults(input.value));
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const query = input.value.trim();
+      const url = new URL(window.location.href);
+      query ? url.searchParams.set('q', query) : url.searchParams.delete('q');
+      window.history.replaceState({}, '', url);
+      updateResults(query);
+    });
+    updateResults(initialQuery);
+  </script>
+</Base>
+
+<style>
+  .search-page { padding-bottom: 3rem; }
+  .search-page__form { max-width: 48rem; margin: 2rem 0 1rem; }
+  .search-page__label { display: block; margin-bottom: 0.5rem; font-family: var(--font-ui); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  .search-page__controls { display: flex; gap: 0.75rem; align-items: center; }
+  .search-page__controls input { flex: 1; }
+  .search-page__count { color: var(--ink-faint); font-family: var(--font-ui); font-size: 0.85rem; }
+  .search-results { list-style: none; padding: 0; margin: 1.5rem 0 0; border-top: 1px solid var(--line); }
+  .search-results li { padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
+  .search-results li[hidden] { display: none; }
+  .search-results a { color: var(--ink); font-family: var(--font-body); font-size: 1.35rem; font-weight: 600; text-decoration: none; }
+  .search-results a:hover { color: var(--accent); }
+  .search-results p { margin: 0.35rem 0 0.55rem; color: var(--ink-soft); }
+  .search-results span { color: var(--ink-faint); font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.09em; text-transform: uppercase; }
+  @media (max-width: 34rem) { .search-page__controls { align-items: stretch; flex-direction: column; } .search-page__controls input, .search-page__controls button { width: 100%; } }
+</style>
