@@ -151,7 +151,11 @@ openItems:
     thread from the Navier–Stokes claim covered in this profile, remained
     unconfirmed by either company as of that report, and are not treated
     as resolved here.
-related: []
+related:
+  - label: Sam Altman
+    href: /people/sam-altman/
+  - label: OpenAI
+    href: /organizations/openai/
 sources:
   - title: "OpenAI claims huge maths breakthrough on a famed 'Millennium Problem'"
     url: https://www.nature.com/articles/d41586-026-02842-5
