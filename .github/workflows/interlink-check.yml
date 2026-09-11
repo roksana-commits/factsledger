@@ -1,0 +1,24 @@
+name: Interlink audit
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check-interlinks:
+    name: Check contextual internal links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Audit internal links
+        run: npm run check:interlinks

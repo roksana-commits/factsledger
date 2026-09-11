@@ -8,6 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "check:interlinks": "python3 scripts/check-interlinks.py",
     "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {

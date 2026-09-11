@@ -15,3 +15,7 @@ For each profile:
 7. If no direct, sourced relationship exists, do not add an internal link merely for SEO.
 
 Source citations remain separate from internal entity links. The internal link should clarify the entity relationship for readers, while the external citation should support the factual claim.
+
+## Automatic audit
+
+Run `npm run check:interlinks` locally before committing. The same check runs automatically on every GitHub push and pull request through `.github/workflows/interlink-check.yml`. It fails when a source page links to the same internal target more than once or when a profile target is missing, and it reports legacy `related:` blocks for migration.
