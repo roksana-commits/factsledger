@@ -185,16 +185,6 @@ openItems:
     above; this profile does not assert they are current as of any later
     date.
 
-related:
-  - label: Sam Altman (chief executive)
-    href: /people/sam-altman/
-  - label: Greg Brockman (co-founder and president)
-    href: /people/greg-brockman/
-  - label: Elon Musk (co-founder, later litigant against the company)
-    href: /people/elon-musk/
-  - label: "OpenAI's 2026 Navier–Stokes Millennium Prize claim"
-    href: /events/2026-openai-navier-stokes-claim/
-
 sources:
   - title: "OpenAI | ChatGPT, Sam Altman, & Microsoft"
     url: https://www.britannica.com/money/OpenAI
@@ -353,7 +343,7 @@ OpenAI is an American artificial intelligence research and product company, anno
 
 ## Founding
 
-Individuals named as OpenAI's founders or earliest backers in the sources read for this profile include Sam Altman and Elon Musk, both described as investors and co-founders; Greg Brockman, who became chief technology officer; Ilya Sutskever, who became research director; and Peter Thiel, named as an early investor and co-founder ([MIT Technology Review](https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/)). The organization's original stated aim was to "build value for everyone rather than shareholders" and to hold "a primary fiduciary duty to humanity" while safely developing artificial general intelligence ([MIT Technology Review](https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/)).
+Individuals named as OpenAI's founders or earliest backers in the sources read for this profile include Sam Altman and [Elon Musk](/people/elon-musk/), both described as investors and co-founders; [Greg Brockman](/people/greg-brockman/), who became chief technology officer; Ilya Sutskever, who became research director; and Peter Thiel, named as an early investor and co-founder ([MIT Technology Review](https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/)). The organization's original stated aim was to "build value for everyone rather than shareholders" and to hold "a primary fiduciary duty to humanity" while safely developing artificial general intelligence ([MIT Technology Review](https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/)).
 
 Musk left OpenAI's board on February 23, 2018. OpenAI's own blog post at the time gave the reason as avoiding a looming conflict of interest, stating, "As Tesla continues to become more focused on AI, this will eliminate a potential future conflict for Elon," and said he would continue to donate to and advise the organization ([Business Standard](https://www.business-standard.com/article/international/elon-musk-leaves-openai-board-to-avoid-conflict-of-interest-with-tesla-118022300413_1.html)).
 

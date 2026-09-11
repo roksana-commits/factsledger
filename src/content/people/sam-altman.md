@@ -295,7 +295,7 @@ On November 17, 2023, OpenAI's board voted to remove Altman as CEO. Over the fol
 
 ### The Musk lawsuit
 
-[Elon Musk](/people/elon-musk/), an OpenAI co-founder who left its board in 2018, sued Altman, OpenAI, and Microsoft, alleging that Altman and [Greg Brockman](/people/greg-brockman/) committed a "breach of charitable trust" by shifting OpenAI's mission and assets into a for-profit subsidiary after 2019. On May 18, 2026, a jury unanimously dismissed all of Musk's claims in under two hours, finding that he had waited too long to sue; the presiding judge, Yvonne Gonzalez Rogers, said there was "a substantial amount of evidence to support the jury's finding." The jury did not rule on whether a breach of the founding agreement had actually occurred. Musk's attorney, Marc Toberoff, said the response was "appeal" ([NPR](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed)).
+Elon Musk, an OpenAI co-founder who left its board in 2018, sued Altman, OpenAI, and Microsoft, alleging that Altman and [Greg Brockman](/people/greg-brockman/) committed a "breach of charitable trust" by shifting OpenAI's mission and assets into a for-profit subsidiary after 2019. On May 18, 2026, a jury unanimously dismissed all of Musk's claims in under two hours, finding that he had waited too long to sue; the presiding judge, Yvonne Gonzalez Rogers, said there was "a substantial amount of evidence to support the jury's finding." The jury did not rule on whether a breach of the founding agreement had actually occurred. Musk's attorney, Marc Toberoff, said the response was "appeal" ([NPR](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed)).
 
 ### The 2026 Navier–Stokes claim
 
