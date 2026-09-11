@@ -264,13 +264,6 @@ author: Muhammad Abdullah Al Yasin
 published: "2026-09-11"
 lastUpdated: "2026-09-11"
 draft: false
-related:
-  - label: "Sam Altman (co-founder, later adversary in litigation)"
-    href: /people/sam-altman/
-  - label: "Greg Brockman (fellow OpenAI co-founder and trial witness; sources disagree on whether he was ever a named defendant)"
-    href: /people/greg-brockman/
-  - label: "OpenAI (the organization he co-founded and later sued)"
-    href: /organizations/openai/
 openItems:
   - >-
     OpenAI's own account of Musk's 2018 departure (that he sought majority
@@ -328,7 +321,7 @@ Elon Reeve Musk was born June 28, 1971, in Pretoria, South Africa, and left the 
 
 ## Co-founding OpenAI (2015)
 
-In December 2015, Musk joined a group of Silicon Valley figures — including Sam Altman, Peter Thiel, Jessica Livingston, and Reid Hoffman — in launching OpenAI as a nonprofit artificial intelligence research lab, with the group pledging $1 billion toward the project ([CNN Money](https://money.cnn.com/2015/12/12/technology/openai-elon-musk/)). Musk and Altman served as co-chairs of the new organization ([Forbes](https://www.forbes.com/sites/ericmack/2015/12/11/elon-musk-sam-altman-peter-thiel-others-launch-open-a-i-with-1-billion-donation/)). OpenAI's stated mission was to advance AI safely and make its research broadly available rather than let the technology be developed and controlled by a single company; Musk, who had previously voiced concern about AI's trajectory, said he wanted AI to function as "an extension of individual human wills" rather than a concentration of power in few hands ([Forbes](https://www.forbes.com/sites/ericmack/2015/12/11/elon-musk-sam-altman-peter-thiel-others-launch-open-a-i-with-1-billion-donation/); [CNN Money](https://money.cnn.com/2015/12/12/technology/openai-elon-musk/)).
+In December 2015, Musk joined a group of Silicon Valley figures — including [Sam Altman](/people/sam-altman/), Peter Thiel, Jessica Livingston, and Reid Hoffman — in launching [OpenAI](/organizations/openai/) as a nonprofit artificial intelligence research lab, with the group pledging $1 billion toward the project ([CNN Money](https://money.cnn.com/2015/12/12/technology/openai-elon-musk/)). Musk and Altman served as co-chairs of the new organization ([Forbes](https://www.forbes.com/sites/ericmack/2015/12/11/elon-musk-sam-altman-peter-thiel-others-launch-open-a-i-with-1-billion-donation/)). OpenAI's stated mission was to advance AI safely and make its research broadly available rather than let the technology be developed and controlled by a single company; Musk, who had previously voiced concern about AI's trajectory, said he wanted AI to function as "an extension of individual human wills" rather than a concentration of power in few hands ([Forbes](https://www.forbes.com/sites/ericmack/2015/12/11/elon-musk-sam-altman-peter-thiel-others-launch-open-a-i-with-1-billion-donation/); [CNN Money](https://money.cnn.com/2015/12/12/technology/openai-elon-musk/)).
 
 ## Departure from OpenAI's board (2018)
 
@@ -344,7 +337,7 @@ Independent reporting from before the lawsuit gives a broadly similar picture of
 
 Musk first sued OpenAI and Sam Altman in San Francisco Superior Court in February 2024, alleging the company had abandoned its founding nonprofit mission and become what the complaint called a "closed-source de facto subsidiary" of Microsoft, oriented toward "maximizing profits for Microsoft" rather than developing artificial general intelligence for humanity's benefit; the suit sought to compel OpenAI back toward its original mission ([NBC News](https://www.nbcnews.com/news/us-news/elon-musk-sues-openai-ceo-sam-altman-contract-breach-rcna141320)). On June 11, 2024, Musk's attorneys withdrew that suit without prejudice and without stating a reason, shortly before a judge was due to rule on OpenAI's motion to dismiss it ([Malay Mail](https://www.malaymail.com/amp/news/money/2024/06/12/elon-musk-withdraws-lawsuit-against-openai/139309)).
 
-In August 2024, Musk refiled in U.S. federal court in the Northern District of California, adding new claims including allegations of racketeering violations; his attorney Marc Toberoff called the new complaint "much stronger than the previous one." PhoneArena's report on that filing states it also named Greg Brockman as a defendant, but TechCrunch's independent account of the subsequent November 2024 amended complaint lists its defendants as OpenAI, Microsoft, Reid Hoffman, Dee Templeton, and California Attorney General Rob Bonta, without including Brockman — this profile does not resolve that discrepancy (see "What this profile does not claim") ([PhoneArena](https://www.phonearena.com/news/musk-openai-new-lawsuit_id161151); [TechCrunch](https://techcrunch.com/2024/11/14/musks-amended-lawsuit-against-openai-names-microsoft-as-defendant)). Brockman himself testified as a witness at the eventual trial. Microsoft was a defendant in the case by the time it reached summary judgment and trial, though sources read for this profile do not agree on exactly when Microsoft was added.
+In August 2024, Musk refiled in U.S. federal court in the Northern District of California, adding new claims including allegations of racketeering violations; his attorney Marc Toberoff called the new complaint "much stronger than the previous one." PhoneArena's report on that filing states it also named [Greg Brockman](/people/greg-brockman/) as a defendant, but TechCrunch's independent account of the subsequent November 2024 amended complaint lists its defendants as OpenAI, Microsoft, Reid Hoffman, Dee Templeton, and California Attorney General Rob Bonta, without including Brockman — this profile does not resolve that discrepancy (see "What this profile does not claim") ([PhoneArena](https://www.phonearena.com/news/musk-openai-new-lawsuit_id161151); [TechCrunch](https://techcrunch.com/2024/11/14/musks-amended-lawsuit-against-openai-names-microsoft-as-defendant)). Brockman himself testified as a witness at the eventual trial. Microsoft was a defendant in the case by the time it reached summary judgment and trial, though sources read for this profile do not agree on exactly when Microsoft was added.
 
 ### Pretrial rulings and trial
 
