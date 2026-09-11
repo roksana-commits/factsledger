@@ -143,19 +143,6 @@ openItems:
     No individually attributed net worth figure more recent than March
     2024 was located in a source independent of company or promotional
     material; no current net worth is stated.
-related:
-  - label: "Oliver Mulherin (husband)"
-    href: /people/oliver-mulherin/
-  - label: "OpenAI (chief executive)"
-    href: /organizations/openai/
-  - label: "Greg Brockman (OpenAI co-founder and president)"
-    href: /people/greg-brockman/
-  - label: "Elon Musk (OpenAI co-founder, later adversary in litigation)"
-    href: /people/elon-musk/
-  - label: "Y Combinator (former president)"
-    href: /organizations/y-combinator/
-  - label: "OpenAI's 2026 Navier–Stokes Millennium Prize claim"
-    href: /events/2026-openai-navier-stokes-claim/
 sources:
   - title: "Sam Altman"
     url: https://www.britannica.com/money/Sam-Altman
@@ -292,15 +279,15 @@ draft: false
 
 ## Overview
 
-Samuel Harris Altman is an American technology entrepreneur and investor who has been chief executive officer of the artificial intelligence company OpenAI since 2019 ([Britannica](https://www.britannica.com/money/Sam-Altman)). Born April 22, 1985, in Chicago and raised in Clayton, Missouri, he studied computer science at Stanford University before leaving without a degree ([Britannica](https://www.britannica.com/money/Sam-Altman)). He came out as gay in high school, publicly defending a National Coming Out Day speaker against objections from other students, and later discussed his sexuality more fully in a 2015 blog post and a 2016 New Yorker interview ([The Advocate](https://www.advocate.com/news/sam-altman-openai-exclusive)).
+Samuel Harris Altman is an American technology entrepreneur and investor who has been chief executive officer of the artificial intelligence company [OpenAI](/organizations/openai/) since 2019 ([Britannica](https://www.britannica.com/money/Sam-Altman)). Born April 22, 1985, in Chicago and raised in Clayton, Missouri, he studied computer science at Stanford University before leaving without a degree ([Britannica](https://www.britannica.com/money/Sam-Altman)). He came out as gay in high school, publicly defending a National Coming Out Day speaker against objections from other students, and later discussed his sexuality more fully in a 2015 blog post and a 2016 New Yorker interview ([The Advocate](https://www.advocate.com/news/sam-altman-openai-exclusive)).
 
 ## Early career
 
-At 19, Altman co-founded Loopt, a location-based social networking app; the company was acquired by Green Dot Corporation in 2012 for $43.4 million ([Britannica](https://www.britannica.com/money/Sam-Altman)). He joined the startup accelerator Y Combinator part-time in 2011, became its president in 2014 (succeeding co-founder Paul Graham), and left in 2019 to focus full-time on OpenAI ([Britannica](https://www.britannica.com/money/Sam-Altman)).
+At 19, Altman co-founded Loopt, a location-based social networking app; the company was acquired by Green Dot Corporation in 2012 for $43.4 million ([Britannica](https://www.britannica.com/money/Sam-Altman)). He joined the startup accelerator [Y Combinator](/organizations/y-combinator/) part-time in 2011, became its president in 2014 (succeeding co-founder Paul Graham), and left in 2019 to focus full-time on [OpenAI](/organizations/openai/) ([Britannica](https://www.britannica.com/money/Sam-Altman)).
 
 ## OpenAI
 
-Altman co-founded OpenAI in 2015 as a nonprofit research lab, alongside Elon Musk and others, with roughly $1 billion in funding pledges, and became its chief executive in 2019 ([Britannica](https://www.britannica.com/money/Sam-Altman)).
+Altman co-founded [OpenAI](/organizations/openai/) in 2015 as a nonprofit research lab, alongside [Elon Musk](/people/elon-musk/) and others, with roughly $1 billion in funding pledges, and became its chief executive in 2019 ([Britannica](https://www.britannica.com/money/Sam-Altman)).
 
 ### The November 2023 removal and reinstatement
 
@@ -308,11 +295,11 @@ On November 17, 2023, OpenAI's board voted to remove Altman as CEO. Over the fol
 
 ### The Musk lawsuit
 
-Elon Musk, an OpenAI co-founder who left its board in 2018, sued Altman, OpenAI, and Microsoft, alleging that Altman and Greg Brockman committed a "breach of charitable trust" by shifting OpenAI's mission and assets into a for-profit subsidiary after 2019. On May 18, 2026, a jury unanimously dismissed all of Musk's claims in under two hours, finding that he had waited too long to sue; the presiding judge, Yvonne Gonzalez Rogers, said there was "a substantial amount of evidence to support the jury's finding." The jury did not rule on whether a breach of the founding agreement had actually occurred. Musk's attorney, Marc Toberoff, said the response was "appeal" ([NPR](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed)).
+[Elon Musk](/people/elon-musk/), an [OpenAI](/organizations/openai/) co-founder who left its board in 2018, sued Altman, OpenAI, and Microsoft, alleging that Altman and [Greg Brockman](/people/greg-brockman/) committed a "breach of charitable trust" by shifting OpenAI's mission and assets into a for-profit subsidiary after 2019. On May 18, 2026, a jury unanimously dismissed all of Musk's claims in under two hours, finding that he had waited too long to sue; the presiding judge, Yvonne Gonzalez Rogers, said there was "a substantial amount of evidence to support the jury's finding." The jury did not rule on whether a breach of the founding agreement had actually occurred. Musk's attorney, Marc Toberoff, said the response was "appeal" ([NPR](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed)).
 
 ### The 2026 Navier–Stokes claim
 
-In September 2026, OpenAI announced that an internal AI system had produced a proof concerning the Navier–Stokes existence and smoothness problem, one of the Clay Mathematics Institute's Millennium Prize problems. Altman said the company's push on the problem began around September 1, 2026, after hearing rumors that rival AI company Anthropic's models had solved a major math problem ([Axios](https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit)). Further detail on the claim itself and the dispute that followed is covered in a dedicated profile of that event.
+In September 2026, [OpenAI](/organizations/openai/) announced that an internal AI system had produced a proof concerning the Navier–Stokes existence and smoothness problem, one of the Clay Mathematics Institute's Millennium Prize problems. Altman said the company's push on the problem began around September 1, 2026, after hearing rumors that rival AI company Anthropic's models had solved a major math problem ([Axios](https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit)). Further detail on the claim itself and the dispute that followed is covered in the dedicated [profile of the event](/events/2026-openai-navier-stokes-claim/).
 
 ### Recent public statements
 
@@ -328,7 +315,7 @@ Altman married Oliver Mulherin, an Australian software engineer, in a private be
 
 In January 2025, Altman's sister, Ann Altman, filed a lawsuit in the U.S. District Court for the Eastern District of Missouri alleging that Altman sexually abused her between 1997 and 2006, when she was a child. Altman, along with his mother and two brothers, issued a joint statement denying the allegations as "utterly untrue" ([NBC News](https://www.nbcnews.com/tech/tech-news/openai-ceo-sam-altman-denies-sexual-abuse-allegations-made-sister-laws-rcna186759)). In March 2026, a federal judge dismissed the lawsuit without prejudice as untimely, leaving Ann Altman able to refile ([Bloomberg](https://www.bloomberg.com/news/articles/2026-03-21/sam-altman-sister-s-abuse-claims-against-him-dismissed-for-now)). The following month, both law firms representing her withdrew from the case, citing a breakdown in the attorney-client relationship, while the case remained open in federal court ([AP via KFGO](https://kfgo.com/2026/04/27/sam-altmans-sister-loses-lawyers-in-her-sexual-abuse-lawsuit-against-openai-ceo/)).
 
-On April 11, 2026, a Molotov cocktail was thrown at the gate of Altman's San Francisco home, starting a small fire; no one was injured. The suspect, a 20-year-old from Spring, Texas, was arrested after also threatening OpenAI's nearby headquarters, and was charged in state court with attempted murder and attempted arson and in federal court with explosives offenses. He had written about opposing artificial intelligence and what he called its risk to humanity ([NPR](https://www.npr.org/2026/04/13/g-s1-117320/openai-sam-altman-molotov-cocktail)).
+On April 11, 2026, a Molotov cocktail was thrown at the gate of Altman's San Francisco home, starting a small fire; no one was injured. The suspect, a 20-year-old from Spring, Texas, was arrested after also threatening [OpenAI's](/organizations/openai/) nearby headquarters, and was charged in state court with attempted murder and attempted arson and in federal court with explosives offenses. He had written about opposing artificial intelligence and what he called its risk to humanity ([NPR](https://www.npr.org/2026/04/13/g-s1-117320/openai-sam-altman-molotov-cocktail)).
 
 ## What this profile does not claim
 
