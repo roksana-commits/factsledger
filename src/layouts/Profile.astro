@@ -154,11 +154,26 @@ const hasFirstParty = d.sources.some((s: any) => s.tier === 'first-party');
     {d.related.length > 0 && (
       <>
         <h2 id="related">Related</h2>
-        <ul>
+        <ul class="related-list" aria-label="Related profiles">
           {d.related.map((r: any) => <li><a href={r.href}>{r.label}</a></li>)}
         </ul>
       </>
     )}
+
+    <nav class="article__explore" aria-label="Continue exploring FactsLedger">
+      <a href={`/${category}/`}>Browse more {cat.label}</a>
+      <a href="/search/">Search all profiles</a>
+    </nav>
+
+    <section class="article__support" aria-labelledby="profile-support-title">
+      <p class="article__support-eyebrow">Support independent research</p>
+      <h2 id="profile-support-title">Found this profile useful?</h2>
+      <p>
+        You can support FactsLedger by making a donation. Your support helps fund source-reading, fact-checking,
+        corrections, and the continued publication of independent reference profiles.
+      </p>
+      <a class="btn-donate" href={SITE.donateUrl} target="_blank" rel="noopener noreferrer" aria-label="Support FactsLedger research on Ko-fi">Support the research</a>
+    </section>
 
     <footer class="article__footer">
       <p>
