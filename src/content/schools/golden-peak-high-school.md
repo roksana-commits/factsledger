@@ -51,9 +51,6 @@ openItems:
     Neither is asserted.
   - Kantipur names its basketball team only as "Golden Peak" (also "GoldenPeak", "GoldenPick"), never with the
     school's full name. The attribution is probable but not stated in the source.
-related:
-  - label: Brihaspati Vidyasadan
-    href: /schools/brihaspati-vidyasadan/
 sources:
   - title: "International School Award: press release, 20 October 2020"
     url: https://www.britishcouncil.org.np/sites/default/files/press_release_isa-20_october_2020.pdf
@@ -124,7 +121,7 @@ sources:
     publisher: Golden Peak High School
     tier: first-party
     usedFor: Founding year, medium of instruction and location as stated by the school.
-author: Muhammad Abdullah Al Yasin
+author: Muhammad
 published: 2026-08-29
 lastUpdated: 2026-08-29
 ---

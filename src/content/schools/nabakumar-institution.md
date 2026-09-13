@@ -47,9 +47,6 @@ openItems:
     Rahman Memorial Library and Museum" funded by a 1998 government grant. These may be the same or different
     physical memorials; this profile does not assume they are identical.
   - No independent, present-day reporting on the school's current enrollment, academics or facilities was found; see the companion profile of Matiur Rahman Mallik for the fuller account of the 1969 events.
-related:
-  - label: Matiur Rahman Mallik
-    href: /people/matiur-rahman-mallik/
 sources:
   - title: "Nabakumar Institute"
     url: https://en.banglapedia.org/index.php/Nabakumar_Institute
@@ -71,7 +68,7 @@ sources:
     publisher: Nabakumar Institution & Dr. Shahidullah College
     tier: first-party
     usedFor: Present-day name and structure of the institution.
-author: Muhammad Abdullah Al Yasin
+author: Muhammad
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 ---
@@ -88,7 +85,7 @@ mass-upsurge movement against the Ayub Khan government.
 
 ## The 1969 mass upsurge and Matiur Rahman Mallik
 
-On 24 January 1969, Standard IX student Matiur Rahman Mallik was shot dead by police during a demonstration in
+On 24 January 1969, Standard IX student [Matiur Rahman Mallik](/people/matiur-rahman-mallik/) was shot dead by police during a demonstration in
 Dhaka, one of several people killed that day
 ([The Daily Star](https://www.thedailystar.net/city/mass-upsurge-day-today-1524313)). Dhaka Tribune's account of
 the day names him specifically as a student "of Nabakumar Institute"

@@ -96,15 +96,6 @@ openItems:
     The school's own site states it has operated for "42 years," implying a founding around 1984–85; this figure
     could not be independently confirmed and appears to be a static, non-updating claim rather than a precise date.
   - No independent confirmation was found of the case's outcome (conviction, dismissal or settlement) after the charges were filed in May 2025; the most recent reporting found, from April 2026, describes the case as still pending.
-  - >-
-    The school's own website (bvs.edu.np) lists its address in its footer as "Maligaun, Kathmandu, Nepal," while
-    every press source used for the land-dispute reporting places the leased NCO campus land in Naxal, Kathmandu —
-    an adjacent neighborhood. This profile follows the press sources for location, since the land's location in
-    Naxal is independently and repeatedly confirmed and central to the land-dispute reporting, but notes the
-    discrepancy with the school's own stated address rather than resolving it.
-related:
-  - label: Golden Peak High School
-    href: /schools/golden-peak-high-school/
 sources:
   - title: "Empire Of 'Vishal Group' In The Land Of Bal Mandir"
     url: https://english.himalayatimes.com.np/2023/09/76323/
@@ -119,7 +110,7 @@ sources:
     url: https://www.myrepublica.nagariknetwork.com/news/cases-filed-against-17-persons-over-below-par-lease-rental-of-bal-mandir-la-74-23.html
     publisher: myRepublica (Republica)
     tier: tier1
-    date: "8 May 2025"
+    date: "8 May 2024"
     usedFor: >-
       The names, ages and roles of the 17 individuals charged, including the school's chairperson and directors;
       the leased land area and annual rent; the damages sought.
@@ -128,8 +119,6 @@ sources:
     publisher: myRepublica (Republica)
     tier: tier1
     date: "9 May 2024"
-    # Note: this is a separate, earlier 2024 article about the CIB complaint/investigation stage, distinct
-    # from the 8 May 2025 myRepublica article on the formal fraud charge filing above — dates intentionally differ.
     usedFor: Confirmation that a complaint alleging collusion between the school's administration and former NCO staff was filed with Nepal's Central Investigation Bureau.
   - title: "Arrest warrant for 20 people for embezzlement of Bal Mandir land"
     url: https://ekantipur.com/news/2024/05/10/en/arrest-warrant-for-20-people-for-embezzlement-of-bal-mandir-land-00-27.html
@@ -186,9 +175,9 @@ sources:
     publisher: Brihaspati Vidyasadan
     tier: first-party
     usedFor: The school's self-described years of operation, location, grade range and staff numbers.
-author: Muhammad Abdullah Al Yasin
+author: Muhammad
 published: 2026-08-30
-lastUpdated: "2026-09-05"
+lastUpdated: 2026-08-30
 draft: false
 ---
 
@@ -210,7 +199,7 @@ Brihaspati Vidyasadan is listed as a **Full Award** recipient in the 2019–20 I
 [British Council Nepal ISA programme page](https://www.britishcouncil.org.np/programmes/education/connecting-classrooms/international-school-award).
 The [British Council's ISA press release of 20 October 2020](https://www.britishcouncil.org.np/sites/default/files/press_release_isa-20_october_2020.pdf)
 records the school at entry 4 of 23 accredited schools, as "Brihaspati Vidyasadan — Kathmandu — Full Award" — the
-same document and award cycle that includes Golden Peak High School.
+same document and award cycle that includes [Golden Peak High School](/schools/golden-peak-high-school/).
 
 ## The Bal Mandir land dispute
 
@@ -241,10 +230,6 @@ headed by Haribabu Bhattarai, to examine the lease. The commission's report, sub
 process had improperly favoured private interests — but the report went unimplemented for several years
 ([Nepalnews](https://english.nepalnews.com/s/explainers/the-bal-mandir-land-scandal-from-charity-land-to-corruption-case/)).
 
-By the time NCO moved to nullify the lease in 2024, Brihaspati had built four permanent buildings totaling roughly
-134,000 square feet on the leased land, at a declared construction cost of about NPR 64.87 crore (roughly ₹648.8
-million) — a figure the school reported to NCO only shortly before the nullification
-([Ukaalo](https://www.ukaalo.com/ukaalo-vishesh/20240426-balmandir-terminated-agreement-with-brihaspati/16861/)).
 In 2024, NCO's leadership declared the lease legally void, and Nepal's Central Investigation Bureau opened a formal
 probe, after NCO's president alleged the original arrangement was "selfish and dishonest"
 ([The Himalayan Times](https://english.himalayatimes.com.np/2023/09/76323/)). Courts issued arrest warrants for 20

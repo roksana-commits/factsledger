@@ -56,9 +56,6 @@ openItems:
     Bangladesh has multiple other notable people named "Matiur Rahman," including a 1971 Bir Sreshtho air force
     pilot and a prominent newspaper editor — unrelated individuals, distinguished here by consistently using the
     full name "Matiur Rahman Mallik" and the 1953–1969 dates.
-related:
-  - label: Nabakumar Institution
-    href: /schools/nabakumar-institution/
 sources:
   - title: "Mass Upsurge Day today"
     url: https://www.thedailystar.net/city/mass-upsurge-day-today-1524313
@@ -107,7 +104,7 @@ sources:
     publisher: Priyo
     tier: tier3
     usedFor: Birth date and the alternate "tenth grade" detail.
-author: Muhammad Abdullah Al Yasin
+author: Muhammad
 published: "2026-08-30"
 lastUpdated: "2026-08-30"
 ---
@@ -117,7 +114,7 @@ lastUpdated: "2026-08-30"
 Matiur Rahman Mallik was a Bangladeshi schoolboy shot dead by police in Dhaka on 24 January 1969, during a
 procession protesting the killing of a fellow student activist, Amanullah Asaduzzaman, four days earlier
 ([The Daily Star](https://www.thedailystar.net/opinion/views/news/martyrdom-and-momentum-matrix-mass-uprising-3812416)).
-He was a student at Nabakumar Institution in Bakshi Bazar, Old Dhaka
+He was a student at [Nabakumar Institution](/schools/nabakumar-institution/) in Bakshi Bazar, Old Dhaka
 ([The Daily Star](https://www.thedailystar.net/city/mass-upsurge-day-today-1524313),
 [Dhaka Tribune](https://www.dhakatribune.com/bangladesh/303385/historic-mass-upsurge-day-tuesday)). His death,
 alongside Rustam Ali, a rickshaw-puller, and other demonstrators, is credited with helping galvanise the wider
