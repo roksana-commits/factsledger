@@ -81,11 +81,30 @@ timeline:
       born via surrogacy, saying the baby arrived early and would spend
       time in the NICU.
     sourceType: International news wire republication
+  - year: "2025-03-08"
+    event: >-
+      Files a defamation counterclaim against Ann Altman, alleging that
+      social media posts she made between 2021 and 2024 referencing the
+      alleged abuse contained false statements that damaged his reputation
+      and caused emotional distress, and that her lawsuit was filed "for
+      the improper purpose of pressuring him to accede to her demands for
+      unrestricted financial support."
+    sourceType: Major business newspaper
   - year: "2026-03"
     event: >-
-      A federal judge dismisses Ann Altman's lawsuit without prejudice as
-      untimely, allowing her to refile an amended complaint.
+      A federal judge dismisses Ann Altman's sexual-assault-and-battery
+      claims over the alleged 1997–2006 abuse as time-barred, but rules
+      that a claim under Missouri's Child Sexual Abuse statute, which
+      permits certain older abuse allegations to proceed under specific
+      conditions, may go forward.
     sourceType: Major business newspaper
+  - year: "2026-04-01"
+    event: >-
+      Ann Altman files an amended complaint in the U.S. District Court in
+      St. Louis, alleging that Altman sexually abused and raped her
+      multiple times between 1997 and 2006 at their family home in
+      Clayton, Missouri, beginning when she was three and he was twelve.
+    sourceType: Regional/specialist news outlet
   - year: "2026-04-11"
     event: >-
       A Molotov cocktail is thrown at the gate of Altman's San Francisco
@@ -120,17 +139,19 @@ timeline:
     sourceType: Wire-service financial news outlet
 sourceNote: >-
   This profile covers Altman's documented public and professional record.
-  The allegations in his sister Ann Altman's lawsuit are reported here as
-  a contested legal matter — the allegation and the family's denial are
-  both stated, and the case's outcome is not prejudged. No claim about the
-  underlying allegations is asserted as fact.
+  The allegations in his sister Ann Altman's lawsuit, her amended
+  complaint, and Altman's own defamation counterclaim against her are all
+  reported here as contested legal matters — the allegations and denials
+  on both sides are stated without prejudging an outcome. No claim about
+  the underlying allegations is asserted as fact.
 openItems:
   - >-
-    Ann Altman's lawsuit was dismissed without prejudice in March 2026 and
-    her legal team withdrew in April 2026; no source read for this profile
-    confirms whether an amended complaint was subsequently filed or the
-    case's status as of this profile's last update. This profile does not
-    state a final outcome.
+    Both law firms representing Ann Altman withdrew from her case in April
+    2026, shortly after she filed her amended complaint; no source read
+    for this profile confirms whether she has since obtained new counsel
+    or the case's status as of this profile's last update. This profile
+    does not state a final outcome for either her claims or Altman's
+    defamation counterclaim.
   - >-
     Musk's attorney said he would appeal the May 2026 jury verdict; no
     source read for this profile confirms whether an appeal was formally
@@ -162,6 +183,23 @@ sources:
       The timeline of Altman's November 17, 2023 removal, Microsoft's
       November 20 hiring announcement, the near-unanimous employee letter,
       and his November 21 reinstatement under a new board.
+  - title: "OpenAI's Sutskever says he regrets board's firing of Altman"
+    url: https://www.axios.com/2023/11/20/sam-altman-fired-openai-board-illya-sutsever-regrets
+    publisher: Axios
+    tier: tier1
+    date: "2023-11-20"
+    usedFor: >-
+      Confirming Ilya Sutskever's role on the board that removed Altman on
+      November 17, 2023, and his November 20, 2023 public statement of
+      regret.
+  - title: "Ilya Sutskever, OpenAI cofounder, deeply regrets ousting Altman, will do 'everything I can' to reunite the company"
+    url: https://www.fortune.com/2023/11/20/ilya-sutskever-openai-cofounder-deeply-regrets-resign
+    publisher: Fortune
+    tier: tier1
+    date: "2023-11-20"
+    usedFor: >-
+      Sutskever's quote of regret over voting to remove Altman and his
+      role described as the board's "ringleader" in that decision.
   - title: "OpenAI CEO Sam Altman marries partner in seaside ceremony"
     url: https://www.nbcnews.com/tech/tech-news/sam-altman-oliver-mulherin-ollie-wedding-married-partner-boyfriend-rcna133512
     publisher: NBC News
@@ -194,14 +232,35 @@ sources:
     usedFor: >-
       The filing of Ann Altman's January 2025 lawsuit, its allegations and
       requested damages, and the Altman family's joint denial statement.
+  - title: "Sam Altman Says Sister Defamed Him With False Sex Abuse Claims"
+    url: https://www.bloomberg.com/news/articles/2025-03-08/sam-altman-says-sister-defamed-him-with-false-sex-abuse-claims
+    publisher: Bloomberg
+    tier: tier1
+    date: "2025-03-08"
+    usedFor: >-
+      Altman's March 2025 defamation counterclaim against Ann Altman over
+      her 2021–2024 social media posts, his attorneys' characterization of
+      her statements as false and damaging, and their contention that her
+      lawsuit sought to pressure him into unrestricted financial support.
   - title: "Sam Altman's Sister's Abuse Claims Against Him Dismissed for Now"
     url: https://www.bloomberg.com/news/articles/2026-03-21/sam-altman-sister-s-abuse-claims-against-him-dismissed-for-now
     publisher: Bloomberg
     tier: tier1
     date: "2026-03-21"
     usedFor: >-
-      The March 2026 dismissal of the lawsuit without prejudice on
-      timeliness grounds, and that Ann Altman retained the right to refile.
+      The March 2026 dismissal of the sexual-assault-and-battery claims as
+      time-barred, and the court's ruling that a claim under Missouri's
+      Child Sexual Abuse statute could proceed.
+  - title: "Sam Altman's Sister Files Amended Lawsuit After Judge Allows Case To Proceed"
+    url: https://dallasexpress.com/national/sam-altmans-sister-files-amended-lawsuit-after-judge-allows-case-to-proceed/
+    publisher: Dallas Express
+    tier: tier2
+    date: "2026-04-01"
+    usedFor: >-
+      Ann Altman's April 1, 2026 amended complaint filed in the U.S.
+      District Court in St. Louis, its allegations of abuse beginning when
+      she was three and Altman twelve, and Altman's prior characterization
+      of the claims as false and the lawsuit as extortion.
   - title: "Sam Altman's sister loses lawyers in her sexual abuse lawsuit against OpenAI CEO"
     url: https://kfgo.com/2026/04/27/sam-altmans-sister-loses-lawyers-in-her-sexual-abuse-lawsuit-against-openai-ceo/
     publisher: "The Associated Press, via KFGO"
@@ -273,7 +332,7 @@ sources:
       New Yorker interview discussing his sexuality.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-11"
-lastUpdated: "2026-09-11"
+lastUpdated: "2026-09-13"
 draft: false
 ---
 
@@ -283,7 +342,7 @@ Samuel Harris Altman is an American technology entrepreneur and investor who has
 
 ## Early career
 
-At 19, Altman co-founded Loopt, a location-based social networking app; the company was acquired by Green Dot Corporation in 2012 for $43.4 million ([Britannica](https://www.britannica.com/money/Sam-Altman)). He joined the startup accelerator [Y Combinator](/organizations/y-combinator/) part-time in 2011, became its president in 2014 (succeeding co-founder Paul Graham), and left in 2019 to focus full-time on OpenAI ([Britannica](https://www.britannica.com/money/Sam-Altman)).
+At 19, Altman co-founded Loopt, a location-based social networking app; the company was acquired by Green Dot Corporation in 2012 for $43.4 million ([Britannica](https://www.britannica.com/money/Sam-Altman)). He joined the startup accelerator [Y Combinator](/organizations/y-combinator/) part-time in 2011, became its president in 2014 (succeeding co-founder [Paul Graham](/people/paul-graham/)), and left in 2019 to focus full-time on OpenAI ([Britannica](https://www.britannica.com/money/Sam-Altman)).
 
 ## OpenAI
 
@@ -291,7 +350,7 @@ Altman co-founded OpenAI in 2015 as a nonprofit research lab, alongside [Elon Mu
 
 ### The November 2023 removal and reinstatement
 
-On November 17, 2023, OpenAI's board voted to remove Altman as CEO. Over the following weekend, Microsoft announced it had hired Altman to lead a new internal AI research team, and roughly 700 of OpenAI's 770 employees signed a letter threatening to resign unless the board reinstated him. On November 21, 2023, OpenAI reinstated Altman as CEO under a restructured board chaired by Bret Taylor ([NPR](https://www.npr.org/2023/11/22/1214621010/openai-reinstates-sam-altman-as-its-chief-executive)).
+On November 17, 2023, OpenAI's board voted to remove Altman as CEO. Board member [Ilya Sutskever](/people/ilya-sutskever/), the company's chief scientist, voted with the board for the removal but publicly said within days that he regretted his role in it ([Axios](https://www.axios.com/2023/11/20/sam-altman-fired-openai-board-illya-sutsever-regrets); [Fortune](https://www.fortune.com/2023/11/20/ilya-sutskever-openai-cofounder-deeply-regrets-resign)). Over the following weekend, Microsoft announced it had hired Altman to lead a new internal AI research team, and roughly 700 of OpenAI's 770 employees signed a letter threatening to resign unless the board reinstated him. On November 21, 2023, OpenAI reinstated Altman as CEO under a restructured board chaired by Bret Taylor ([NPR](https://www.npr.org/2023/11/22/1214621010/openai-reinstates-sam-altman-as-its-chief-executive)).
 
 ### The Musk lawsuit
 
@@ -299,7 +358,7 @@ Elon Musk, an OpenAI co-founder who left its board in 2018, sued Altman, OpenAI,
 
 ### The 2026 Navier–Stokes claim
 
-In September 2026, OpenAI announced that an internal AI system had produced a proof concerning the Navier–Stokes existence and smoothness problem, one of the Clay Mathematics Institute's Millennium Prize problems. Altman said the company's push on the problem began around September 1, 2026, after hearing rumors that rival AI company Anthropic's models had solved a major math problem ([Axios](https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit)). Further detail on the claim itself and the dispute that followed is covered in the dedicated [profile of the event](/events/2026-openai-navier-stokes-claim/).
+In September 2026, OpenAI announced that an internal AI system had produced a proof concerning the Navier–Stokes existence and smoothness problem, one of the Clay Mathematics Institute's Millennium Prize problems. Altman said the company's push on the problem began around September 1, 2026, after hearing rumors that rival AI company [Anthropic](/organizations/anthropic/)'s models had solved a major math problem ([Axios](https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit)). Further detail on the claim itself and the dispute that followed is covered in the dedicated [profile of the event](/events/2026-openai-navier-stokes-claim/).
 
 ### Recent public statements
 
@@ -313,10 +372,12 @@ Altman debuted on the Bloomberg Billionaires Index on March 1, 2024, with an est
 
 Altman married Oliver Mulherin, an Australian software engineer, in a private beach ceremony in Hawaii on January 11, 2024 ([NBC News](https://www.nbcnews.com/tech/tech-news/sam-altman-oliver-mulherin-ollie-wedding-married-partner-boyfriend-rcna133512); [SheThePeople](https://www.shethepeople.tv/us/openai-ceo-sam-altman-oliver-mulherin-marriage-2378409)). On February 22, 2025, Altman announced on X that he and Mulherin had had their first child, a son born via surrogacy who arrived early and required a NICU stay ([VnExpress International](https://e.vnexpress.net/news/tech/openai-ceo-sam-altman-reveals-birth-of-his-first-child-via-surrogacy-4853809.html)).
 
-In January 2025, Altman's sister, Ann Altman, filed a lawsuit in the U.S. District Court for the Eastern District of Missouri alleging that Altman sexually abused her between 1997 and 2006, when she was a child. Altman, along with his mother and two brothers, issued a joint statement denying the allegations as "utterly untrue" ([NBC News](https://www.nbcnews.com/tech/tech-news/openai-ceo-sam-altman-denies-sexual-abuse-allegations-made-sister-laws-rcna186759)). In March 2026, a federal judge dismissed the lawsuit without prejudice as untimely, leaving Ann Altman able to refile ([Bloomberg](https://www.bloomberg.com/news/articles/2026-03-21/sam-altman-sister-s-abuse-claims-against-him-dismissed-for-now)). The following month, both law firms representing her withdrew from the case, citing a breakdown in the attorney-client relationship, while the case remained open in federal court ([AP via KFGO](https://kfgo.com/2026/04/27/sam-altmans-sister-loses-lawyers-in-her-sexual-abuse-lawsuit-against-openai-ceo/)).
+In January 2025, Altman's sister, Ann Altman, filed a lawsuit in the U.S. District Court for the Eastern District of Missouri alleging that Altman sexually abused her between 1997 and 2006, when she was a child. Altman, along with his mother and two brothers, issued a joint statement denying the allegations as "utterly untrue" ([NBC News](https://www.nbcnews.com/tech/tech-news/openai-ceo-sam-altman-denies-sexual-abuse-allegations-made-sister-laws-rcna186759)). In March 2025, Altman filed a defamation counterclaim against her, arguing that social media posts she had made between 2021 and 2024 referencing the alleged abuse contained false statements that damaged his reputation and caused him emotional distress, and that her lawsuit was filed "for the improper purpose of pressuring him to accede to her demands for unrestricted financial support" ([Bloomberg](https://www.bloomberg.com/news/articles/2025-03-08/sam-altman-says-sister-defamed-him-with-false-sex-abuse-claims)).
+
+In March 2026, a federal judge dismissed Ann Altman's sexual-assault-and-battery claims over the alleged 1997–2006 abuse as time-barred, but ruled that a claim under Missouri's Child Sexual Abuse statute — which permits certain older abuse allegations to proceed under specific conditions — could go forward ([Bloomberg](https://www.bloomberg.com/news/articles/2026-03-21/sam-altman-sister-s-abuse-claims-against-him-dismissed-for-now)). On April 1, 2026, Ann Altman filed an amended complaint in the U.S. District Court in St. Louis, alleging that Altman sexually abused and raped her multiple times between 1997 and 2006 at their family home in Clayton, Missouri, beginning when she was three and he was twelve ([Dallas Express](https://dallasexpress.com/national/sam-altmans-sister-files-amended-lawsuit-after-judge-allows-case-to-proceed/)). Later that month, both law firms representing her withdrew from the case, citing a breakdown in the attorney-client relationship, while the case remained open in federal court ([AP via KFGO](https://kfgo.com/2026/04/27/sam-altmans-sister-loses-lawyers-in-her-sexual-abuse-lawsuit-against-openai-ceo/)).
 
 On April 11, 2026, a Molotov cocktail was thrown at the gate of Altman's San Francisco home, starting a small fire; no one was injured. The suspect, a 20-year-old from Spring, Texas, was arrested after also threatening OpenAI's nearby headquarters, and was charged in state court with attempted murder and attempted arson and in federal court with explosives offenses. He had written about opposing artificial intelligence and what he called its risk to humanity ([NPR](https://www.npr.org/2026/04/13/g-s1-117320/openai-sam-altman-molotov-cocktail)).
 
 ## What this profile does not claim
 
-This profile does not assert the truth or falsity of the allegations in Ann Altman's lawsuit; it states that the allegations were made, that they are denied by Altman and other family members, and reports the case's subsequent procedural history (dismissal without prejudice, then the withdrawal of her legal team) without predicting or asserting an outcome. It does not state Altman's current net worth — the $2 billion figure is dated to March 2024 and is not updated here. It does not state whether Musk formally filed the appeal his attorney announced, or whether Ann Altman filed a new complaint after her lawyers withdrew, since no source read for this profile confirms either development. It does not evaluate the correctness of OpenAI's Navier–Stokes claim; that is addressed in the dedicated profile of that event.
+This profile does not assert the truth or falsity of either side's claims in the Altman-family litigation: it states that Ann Altman's abuse allegations were made and are denied by Altman and other family members, that Altman's own defamation counterclaim against her was filed, and reports the case's subsequent procedural history (partial dismissal, her amended complaint, and the withdrawal of her legal team) without predicting or asserting an outcome for either her claims or his counterclaim. It does not state Altman's current net worth — the $2 billion figure is dated to March 2024 and is not updated here. It does not state whether Musk formally filed the appeal his attorney announced, or whether Ann Altman has obtained new counsel since her lawyers withdrew, since no source read for this profile confirms either development. It does not evaluate the correctness of OpenAI's Navier–Stokes claim; that is addressed in the dedicated profile of that event.

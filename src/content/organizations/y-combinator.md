@@ -143,10 +143,6 @@ openItems:
     dispute already described above; this profile does not assert further
     detail about internal 2018–2019 partner dynamics.
 
-related:
-  - label: "Sam Altman (president, 2014–2019)"
-    href: /people/sam-altman/
-
 sources:
   - title: "The Disruptor In The Valley"
     url: https://www.forbes.com/global/2010/1108/companies-y-combinator-paul-graham-disruptor.html
@@ -276,13 +272,13 @@ sources:
 
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-11"
-lastUpdated: "2026-09-11"
+lastUpdated: "2026-09-13"
 draft: false
 ---
 
 ## Overview
 
-Y Combinator is an American startup accelerator founded in 2005 by Paul Graham and Robert Morris — who had previously co-founded the e-commerce company Viaweb, sold to Yahoo in 1998 for roughly $50 million — together with Jessica Livingston and Trevor Blackwell, starting as a summer program near Harvard University in Cambridge, Massachusetts, before relocating to Mountain View, California ([Forbes](https://www.forbes.com/global/2010/1108/companies-y-combinator-paul-graham-disruptor.html)). It has since become one of the best-known startup accelerators in the United States, running cohort-based programs that culminate in a pitch event known as "Demo Day" ([Forbes](https://www.forbes.com/global/2010/1108/companies-y-combinator-paul-graham-disruptor.html)). Y Combinator moved its headquarters again in spring 2023, after 17 years in Mountain View, to Pier 70 in San Francisco's Dogpatch neighborhood ([Fortune](https://www.fortune.com/2024/01/12/garry-tan-founders-y-combinator-headquarters)).
+Y Combinator is an American startup accelerator founded in 2005 by [Paul Graham](/people/paul-graham/) and Robert Morris — who had previously co-founded the e-commerce company Viaweb, sold to Yahoo in 1998 for roughly $50 million — together with Jessica Livingston and Trevor Blackwell, starting as a summer program near Harvard University in Cambridge, Massachusetts, before relocating to Mountain View, California ([Forbes](https://www.forbes.com/global/2010/1108/companies-y-combinator-paul-graham-disruptor.html)). It has since become one of the best-known startup accelerators in the United States, running cohort-based programs that culminate in a pitch event known as "Demo Day" ([Forbes](https://www.forbes.com/global/2010/1108/companies-y-combinator-paul-graham-disruptor.html)). Y Combinator moved its headquarters again in spring 2023, after 17 years in Mountain View, to Pier 70 in San Francisco's Dogpatch neighborhood ([Fortune](https://www.fortune.com/2024/01/12/garry-tan-founders-y-combinator-headquarters)).
 
 ## Business model
 
@@ -294,7 +290,7 @@ Early Y Combinator cohorts included Airbnb, which went through the accelerator's
 
 ## Leadership: Altman, Ralston, and Tan
 
-Sam Altman joined Y Combinator as a part-time partner in 2011 and became its president in February 2014, succeeding co-founder Paul Graham, who had led the organization for its first nine years ([TechCrunch](https://techcrunch.com/2014/02/21/sam-altman-taking-over-as-president-of-y-combinator-replacing-paul-graham-at-the-helm)). Altman left Y Combinator in 2019, the same year OpenAI — where Altman had also been involved since 2015 — announced a for-profit subsidiary with Altman as its CEO ([Forbes](https://www.forbes.com/sites/roberthart/2024/05/30/sam-altman-wasnt-fired-from-y-combinator-founder-says-as-openai-chief-faces-criticism-from-ex-board-member/)). Accounts of that departure differ: Paul Graham has publicly rejected the word "fired," saying instead that Jessica Livingston presented Altman with a choice between running Y Combinator and running OpenAI, which he accepted amicably; Forbes reported that The Washington Post, citing three sources, said Graham removed Altman over concerns he was prioritizing his own interests, and quoted former OpenAI board member Helen Toner describing the episode as having been "hushed up at the time" ([Forbes](https://www.forbes.com/sites/roberthart/2024/05/30/sam-altman-wasnt-fired-from-y-combinator-founder-says-as-openai-chief-faces-criticism-from-ex-board-member/)). More on Altman's subsequent career is covered in his own profile.
+[Sam Altman](/people/sam-altman/) joined Y Combinator as a part-time partner in 2011 and became its president in February 2014, succeeding co-founder Paul Graham, who had led the organization for its first nine years ([TechCrunch](https://techcrunch.com/2014/02/21/sam-altman-taking-over-as-president-of-y-combinator-replacing-paul-graham-at-the-helm)). Altman left Y Combinator in 2019, the same year OpenAI — where Altman had also been involved since 2015 — announced a for-profit subsidiary with Altman as its CEO ([Forbes](https://www.forbes.com/sites/roberthart/2024/05/30/sam-altman-wasnt-fired-from-y-combinator-founder-says-as-openai-chief-faces-criticism-from-ex-board-member/)). Accounts of that departure differ: Paul Graham has publicly rejected the word "fired," saying instead that Jessica Livingston presented Altman with a choice between running Y Combinator and running OpenAI, which he accepted amicably; Forbes reported that The Washington Post, citing three sources, said Graham removed Altman over concerns he was prioritizing his own interests, and quoted former OpenAI board member Helen Toner describing the episode as having been "hushed up at the time" ([Forbes](https://www.forbes.com/sites/roberthart/2024/05/30/sam-altman-wasnt-fired-from-y-combinator-founder-says-as-openai-chief-faces-criticism-from-ex-board-member/)). More on Altman's subsequent career is covered in his own profile.
 
 Geoff Ralston succeeded Altman as Y Combinator's president and CEO around 2019 and served in that role until the end of 2022 ([TechCrunch](https://techcrunch.com/2022/11/07/outgoing-yc-president-geoff-ralston-the-market-is-changing-ycs-terms-are-not)). On August 29, 2022, Y Combinator announced that Garry Tan — a 2008 YC founder who later worked as a YC partner from 2010 to 2015 advising roughly 700 companies, and who went on to co-found the venture fund Initialized Capital after having previously co-founded Posterous, acquired by Twitter in 2012 — would succeed Ralston as president and CEO, taking over in January 2023 ([TechCrunch](https://techcrunch.com/2022/08/29/garry-tan-is-the-next-president-and-ceo-of-y-combinator); [Y Combinator](https://www.ycombinator.com/blog/welcome-home-garry-tan)).
 

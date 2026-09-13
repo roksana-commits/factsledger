@@ -137,13 +137,6 @@ openItems:
     of the November 2024 amended complaint does not list him among the
     defendants. This profile states only his confirmed role as a trial
     witness, not a defendant.
-related:
-  - label: "Sam Altman (OpenAI co-founder and CEO)"
-    href: /people/sam-altman/
-  - label: "Elon Musk (fellow OpenAI co-founder, later sued OpenAI and Altman; Brockman testified as a trial witness)"
-    href: /people/elon-musk/
-  - label: "OpenAI (co-founded, served as president)"
-    href: /organizations/openai/
 sources:
   - title: "Federal court rejects Elon Musk's claims against OpenAI, saying he filed his lawsuit too late"
     url: https://www.pbs.org/newshour/nation/jury-sides-with-openai-saying-elon-musks-lawsuit-was-not-filed-on-time
@@ -277,15 +270,24 @@ sources:
       CTO and leaving in 2015 to co-found OpenAI, his 2024 sabbatical, and
       his direct quote on shifting his focus in 2026 from hands-on coding
       to building OpenAI's leadership team.
+  - title: "Former OpenAI executive Sutskever discloses nearly $7 billion stake in AI firm"
+    url: https://wtvbam.com/2026/05/11/former-openai-executive-sutskever-discloses-nearly-7-billion-stake-in-ai-firm/
+    publisher: The Associated Press (via WTVB)
+    tier: tier1
+    date: "2026-05-11"
+    usedFor: >-
+      Confirming Ilya Sutskever's May 11, 2026 testimony at the same trial
+      Brockman testified in, and his disclosed OpenAI equity stake valued
+      at about $7 billion.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-11"
-lastUpdated: "2026-09-11"
+lastUpdated: "2026-09-13"
 draft: false
 ---
 
 ## Overview
 
-Greg Brockman is an American computer scientist and entrepreneur, a co-founder of the artificial intelligence company OpenAI and its president ([Fortune, Nov. 2025](https://fortune.com/2025/11/05/openai-greg-brockman-ai-infrastructure-data-center-master-builder); [Stratechery](https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/)). He studied mathematics at Harvard University, transferred to MIT after his sophomore year, and left MIT without a degree in 2010 to join the payments company Stripe ([Fortune, Nov. 2025](https://fortune.com/2025/11/05/openai-greg-brockman-ai-infrastructure-data-center-master-builder); [Stratechery](https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/)). His own 2018 biography, submitted for congressional testimony, likewise describes him as having "studied mathematics at Harvard and computer science at MIT" ([U.S. House of Representatives hearing record](https://docs.house.gov/meetings/SY/SY15/20180626/108474/HHRG-115-SY15-Bio-BrockmanG-20180626.pdf)).
+Greg Brockman is an American computer scientist and entrepreneur, a co-founder of the artificial intelligence company [OpenAI](/organizations/openai/) and its president ([Fortune, Nov. 2025](https://fortune.com/2025/11/05/openai-greg-brockman-ai-infrastructure-data-center-master-builder); [Stratechery](https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/)). He studied mathematics at Harvard University, transferred to MIT after his sophomore year, and left MIT without a degree in 2010 to join the payments company Stripe ([Fortune, Nov. 2025](https://fortune.com/2025/11/05/openai-greg-brockman-ai-infrastructure-data-center-master-builder); [Stratechery](https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/)). His own 2018 biography, submitted for congressional testimony, likewise describes him as having "studied mathematics at Harvard and computer science at MIT" ([U.S. House of Representatives hearing record](https://docs.house.gov/meetings/SY/SY15/20180626/108474/HHRG-115-SY15-Bio-BrockmanG-20180626.pdf)).
 
 Before college, Brockman placed sixth in the Society for Science's 2007 Science Talent Search for a paper titled "Asymptotic Behavior of Certain Ducci Sequences" ([Society for Science](https://www.societyforscience.org/alumni/notable/greg-brockman/)).
 
@@ -297,7 +299,7 @@ Brockman joined Stripe, then an early-stage payments startup, in 2010 ([Fortune,
 
 ### Founding and early role
 
-OpenAI launched on December 11, 2015, as a nonprofit artificial intelligence research lab; TechCrunch's launch-day report named Sam Altman and Elon Musk as co-chairs and identified Brockman, previously Stripe's CTO, as "taking the same position" — chief technology officer — at OpenAI ([TechCrunch](https://techcrunch.com/2015/12/11/non-profit-openai-launches-with-backing-from-elon-musk-and-sam-altman)). By the time he testified before a U.S. House of Representatives committee in June 2018, Brockman's submitted biography described him as OpenAI's co-founder and CTO, an investor in more than 30 startups, and a board member of the Stellar digital-currency system ([U.S. House of Representatives hearing record](https://docs.house.gov/meetings/SY/SY15/20180626/108474/HHRG-115-SY15-Bio-BrockmanG-20180626.pdf)). By November 2023, he was president of OpenAI and chairman of its board ([TechCrunch, Nov. 17, 2023](https://techcrunch.com/2023/11/17/greg-brockman-quits-openai-after-abrupt-firing-of-sam-altman/)); no source read for this profile confirms the exact date his title changed from CTO to president.
+OpenAI launched on December 11, 2015, as a nonprofit artificial intelligence research lab; TechCrunch's launch-day report named [Sam Altman](/people/sam-altman/) and [Elon Musk](/people/elon-musk/) as co-chairs and identified Brockman, previously Stripe's CTO, as "taking the same position" — chief technology officer — at OpenAI ([TechCrunch](https://techcrunch.com/2015/12/11/non-profit-openai-launches-with-backing-from-elon-musk-and-sam-altman)). By the time he testified before a U.S. House of Representatives committee in June 2018, Brockman's submitted biography described him as OpenAI's co-founder and CTO, an investor in more than 30 startups, and a board member of the Stellar digital-currency system ([U.S. House of Representatives hearing record](https://docs.house.gov/meetings/SY/SY15/20180626/108474/HHRG-115-SY15-Bio-BrockmanG-20180626.pdf)). By November 2023, he was president of OpenAI and chairman of its board ([TechCrunch, Nov. 17, 2023](https://techcrunch.com/2023/11/17/greg-brockman-quits-openai-after-abrupt-firing-of-sam-altman/)); no source read for this profile confirms the exact date his title changed from CTO to president.
 
 ### The November 2023 board crisis
 
@@ -311,7 +313,7 @@ On or around August 5, 2024, Brockman announced he was taking a leave from OpenA
 
 ### The Musk lawsuit
 
-Elon Musk's lawsuit against OpenAI, Sam Altman, and Microsoft — alleging a breach of OpenAI's founding nonprofit mission — went to trial in federal court in Oakland, California in April 2026. Brockman testified as a witness, alongside Musk, Altman, Microsoft CEO Satya Nadella, and former OpenAI board members Helen Toner and Tasha McCauley; the jury unanimously dismissed all claims on May 18, 2026 as filed too late ([PBS NewsHour](https://www.pbs.org/newshour/nation/jury-sides-with-openai-saying-elon-musks-lawsuit-was-not-filed-on-time)). Sources disagree on whether Brockman was ever formally named as a defendant in the case at an earlier stage; this profile states only his confirmed role as a trial witness (see "What this profile does not claim," and the more detailed account of the litigation in this site's Elon Musk profile).
+Elon Musk's lawsuit against OpenAI, Sam Altman, and Microsoft — alleging a breach of OpenAI's founding nonprofit mission — went to trial in federal court in Oakland, California in April 2026. Brockman testified as a witness, alongside Musk, Altman, Microsoft CEO Satya Nadella, and former OpenAI board members Helen Toner and Tasha McCauley; the jury unanimously dismissed all claims on May 18, 2026 as filed too late ([PBS NewsHour](https://www.pbs.org/newshour/nation/jury-sides-with-openai-saying-elon-musks-lawsuit-was-not-filed-on-time)). Former OpenAI chief scientist [Ilya Sutskever](/people/ilya-sutskever/) also testified at the same trial, on May 11, 2026, disclosing an OpenAI equity stake he valued at about $7 billion ([Associated Press via WTVB](https://wtvbam.com/2026/05/11/former-openai-executive-sutskever-discloses-nearly-7-billion-stake-in-ai-firm/)). Sources disagree on whether Brockman was ever formally named as a defendant in the case at an earlier stage; this profile states only his confirmed role as a trial witness (see "What this profile does not claim," and the more detailed account of the litigation in this site's Elon Musk profile).
 
 ### 2025–2026: infrastructure and leadership
 

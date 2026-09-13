@@ -333,7 +333,7 @@ sources:
 
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-11"
-lastUpdated: "2026-09-11"
+lastUpdated: "2026-09-13"
 draft: false
 ---
 
@@ -343,7 +343,7 @@ OpenAI is an American artificial intelligence research and product company, anno
 
 ## Founding
 
-Individuals named as OpenAI's founders or earliest backers in the sources read for this profile include Sam Altman and [Elon Musk](/people/elon-musk/), both described as investors and co-founders; [Greg Brockman](/people/greg-brockman/), who became chief technology officer; Ilya Sutskever, who became research director; and Peter Thiel, named as an early investor and co-founder ([MIT Technology Review](https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/)). The organization's original stated aim was to "build value for everyone rather than shareholders" and to hold "a primary fiduciary duty to humanity" while safely developing artificial general intelligence ([MIT Technology Review](https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/)).
+Individuals named as OpenAI's founders or earliest backers in the sources read for this profile include Sam Altman and [Elon Musk](/people/elon-musk/), both described as investors and co-founders; [Greg Brockman](/people/greg-brockman/), who became chief technology officer; [Ilya Sutskever](/people/ilya-sutskever/), who became research director; and Peter Thiel, named as an early investor and co-founder ([MIT Technology Review](https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/)). The organization's original stated aim was to "build value for everyone rather than shareholders" and to hold "a primary fiduciary duty to humanity" while safely developing artificial general intelligence ([MIT Technology Review](https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/)).
 
 Musk left OpenAI's board on February 23, 2018. OpenAI's own blog post at the time gave the reason as avoiding a looming conflict of interest, stating, "As Tesla continues to become more focused on AI, this will eliminate a potential future conflict for Elon," and said he would continue to donate to and advise the organization ([Business Standard](https://www.business-standard.com/article/international/elon-musk-leaves-openai-board-to-avoid-conflict-of-interest-with-tesla-118022300413_1.html)).
 
@@ -369,7 +369,7 @@ Within days, an estimated 97% of OpenAI's employees signed a letter threatening 
 
 Two of OpenAI's other original leaders left within the following year. Chief scientist and co-founder Ilya Sutskever, who had been on the board that voted to remove Altman, left OpenAI in May 2024; on June 19, 2024, he launched a new company, Safe Superintelligence Inc., with co-founders Daniel Gross (a former Y Combinator partner) and Daniel Levy (a former OpenAI engineer) ([TechCrunch](https://techcrunch.com/2024/06/19/ilya-sutskever-openais-former-chief-scientist-launches-new-ai-company)). On September 25, 2024, Mira Murati announced her own resignation as CTO after more than six years, saying she wanted "to create the time and space to do my own exploration"; OpenAI's Vice President of Research, Barret Zoph, and its Chief Research Officer, Bob McGrew, departed the same day, with Altman saying the three had "made these decisions independently of each other and amicably" ([Fortune](https://fortune.com/2024/09/25/openai-mira-murati-cto-stepping-down)).
 
-OpenAI's departures also seeded a rival: Anthropic, a competing AI company known for its Claude models, was founded in 2021 by siblings Dario and Daniela Amodei, both described as former OpenAI executives who left over concerns about AI safety ([Britannica](https://www.britannica.com/question/Who-founded-Anthropic-the-makers-of-Claude-AI-and-why)).
+OpenAI's departures also seeded a rival: [Anthropic](/organizations/anthropic/), a competing AI company known for its Claude models, was founded in 2021 by siblings Dario and Daniela Amodei, both described as former OpenAI executives who left over concerns about AI safety ([Britannica](https://www.britannica.com/question/Who-founded-Anthropic-the-makers-of-Claude-AI-and-why)).
 
 ## The Musk lawsuit
 

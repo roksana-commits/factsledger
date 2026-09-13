@@ -260,9 +260,18 @@ sources:
       Marc Toberoff's on-the-record quotes calling the fight "not over" and
       confirming an appeal was planned, and the $150 billion damages and
       removal-of-leadership relief Musk had originally sought.
+  - title: "Former OpenAI executive Sutskever discloses nearly $7 billion stake in AI firm"
+    url: https://wtvbam.com/2026/05/11/former-openai-executive-sutskever-discloses-nearly-7-billion-stake-in-ai-firm/
+    publisher: The Associated Press (via WTVB)
+    tier: tier1
+    date: "2026-05-11"
+    usedFor: >-
+      Ilya Sutskever's May 11, 2026 trial testimony disclosing an OpenAI
+      equity stake he valued at about $7 billion and describing his role in
+      the November 2023 board vote to remove Altman.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-11"
-lastUpdated: "2026-09-11"
+lastUpdated: "2026-09-13"
 draft: false
 openItems:
   - >-
@@ -343,7 +352,7 @@ In August 2024, Musk refiled in U.S. federal court in the Northern District of C
 
 The case proceeded in federal court as *Musk v. Altman*, No. 4:24-cv-4722-YGR, before Judge Yvonne Gonzalez Rogers. On January 15, 2026, the court denied OpenAI's motion for summary judgment on claims of breach of charitable trust, constructive fraud, fraud, and unjust enrichment, and denied in part Microsoft's motion as well, sending those claims to trial ([U.S. District Court for the Northern District of California, via FindLaw](https://caselaw.findlaw.com/court/us-dis-crt-n-d-cal/118202562.html)).
 
-A roughly three-week jury trial began in federal court in Oakland, California in April 2026. Witnesses included Musk, Altman, Brockman, Microsoft chief executive Satya Nadella, and former OpenAI board members Helen Toner and Tasha McCauley ([PBS NewsHour](https://www.pbs.org/newshour/nation/jury-sides-with-openai-saying-elon-musks-lawsuit-was-not-filed-on-time)). At trial, Musk pursued claims of breach of charitable trust and unjust enrichment against OpenAI and Altman, alleging Altman and Brockman had abandoned a shared commitment to keep OpenAI a nonprofit, while alleging Microsoft had aided and abetted that breach; Musk sought up to $150 billion in compensatory and punitive damages, along with the removal of Altman and Brockman from OpenAI's leadership ([Courthouse News Service](https://www.courthousenews.com/openai-not-liable-for-breach-of-charitable-trust-in-musk-altman-feud/); [Forbes](https://www.forbes.com/sites/conormurray/2026/05/18/musk-to-appeal-openai-verdict-lawyer-says-war-is-not-over/)).
+A roughly three-week jury trial began in federal court in Oakland, California in April 2026. Witnesses included Musk, Altman, Brockman, Microsoft chief executive Satya Nadella, and former OpenAI board members Helen Toner and Tasha McCauley ([PBS NewsHour](https://www.pbs.org/newshour/nation/jury-sides-with-openai-saying-elon-musks-lawsuit-was-not-filed-on-time)). Former OpenAI chief scientist [Ilya Sutskever](/people/ilya-sutskever/) also testified, on May 11, 2026, disclosing an OpenAI equity stake he valued at about $7 billion and describing his own role in the November 2023 board vote to remove Altman ([Associated Press via WTVB](https://wtvbam.com/2026/05/11/former-openai-executive-sutskever-discloses-nearly-7-billion-stake-in-ai-firm/)). At trial, Musk pursued claims of breach of charitable trust and unjust enrichment against OpenAI and Altman, alleging Altman and Brockman had abandoned a shared commitment to keep OpenAI a nonprofit, while alleging Microsoft had aided and abetted that breach; Musk sought up to $150 billion in compensatory and punitive damages, along with the removal of Altman and Brockman from OpenAI's leadership ([Courthouse News Service](https://www.courthousenews.com/openai-not-liable-for-breach-of-charitable-trust-in-musk-altman-feud/); [Forbes](https://www.forbes.com/sites/conormurray/2026/05/18/musk-to-appeal-openai-verdict-lawyer-says-war-is-not-over/)).
 
 ### The May 18, 2026 verdict
 
