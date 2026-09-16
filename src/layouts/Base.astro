@@ -13,6 +13,12 @@ interface Props {
 
 const { title, description = SITE.description, jsonLd, noindex = false, ogType = 'website' } = Astro.props;
 const pageTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} — ${SITE.name}`;
+const normalizedDescription = String(description).replace(/\s+/g, ' ').trim();
+const metaDescription = normalizedDescription.length < 25
+  ? SITE.description
+  : normalizedDescription.length <= 160
+    ? normalizedDescription
+    : `${normalizedDescription.slice(0, 157).replace(/\s+\S*$/, '')}…`;
 const robots = noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 const canonical = noindex ? null : new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 const socialImage = new URL(SITE.socialImage, SITE.url).href;
@@ -28,7 +34,7 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={metaDescription} />
     <meta name="msvalidate.01" content="94E623A7EDA7045B12D66E59EC44BECD" />
     <meta name="google-site-verification" content="AJBfsiJhJwE07MCY5rLmTJrUuTu5JZudrrKCANv-Yls" />
     <!-- Google Analytics 4 -->
@@ -44,13 +50,13 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={metaDescription} />
     {canonical && <meta property="og:url" content={canonical} />}
     <meta property="og:image" content={socialImage} />
     <meta property="og:image:alt" content={`${SITE.name} — ${SITE.tagline}`} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={socialImage} />
     <meta name="twitter:image:alt" content={`${SITE.name} — ${SITE.tagline}`} />
     <link rel="icon" href="/favicon.ico" sizes="any" />
