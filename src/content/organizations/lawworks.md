@@ -27,6 +27,8 @@ facts:
   - label: Clinic network (2025, per own account)
     value: "More than 300 independent free legal advice clinics across England and Wales, up from around 200 nine years earlier"
     firstParty: true
+  - label: Charity registration
+    value: "Registered charity No. 1064274 (England and Wales), under its legal name Solicitors Pro Bono Group — a separate registration from its Companies House company number, 03410932, above"
 timeline:
   - year: "1997"
     event: >-
@@ -48,6 +50,16 @@ timeline:
       the Law Society, included a newly created "best international
       pro bono award" category, the Law Society Gazette reported.
     sourceType: Legal trade press
+  - year: "2021"
+    event: >-
+      Its LawWorks and Attorney General Student Pro Bono Awards, given
+      out by then Attorney General Michael Ellis QC at a virtual
+      ceremony, recognised Nottingham Trent University's Nottingham
+      Law School clinic — now operating as NLS Legal — with "Best
+      Contribution by a Law School," Legal Cheek reported, crediting
+      340 student volunteers with helping secure over £730,000 for
+      clients in the preceding academic year.
+    sourceType: Legal trade press
   - year: "2022"
     event: >-
       Marked "25 years of LawWorks" on its own website, with Chief
@@ -66,14 +78,17 @@ timeline:
       from 4,500 to 13,000.
     sourceType: First-party (organisation's own press release)
 sourceNote: >-
-  Two Law Society Gazette (Law Gazette) news reports and a lawcareers.net
-  profile were fetched and read in full and are independent of the
-  charity; its Companies House filing record is a UK government source.
-  Its own website (25th-anniversary post and the press release
-  announcing Lord Goldsmith's appointment as Chair) was used only for
-  uncontested structural facts, leadership names and its own reported
-  activity figures, all flagged as first-party. Wikipedia was not used
-  for this profile.
+  Three Law Society Gazette (Law Gazette) news/profile pages, a Legal
+  Cheek report and a lawcareers.net profile were fetched and read in
+  full and are independent of the charity; its Companies House filing
+  record and its Charity Commission registration (independently
+  confirmed via the Gazette's own charity supplier page, which quotes
+  the Charity Commission register directly) are UK government-backed
+  registrations. Its own website (25th-anniversary post and the press
+  release announcing Lord Goldsmith's appointment as Chair) was used
+  only for uncontested structural facts, leadership names and its own
+  reported activity figures, all flagged as first-party. Wikipedia was
+  not used for this profile.
 openItems:
   - >-
     The precise publication date of the Law Gazette article quoting
@@ -116,6 +131,24 @@ sources:
       A quote from then LawWorks chairman Paul Newdick and examples of
       regional clinic partnerships, including a DLA Piper-backed London
       project.
+  - title: "King's, Cardiff and Nottingham law schools bag awards for pro bono efforts"
+    url: https://www.legalcheek.com/2021/05/kings-cardiff-and-nottingham-trent-bag-awards-for-pro-bono-efforts/
+    publisher: Legal Cheek
+    tier: tier2
+    date: 12 May 2021
+    usedFor: >-
+      Confirmation that LawWorks and the Attorney General co-present
+      the Student Pro Bono Awards, and that Nottingham Trent
+      University's law school clinic (now NLS Legal) won "Best
+      Contribution by a Law School" in 2021.
+  - title: "LawWorks"
+    url: https://www.lawgazette.co.uk/charities/lawworks/173.supplier
+    publisher: Law Society Gazette (Law Gazette)
+    tier: tier2
+    usedFor: >-
+      Independent confirmation of LawWorks's charity registration
+      number, 1064274, and its description as a charity connecting
+      people to free legal advice.
   - title: "LawWorks (the Solicitors Pro Bono Group)"
     url: https://www.lawcareers.net/MoreLaw/LawWorks
     publisher: LawCareers.Net
@@ -142,13 +175,13 @@ sources:
       his nine-year tenure, and quotes from both.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-14"
-lastUpdated: "2026-09-14"
+lastUpdated: "2026-09-16"
 draft: false
 ---
 
 ## Overview
 
-LawWorks is a UK charity, operating originally under the name Solicitors Pro Bono Group, that coordinates pro bono legal work by solicitors and runs a network of free legal advice clinics across England and Wales. Companies House records the underlying company as incorporated on 29 July 1997 ([Companies House](https://find-and-update.company-information.service.gov.uk/company/03410932)). A specialist legal careers publication independently confirms the 1997 founding date and identifies Rebecca Wilkinson as its current Chief Executive, describing its main activities as a clinic network, a Not-for-Profits Programme supporting small charities, and the Pro Bono Connect referral scheme for matching solicitors and barristers with people who cannot afford legal advice ([LawCareers.Net](https://www.lawcareers.net/MoreLaw/LawWorks)).
+LawWorks is a UK charity, operating originally under the name Solicitors Pro Bono Group, that coordinates pro bono legal work by solicitors and runs a network of free legal advice clinics across England and Wales. Companies House records the underlying company as incorporated on 29 July 1997 ([Companies House](https://find-and-update.company-information.service.gov.uk/company/03410932)); separately, it is registered as a charity under No. 1064274, per the Law Society Gazette's own charity supplier listing, which quotes the Charity Commission register directly — the two are distinct UK registrations for the same organisation, not conflicting figures ([Law Gazette](https://www.lawgazette.co.uk/charities/lawworks/173.supplier)). A specialist legal careers publication independently confirms the 1997 founding date and identifies Rebecca Wilkinson as its current Chief Executive, describing its main activities as a clinic network, a Not-for-Profits Programme supporting small charities, and the Pro Bono Connect referral scheme for matching solicitors and barristers with people who cannot afford legal advice ([LawCareers.Net](https://www.lawcareers.net/MoreLaw/LawWorks)).
 
 ## Founding organisation of the National Pro Bono Centre
 
@@ -156,8 +189,8 @@ In October 2010, LawWorks — described in contemporary coverage as "the Solicit
 
 ## Clinics, awards and leadership
 
-LawWorks's Annual Pro Bono Awards recognise firms, individual lawyers and clinics for pro bono contributions. In 2019 the awards were presented by then Supreme Court president Lady Hale to roughly 260 finalists and guests at the Law Society, and included a newly introduced "best international pro bono award" category, the Law Society Gazette reported ([Law Gazette](https://www.lawgazette.co.uk/news/gallery-hale-presents-lawworks-annual-pro-bono-awards/5102408.article)). A separate Gazette report quotes then LawWorks chairman Paul Newdick thanking member firms for their "invaluable contributions" and describes regional clinic partnerships, including a London project backed by DLA Piper modelled on an existing Leeds scheme ([Law Gazette](https://www.lawgazette.co.uk/news/pro-bono-work-celebrated-in-annual-awards/66042.article)). By its own account, marking "25 years of LawWorks" in 2022, Chief Executive Rebecca Wilkinson described the charity as founded by "a group of solicitors who recognised the potential of professional volunteering to make a tangible positive impact on society" ([LawWorks](https://www.lawworks.org.uk/about-us/news/25-years-lawworks)). In July 2025 LawWorks announced that Lord (Peter) Goldsmith KC — the barrister who founded the pro bono charity now known as Advocate in 1996 — would become its Chair from 1 September 2025, succeeding Alasdair Douglas, under whom the charity said its clinic network had grown from around 200 to more than 300 locations and its volunteer base from 4,500 to 13,000 ([LawWorks](https://www.lawworks.org.uk/about-us/news/press-release-lawworks-announces-appointment-lord-goldsmith-kc-incoming-chair)).
+LawWorks's Annual Pro Bono Awards recognise firms, individual lawyers and clinics for pro bono contributions. In 2019 the awards were presented by then Supreme Court president Lady Hale to roughly 260 finalists and guests at the Law Society, and included a newly introduced "best international pro bono award" category, the Law Society Gazette reported ([Law Gazette](https://www.lawgazette.co.uk/news/gallery-hale-presents-lawworks-annual-pro-bono-awards/5102408.article)). A separate Gazette report quotes then LawWorks chairman Paul Newdick thanking member firms for their "invaluable contributions" and describes regional clinic partnerships, including a London project backed by DLA Piper modelled on an existing Leeds scheme ([Law Gazette](https://www.lawgazette.co.uk/news/pro-bono-work-celebrated-in-annual-awards/66042.article)). In 2021, LawWorks's Student Pro Bono Awards — presented jointly with the Attorney General's office — recognised Nottingham Trent University's law school clinic, now operating as [NLS Legal](/organizations/nls-legal/), with "Best Contribution by a Law School," crediting 340 of its student volunteers with helping secure over £730,000 for clients the preceding year, Legal Cheek reported ([Legal Cheek](https://www.legalcheek.com/2021/05/kings-cardiff-and-nottingham-trent-bag-awards-for-pro-bono-efforts/)). By its own account, marking "25 years of LawWorks" in 2022, Chief Executive Rebecca Wilkinson described the charity as founded by "a group of solicitors who recognised the potential of professional volunteering to make a tangible positive impact on society" ([LawWorks](https://www.lawworks.org.uk/about-us/news/25-years-lawworks)). In July 2025 LawWorks announced that Lord (Peter) Goldsmith KC — the barrister who founded the pro bono charity now known as Advocate in 1996 — would become its Chair from 1 September 2025, succeeding Alasdair Douglas, under whom the charity said its clinic network had grown from around 200 to more than 300 locations and its volunteer base from 4,500 to 13,000 ([LawWorks](https://www.lawworks.org.uk/about-us/news/press-release-lawworks-announces-appointment-lord-goldsmith-kc-incoming-chair)).
 
 ## What this profile does not claim
 
-This profile verifies LawWorks's 1997 incorporation date and registered office against Companies House records, and its 2010 founding role at the National Pro Bono Centre, 2019 awards event and chairman's quote against Law Society Gazette reporting from those years. Its founding mission, current Chief Executive, 2025 chair appointment and internal growth figures rest on the charity's own website and lawcareers.net's description and are flagged accordingly; the individual solicitors who founded the charity in 1997 are not named in any source checked. It does not attempt a full history of the charity's activities across its nearly three decades of operation.
+This profile verifies LawWorks's 1997 incorporation date and registered office against Companies House records, its charity registration number against the Law Society Gazette's own charity supplier listing, and its 2010 founding role at the National Pro Bono Centre, 2019 and 2021 awards events and chairman's quote against Law Society Gazette and Legal Cheek reporting from those years. Its founding mission, current Chief Executive, 2025 chair appointment and internal growth figures rest on the charity's own website and lawcareers.net's description and are flagged accordingly; the individual solicitors who founded the charity in 1997 are not named in any source checked. Its Companies House company number and Charity Commission charity number are two separate, independently confirmed registrations for the same organisation, not a discrepancy. It does not attempt a full history of the charity's activities across its nearly three decades of operation.
