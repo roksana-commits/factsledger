@@ -126,7 +126,7 @@ draft: false
 
 ## Overview
 
-Lynn Devin is an American former adoption agency operator who ran Seattle International Adoptions, the U.S.-based agency through which her sister, [Lauryn Galindo](/people/lauryn-galindo/), placed roughly 700 to 800 Cambodian children with American families between 1997 and 2001. The two sisters' operation is documented in detail in FactsLedger's [Cambodian adoption scandal](/events/cambodian-adoption-scandal/) profile; Devin pleaded guilty in December 2003 to conspiracy to commit visa fraud and conspiracy to commit money laundering.
+Lynn Devin is an American former adoption agency operator who ran [Seattle International Adoptions](/organizations/seattle-international-adoptions/), the U.S.-based agency through which her sister, [Lauryn Galindo](/people/lauryn-galindo/), placed roughly 700 to 800 Cambodian children with American families between 1997 and 2001. The two sisters' operation is documented in detail in FactsLedger's [Cambodian adoption scandal](/events/cambodian-adoption-scandal/) profile; Devin pleaded guilty in December 2003 to conspiracy to commit visa fraud and conspiracy to commit money laundering.
 
 ## Role at Seattle International Adoptions
 
@@ -138,7 +138,7 @@ The Phnom Penh Post reported that Devin's charges covered ten identified cases o
 
 ## Guilty plea and forfeiture
 
-Devin pleaded guilty on December 10, 2003, to conspiracy to commit visa fraud and conspiracy to commit money laundering — several months before her sister's January 2004 arrest and June 2004 guilty plea ([U.S. Department of Justice](https://www.justice.gov/archive/opa/pr/2004/June/04_crm_434.htm)). As part of her plea, she agreed to forfeit property connected to the scheme along with a sum The Phnom Penh Post reported as exceeding $100,000 ([The Phnom Penh Post](https://www.phnompenhpost.com/national/us-adoption-agent-guilty-visa-fraud)). The Phnom Penh Post reported her sentencing was then scheduled for March 12, 2004, but The Spokesman-Review, reporting on Galindo's November 19, 2004 sentencing, noted that Devin "previously pleaded guilty to related charges and will be sentenced next month" — indicating the date had been pushed back by many months ([The Spokesman-Review](https://www.spokesman.com/stories/2004/nov/21/woman-gets-18-months-in-adoption-conspiracy/)). This profile could not independently confirm what sentence Devin ultimately received; see the open items above.
+Devin pleaded guilty on December 10, 2003, to conspiracy to commit visa fraud and conspiracy to commit money laundering — several months before her sister's January 2004 arrest and June 2004 guilty plea ([U.S. Department of Justice](https://www.justice.gov/archive/opa/pr/2004/June/04_crm_434.htm)). As part of her plea, she agreed to forfeit property connected to the scheme along with a sum The Phnom Penh Post reported as exceeding $100,000. The Phnom Penh Post reported her sentencing was then scheduled for March 12, 2004, but The Spokesman-Review, reporting on Galindo's November 19, 2004 sentencing, noted that Devin "previously pleaded guilty to related charges and will be sentenced next month" — indicating the date had been pushed back by many months ([The Spokesman-Review](https://www.spokesman.com/stories/2004/nov/21/woman-gets-18-months-in-adoption-conspiracy/)). This profile could not independently confirm what sentence Devin ultimately received; see the open items above.
 
 ## What this profile does not claim
 

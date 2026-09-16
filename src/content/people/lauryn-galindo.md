@@ -68,7 +68,7 @@ timeline:
       Days after an adverse 2016-filed ruling, Susott transfers the same
       property to Galindo a second time.
     sourceType: Federal court record
-  - year: "2021-07-09"
+  - year: "2021-07-26"
     event: >-
       The Ninth Circuit Court of Appeals affirms that the 2010 transfer
       was a fraudulent conveyance under Hawaii law.
@@ -142,6 +142,15 @@ openItems:
     Her city of residence, San Francisco, is stated on Vice's authority
     alone, without a specific date attached to that detail in Vice's own
     reporting.
+  - >-
+    Justia's own case page for the Ninth Circuit's memorandum disposition
+    in No. 19-15537 is served at a URL bearing the date "2021-07-09," and
+    a direct fetch of that page renders "Date: July 9, 2021." The Ninth
+    Circuit's own primary-source filed memorandum (fetched directly from
+    the court's website) is clerk-stamped "FILED JUL 26 2021," which this
+    profile treats as authoritative. This profile states the ruling date
+    as July 26, 2021 and does not attempt to explain the discrepancy in
+    Justia's own dating of the same document.
 sources:
   - title: Is Lauryn Galindo a Baby-Buyer, a Benefactor, or Both?
     url: https://english.cambodiadaily.com/2002/06/22/is-lauryn-galindo-a-baby-buyer-a-benefactor-or-both/
@@ -195,13 +204,17 @@ sources:
     tier: tier1
     usedFor: Comparison per-family fee figures cited in the open items above.
   - title: Evan Auld-Susott v. Lauryn Galindo, No. 19-15537
-    url: https://law.justia.com/cases/federal/appellate-courts/ca9/19-15537/19-15537-2021-07-09.html
-    publisher: U.S. Court of Appeals for the Ninth Circuit (via Justia)
+    url: https://cdn.ca9.uscourts.gov/datastore/memoranda/2021/07/26/19-15537.pdf
+    publisher: U.S. Court of Appeals for the Ninth Circuit
     tier: tier1
-    date: 9 July 2021
+    date: "2021-07-26"
     usedFor: >-
       The 2010 property transfer from Daniel Susott to Galindo and the
-      Ninth Circuit's affirmance that it was a fraudulent conveyance.
+      Ninth Circuit's affirmance that it was a fraudulent conveyance. The
+      court's own filed memorandum, stamped "FILED JUL 26 2021" by the
+      clerk, is used as the primary record of the decision date; a
+      secondary aggregator (Justia) republishes the same opinion under a
+      "July 9, 2021" date, which this profile does not rely on.
   - title: Evan Auld-Susott, et al. v. Lauryn Galindo, et al., No. 23-16216
     url: https://law.justia.com/cases/federal/appellate-courts/ca9/23-16216/23-16216-2025-02-13.html
     publisher: U.S. Court of Appeals for the Ninth Circuit (via Justia)
@@ -229,7 +242,7 @@ Lauryn Galindo is an American former adoption facilitator who, working from Camb
 
 ## Background and entry into adoption work
 
-Before working in Cambodia, Galindo was, in The Cambodia Daily's description, a semi-professional hula dancer in Hawaii ([The Cambodia Daily](https://english.cambodiadaily.com/2002/06/22/is-lauryn-galindo-a-baby-buyer-a-benefactor-or-both/)). She arrived in Cambodia in 1990 accompanying the actor Haing Ngor, who had been asked by Cambodian officials to help build a school; the newspaper reported that Galindo was impressed by Cambodian leaders' stated commitment to helping orphans, settled in Phnom Penh, and created what it described as the country's first formal adoption-documentation system, including registration forms, release letters and certifications of orphan status.
+Before working in Cambodia, Galindo was, in [The Cambodia Daily](/organizations/the-cambodia-daily/)'s description, a semi-professional hula dancer in Hawaii ([The Cambodia Daily](https://english.cambodiadaily.com/2002/06/22/is-lauryn-galindo-a-baby-buyer-a-benefactor-or-both/)). She arrived in Cambodia in 1990 accompanying the actor Haing Ngor, who had been asked by Cambodian officials to help build a school; the newspaper reported that Galindo was impressed by Cambodian leaders' stated commitment to helping orphans, settled in Phnom Penh, and created what it described as the country's first formal adoption-documentation system, including registration forms, release letters and certifications of orphan status.
 
 ## An adoption business that grew through the 1990s
 
@@ -247,7 +260,7 @@ On June 23, 2004, Galindo pleaded guilty in federal court in Seattle, before Mag
 
 ## Later legal history: a Hawaii property dispute
 
-More than a decade after her conviction, Galindo became a defendant in unrelated federal litigation in Hawaii over a Princeville, Kauai apartment. In 2010, Daniel Susott — described in the case record as a close associate of Galindo's — transferred the property to her by quitclaim deed. Creditors of Susott sued in 2016, arguing the transfer was made to shield the property from debts he owed them; the district court agreed, and the Ninth Circuit affirmed in July 2021 that Susott had made the 2010 transfer "with the actual intent to hinder, delay, or defraud" the plaintiffs ([Ninth Circuit via Justia](https://law.justia.com/cases/federal/appellate-courts/ca9/19-15537/19-15537-2021-07-09.html)). Within days of a related 2019 district court ruling, Susott deeded the same apartment to Galindo a second time, this time framed as compensation for her attorney's fees and emotional distress. The district court again found the transfer fraudulent, voided it, and imposed a constructive trust for the creditors' benefit; the Ninth Circuit affirmed that ruling on February 13, 2025, holding that Galindo remained bound by the earlier findings and had provided no reasonably equivalent value for the property ([Ninth Circuit via Justia](https://law.justia.com/cases/federal/appellate-courts/ca9/23-16216/23-16216-2025-02-13.html); [U.S. District Court for the District of Hawaii via CourtListener](https://www.courtlistener.com/opinion/9665778/auld-susott-v-galindo/)).
+More than a decade after her conviction, Galindo became a defendant in unrelated federal litigation in Hawaii over a Princeville, Kauai apartment. In 2010, [Daniel Susott](/people/daniel-susott/) — described in the case record as a close associate of Galindo's — transferred the property to her by quitclaim deed. Creditors of Susott sued in 2016, arguing the transfer was made to shield the property from debts he owed them; the district court agreed, and the Ninth Circuit affirmed on July 26, 2021 that Susott had made the 2010 transfer "with the actual intent to hinder, delay, or defraud" the plaintiffs ([Ninth Circuit memorandum, filed July 26, 2021](https://cdn.ca9.uscourts.gov/datastore/memoranda/2021/07/26/19-15537.pdf)). Within days of a related 2019 district court ruling, Susott deeded the same apartment to Galindo a second time, this time framed as compensation for her attorney's fees and emotional distress. The district court again found the transfer fraudulent, voided it, and imposed a constructive trust for the creditors' benefit; the Ninth Circuit affirmed that ruling on February 13, 2025, holding that Galindo remained bound by the earlier findings and had provided no reasonably equivalent value for the property ([Ninth Circuit via Justia](https://law.justia.com/cases/federal/appellate-courts/ca9/23-16216/23-16216-2025-02-13.html); [U.S. District Court for the District of Hawaii via CourtListener](https://www.courtlistener.com/opinion/9665778/auld-susott-v-galindo/)).
 
 ## What this profile does not claim
 

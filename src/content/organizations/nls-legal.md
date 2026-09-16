@@ -147,7 +147,7 @@ draft: false
 
 ## Overview
 
-NLS Legal is a regulated teaching law firm run by Nottingham Law School at Nottingham Trent University, which began operating in 2006 as Nottingham Law School's Legal Advice Centre, providing legal guidance to individuals, small businesses, entrepreneurs and charities alongside pro bono practice for students ([National Centre for Universities & Business](https://www.ncub.co.uk/insight/legal-advice-centre-at-nottingham-law-school/)). It describes itself as the only law school in England and Wales with an on-campus teaching law firm ([Nottingham Trent University](https://www.ntu.ac.uk/study-and-courses/academic-schools/nottingham-law-school/nls-legal)).
+NLS Legal is a regulated teaching law firm run by [Nottingham Law School](/universities/nottingham-law-school/) at Nottingham Trent University, which began operating in 2006 as Nottingham Law School's Legal Advice Centre, providing legal guidance to individuals, small businesses, entrepreneurs and charities alongside pro bono practice for students ([National Centre for Universities & Business](https://www.ncub.co.uk/insight/legal-advice-centre-at-nottingham-law-school/)). It describes itself as the only law school in England and Wales with an on-campus teaching law firm ([Nottingham Trent University](https://www.ntu.ac.uk/study-and-courses/academic-schools/nottingham-law-school/nls-legal)).
 
 ## Structure and regulation
 
@@ -155,7 +155,7 @@ The clinic was incorporated on 25 September 2014 as a private company limited by
 
 ## Recognition
 
-Reporting on the 2021 LawWorks and Attorney General Student Pro Bono Awards, Legal Cheek said Nottingham Trent's clinic won "Best Contribution by a Law School," crediting 340 student volunteers with having helped secure over £730,000 for clients in the preceding academic year — including £680,000 in welfare benefits — and reporting an 82% success rate representing 34 individuals before the Social Security Tribunal ([Legal Cheek](https://www.legalcheek.com/2021/05/kings-cardiff-and-nottingham-trent-bag-awards-for-pro-bono-efforts/)). Nottingham Trent University's own award listing additionally states the clinic received an Access to Justice Foundation award in 2016, which it describes as the first such award to a university law clinic; that specific claim was not independently corroborated (see below).
+Reporting on the 2021 [LawWorks](/organizations/lawworks/) and Attorney General Student Pro Bono Awards, Legal Cheek said Nottingham Trent's clinic won "Best Contribution by a Law School," crediting 340 student volunteers with having helped secure over £730,000 for clients in the preceding academic year — including £680,000 in welfare benefits — and reporting an 82% success rate representing 34 individuals before the Social Security Tribunal ([Legal Cheek](https://www.legalcheek.com/2021/05/kings-cardiff-and-nottingham-trent-bag-awards-for-pro-bono-efforts/)). Nottingham Trent University's own award listing additionally states the clinic received an Access to Justice Foundation award in 2016, which it describes as the first such award to a university law clinic; that specific claim was not independently corroborated (see below).
 
 ## Relationship to the Free Representation Unit
 

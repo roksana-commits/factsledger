@@ -116,7 +116,7 @@ colleges spread across the combined Godavari districts ([The Hans India](https:/
 ## Leadership
 
 In February 2025, the Governor of Andhra Pradesh, Justice S. Abdul Nazeer, issued a notification naming
-Prof. Sathupati Prasanna Sree — until then a professor of English at Andhra University — as the university's
+[Prof. Sathupati Prasanna Sree](/people/sathupati-prasanna-sree/) — until then a professor of English at Andhra University — as the university's
 vice-chancellor ([Deccan Chronicle](https://www.deccanchronicle.com/southern-states/andhra-pradesh/new-vcs-named-for-9-ap-universities-1862038)).
 The same notification named vice-chancellors for eight other Andhra Pradesh state universities. In November 2025,
 Prasanna Sree received the Ramoji Excellence Award 2025 in the art-and-culture category, presented by the
