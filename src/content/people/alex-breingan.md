@@ -55,7 +55,35 @@ sourceNote: >-
   Zealand news service. Neither is affiliated with Breingan, Stripe Media,
   or the Serious Fraud Office. This profile takes no position on Breingan's
   guilt: the charges are unproven allegations, and his denial is reported
-  alongside them.
+  alongside them. Further NZ Herald "Media Insider" coverage of this case
+  was located but could not be added: nzherald.co.nz's published robots.txt
+  explicitly disallows Claude/Anthropic-affiliated crawlers site-wide, and
+  the only openly accessible outlet describing similar details attributes
+  them to "The NZ Herald" rather than reporting independently (see
+  openItems).
+openItems:
+  - >-
+    An NZ Herald "Media Insider" column by Shayne Currie (published 19
+    September 2024) reports: an alias, "Darci Penn," used on an
+    IMDb profile alongside "Alex B" and a previously-reported alias "A.J.
+    James"; a receivership count of 13 companies (Stripe Media plus 12
+    related entities, versus the "at least 14 associated entities" figure
+    B2B News NZ uses for this profile's Overview); an expanded creditor
+    list additionally naming David Hasselhoff and Iliza Shlesinger; and an
+    MBIE Integrity and Enforcement Team inquiry into possible director
+    prohibition under section 385 of the Companies Act 1993. This could
+    not be independently verified for this profile: nzherald.co.nz's
+    robots.txt explicitly disallows Claude/Anthropic-affiliated crawlers
+    (User-agent: ClaudeBot, Claude-Web, Claude-SearchBot, anthropic-ai —
+    Disallow: /) across the whole site, and the only openly accessible
+    outlet republishing similar details (ShowNews, a NZ film/TV industry
+    site) explicitly attributes them to "The NZ Herald" rather than
+    reporting them independently, so it does not count as independent
+    corroboration under this site's sourcing policy. A subsequent editor
+    with a channel to license or independently re-report this coverage
+    (or who finds it corroborated by an outlet not covered by the same
+    block) should add it and resolve the 13-vs-14 company-count
+    discrepancy explicitly rather than picking one figure.
 sources:
   - title: "Stripe Media $14.5m SFO case governance warning"
     url: https://b2bnews.co.nz/news/stripe-media-14-point-5m-sfo-case-governance-warning/
@@ -77,7 +105,7 @@ sources:
       court ruling ordering his return to New Zealand.
 author: Muhammad Abdullah Al Yasin
 published: "2026-09-04"
-lastUpdated: "2026-09-04"
+lastUpdated: "2026-09-17"
 draft: false
 ---
 
@@ -95,4 +123,4 @@ Breingan left for the United States in April 2024, about a month after learning 
 
 ## What this profile does not claim
 
-Breingan has been charged, not convicted, and denies the allegations; this profile makes no finding on guilt and will be updated if the case is resolved. It relies on two independent New Zealand outlets and does not draw on paywalled reporting (including further NZ Herald coverage of the case) that could not be fetched and read in full.
+Breingan has been charged, not convicted, and denies the allegations; this profile makes no finding on guilt and will be updated if the case is resolved. It relies on two independent New Zealand outlets and does not draw on further NZ Herald "Media Insider" reporting on this case: nzherald.co.nz's published crawler policy explicitly disallows Claude/Anthropic-affiliated access to the entire site, and the only openly accessible account of similar details found elsewhere credits it to "The NZ Herald" rather than reporting it independently (see Open items below).
