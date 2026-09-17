@@ -457,6 +457,28 @@ button[disabled] { opacity: 0.6; cursor: progress; }
 .support p { margin: 0 0 1.375rem; font-size: 1.031rem; line-height: 1.68; color: #3d3a35; }
 @media (prefers-color-scheme: dark) { .support p { color: var(--ink-soft); } }
 
+/* Explicit third-party ad slot requested by the site owner. */
+.site-ad-slot {
+  width: min(100% - 2rem, 60rem);
+  min-height: 5.25rem;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  display: grid;
+  place-items: center;
+  gap: 0.25rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-alt);
+  overflow: hidden;
+}
+.site-ad-slot__label {
+  font-family: var(--font-ui);
+  font-size: 0.625rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
 /* profile layout: article + sticky rail */
 .layout { display: flex; flex-wrap: wrap; gap: 3.5rem; align-items: flex-start; margin-top: 3rem; }
 .layout > .article, .layout > .prose { flex: 1 1 32.5rem; min-width: 0; }

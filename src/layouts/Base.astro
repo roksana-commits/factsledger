@@ -114,6 +114,20 @@ const copyrightYears = year > SITE.founded ? `${SITE.founded}–${year}` : `${ye
       <slot />
     </main>
 
+    <aside class="site-ad-slot" aria-label="Advertisement">
+      <span class="site-ad-slot__label">Advertisement</span>
+      <script is:inline>
+        window.atOptions = {
+          key: 'fd7eed3b26537030dbb97d843736793a',
+          format: 'iframe',
+          height: 50,
+          width: 320,
+          params: {}
+        };
+      </script>
+      <script is:inline async src="https://www.highrevenueformat.com/fd7eed3b26537030dbb97d843736793a/invoke.js"></script>
+    </aside>
+
     <footer class="site-footer">
       <div class="wrap">
         <div class="site-footer__inner">
